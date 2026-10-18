@@ -1,0 +1,12 @@
+FROM php:8.3-apache
+RUN apt-get update && apt-get install -y --no-install-recommends libpq-dev \
+    && docker-php-ext-install pdo_pgsql \
+    && rm -rf /var/lib/apt/lists/*
+WORKDIR /var/www/html
+COPY . .
+COPY deploy/apache.conf /etc/apache2/sites-available/000-default.conf
+RUN printf 'Listen 10000\n' > /etc/apache2/ports.conf \
+    && printf 'ServerTokens Prod\nServerSignature Off\n' > /etc/apache2/conf-available/security.conf \
+    && printf 'expose_php=Off\ndisplay_errors=Off\nlog_errors=On\n' > /usr/local/etc/php/conf.d/production.ini
+EXPOSE 10000
+CMD ["sh", "deploy/start.sh"]

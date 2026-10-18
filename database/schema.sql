@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS pokemon (
+    id SMALLINT PRIMARY KEY CHECK (id BETWEEN 1 AND 151),
+    name VARCHAR(40) NOT NULL UNIQUE,
+    types JSONB NOT NULL,
+    height NUMERIC(5,2) NOT NULL,
+    weight NUMERIC(6,2) NOT NULL,
+    abilities JSONB NOT NULL,
+    stats JSONB NOT NULL,
+    image TEXT NOT NULL
+);

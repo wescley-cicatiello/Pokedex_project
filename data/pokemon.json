@@ -1,0 +1,6202 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 49
+      },
+      {
+        "name": "defense",
+        "value": 49
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 13,
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 62
+      },
+      {
+        "name": "defense",
+        "value": 63
+      },
+      {
+        "name": "special-attack",
+        "value": 80
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 2,
+    "weight": 100,
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 82
+      },
+      {
+        "name": "defense",
+        "value": 83
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "types": [
+      "fire"
+    ],
+    "height": 0.6,
+    "weight": 8.5,
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 39
+      },
+      {
+        "name": "attack",
+        "value": 52
+      },
+      {
+        "name": "defense",
+        "value": 43
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "types": [
+      "fire"
+    ],
+    "height": 1.1,
+    "weight": 19,
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 58
+      },
+      {
+        "name": "attack",
+        "value": 64
+      },
+      {
+        "name": "defense",
+        "value": 58
+      },
+      {
+        "name": "special-attack",
+        "value": 80
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height": 1.7,
+    "weight": 90.5,
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 78
+      },
+      {
+        "name": "attack",
+        "value": 84
+      },
+      {
+        "name": "defense",
+        "value": 78
+      },
+      {
+        "name": "special-attack",
+        "value": 109
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "types": [
+      "water"
+    ],
+    "height": 0.5,
+    "weight": 9,
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 44
+      },
+      {
+        "name": "attack",
+        "value": 48
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 64
+      },
+      {
+        "name": "speed",
+        "value": 43
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "types": [
+      "water"
+    ],
+    "height": 1,
+    "weight": 22.5,
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 59
+      },
+      {
+        "name": "attack",
+        "value": 63
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 58
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "types": [
+      "water"
+    ],
+    "height": 1.6,
+    "weight": 85.5,
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 79
+      },
+      {
+        "name": "attack",
+        "value": 83
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 105
+      },
+      {
+        "name": "speed",
+        "value": 78
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "types": [
+      "bug"
+    ],
+    "height": 0.3,
+    "weight": 2.9,
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 30
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 20
+      },
+      {
+        "name": "special-defense",
+        "value": 20
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "types": [
+      "bug"
+    ],
+    "height": 0.7,
+    "weight": 9.9,
+    "abilities": [
+      "shed-skin"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 20
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 25
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height": 1.1,
+    "weight": 32,
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 90
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 35
+      },
+      {
+        "name": "defense",
+        "value": 30
+      },
+      {
+        "name": "special-attack",
+        "value": 20
+      },
+      {
+        "name": "special-defense",
+        "value": 20
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 0.6,
+    "weight": 10,
+    "abilities": [
+      "shed-skin"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 25
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 25
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 29.5,
+    "abilities": [
+      "swarm",
+      "sniper"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 75
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 35
+      },
+      {
+        "name": "speed",
+        "value": 56
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.1,
+    "weight": 30,
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 63
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 71
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.5,
+    "weight": 39.5,
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 83
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 75
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 101
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "types": [
+      "normal"
+    ],
+    "height": 0.3,
+    "weight": 3.5,
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 56
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 25
+      },
+      {
+        "name": "special-defense",
+        "value": 35
+      },
+      {
+        "name": "speed",
+        "value": 72
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "types": [
+      "normal"
+    ],
+    "height": 0.7,
+    "weight": 18.5,
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 81
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 97
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 0.3,
+    "weight": 2,
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 30
+      },
+      {
+        "name": "special-attack",
+        "value": 31
+      },
+      {
+        "name": "special-defense",
+        "value": 31
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.2,
+    "weight": 38,
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 61
+      },
+      {
+        "name": "special-defense",
+        "value": 61
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "types": [
+      "poison"
+    ],
+    "height": 2,
+    "weight": 6.9,
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 44
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 54
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "types": [
+      "poison"
+    ],
+    "height": 3.5,
+    "weight": 65,
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 69
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 79
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "types": [
+      "electric"
+    ],
+    "height": 0.4,
+    "weight": 6,
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "types": [
+      "electric"
+    ],
+    "height": 0.8,
+    "weight": 30,
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 90
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 110
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "types": [
+      "ground"
+    ],
+    "height": 0.6,
+    "weight": 12,
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 75
+      },
+      {
+        "name": "defense",
+        "value": 85
+      },
+      {
+        "name": "special-attack",
+        "value": 20
+      },
+      {
+        "name": "special-defense",
+        "value": 30
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "types": [
+      "ground"
+    ],
+    "height": 1,
+    "weight": 29.5,
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 75
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 110
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "types": [
+      "poison"
+    ],
+    "height": 0.4,
+    "weight": 7,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 47
+      },
+      {
+        "name": "defense",
+        "value": 52
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 41
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "types": [
+      "poison"
+    ],
+    "height": 0.8,
+    "weight": 20,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 62
+      },
+      {
+        "name": "defense",
+        "value": 67
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 56
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "height": 1.3,
+    "weight": 60,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 92
+      },
+      {
+        "name": "defense",
+        "value": 87
+      },
+      {
+        "name": "special-attack",
+        "value": 75
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 76
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "types": [
+      "poison"
+    ],
+    "height": 0.5,
+    "weight": 9,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 46
+      },
+      {
+        "name": "attack",
+        "value": 57
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "types": [
+      "poison"
+    ],
+    "height": 0.9,
+    "weight": 19.5,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 61
+      },
+      {
+        "name": "attack",
+        "value": 72
+      },
+      {
+        "name": "defense",
+        "value": 57
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "height": 1.4,
+    "weight": 62,
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 81
+      },
+      {
+        "name": "attack",
+        "value": 102
+      },
+      {
+        "name": "defense",
+        "value": 77
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "types": [
+      "fairy"
+    ],
+    "height": 0.6,
+    "weight": 7.5,
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 48
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "types": [
+      "fairy"
+    ],
+    "height": 1.3,
+    "weight": 40,
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "unaware"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 95
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 73
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "types": [
+      "fire"
+    ],
+    "height": 0.6,
+    "weight": 9.9,
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 38
+      },
+      {
+        "name": "attack",
+        "value": 41
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "types": [
+      "fire"
+    ],
+    "height": 1.1,
+    "weight": 19.9,
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 73
+      },
+      {
+        "name": "attack",
+        "value": 76
+      },
+      {
+        "name": "defense",
+        "value": 75
+      },
+      {
+        "name": "special-attack",
+        "value": 81
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "height": 0.5,
+    "weight": 5.5,
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 115
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 20
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 20
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "height": 1,
+    "weight": 12,
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "frisk"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 140
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "height": 0.8,
+    "weight": 7.5,
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 30
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+  },
+  {
+    "id": 42,
+    "name": "golbat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "height": 1.6,
+    "weight": 55,
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 75
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+  },
+  {
+    "id": 43,
+    "name": "oddish",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 0.5,
+    "weight": 5.4,
+    "abilities": [
+      "chlorophyll",
+      "run-away"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 75
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+  },
+  {
+    "id": 44,
+    "name": "gloom",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 0.8,
+    "weight": 8.6,
+    "abilities": [
+      "chlorophyll",
+      "stench"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 1.2,
+    "weight": 18.6,
+    "abilities": [
+      "chlorophyll",
+      "effect-spore"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 75
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 85
+      },
+      {
+        "name": "special-attack",
+        "value": 110
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+  },
+  {
+    "id": 46,
+    "name": "paras",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "height": 0.3,
+    "weight": 5.4,
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 25
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+  },
+  {
+    "id": 47,
+    "name": "parasect",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "height": 1,
+    "weight": 29.5,
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+  },
+  {
+    "id": 48,
+    "name": "venonat",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 30,
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens",
+      "run-away"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+  },
+  {
+    "id": 49,
+    "name": "venomoth",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height": 1.5,
+    "weight": 12.5,
+    "abilities": [
+      "shield-dust",
+      "tinted-lens",
+      "wonder-skin"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 90
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "types": [
+      "ground"
+    ],
+    "height": 0.2,
+    "weight": 0.8,
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 10
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 25
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 95
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+  },
+  {
+    "id": 51,
+    "name": "dugtrio",
+    "types": [
+      "ground"
+    ],
+    "height": 0.7,
+    "weight": 33.3,
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 120
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+  },
+  {
+    "id": 52,
+    "name": "meowth",
+    "types": [
+      "normal"
+    ],
+    "height": 0.4,
+    "weight": 4.2,
+    "abilities": [
+      "pickup",
+      "technician",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+  },
+  {
+    "id": 53,
+    "name": "persian",
+    "types": [
+      "normal"
+    ],
+    "height": 1,
+    "weight": 32,
+    "abilities": [
+      "limber",
+      "technician",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 115
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+  },
+  {
+    "id": 54,
+    "name": "psyduck",
+    "types": [
+      "water"
+    ],
+    "height": 0.8,
+    "weight": 19.6,
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 52
+      },
+      {
+        "name": "defense",
+        "value": 48
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  {
+    "id": 55,
+    "name": "golduck",
+    "types": [
+      "water"
+    ],
+    "height": 1.7,
+    "weight": 76.6,
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 82
+      },
+      {
+        "name": "defense",
+        "value": 78
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+  },
+  {
+    "id": 56,
+    "name": "mankey",
+    "types": [
+      "fighting"
+    ],
+    "height": 0.5,
+    "weight": 28,
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "types": [
+      "fighting"
+    ],
+    "height": 1,
+    "weight": 32,
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 95
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+  },
+  {
+    "id": 58,
+    "name": "growlithe",
+    "types": [
+      "fire"
+    ],
+    "height": 0.7,
+    "weight": 19,
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "types": [
+      "fire"
+    ],
+    "height": 1.9,
+    "weight": 155,
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 110
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 95
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+  },
+  {
+    "id": 60,
+    "name": "poliwag",
+    "types": [
+      "water"
+    ],
+    "height": 0.6,
+    "weight": 12.4,
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 40
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl",
+    "types": [
+      "water"
+    ],
+    "height": 1,
+    "weight": 20,
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png"
+  },
+  {
+    "id": 62,
+    "name": "poliwrath",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "height": 1.3,
+    "weight": 54,
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png"
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "types": [
+      "psychic"
+    ],
+    "height": 0.9,
+    "weight": 19.5,
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 25
+      },
+      {
+        "name": "attack",
+        "value": 20
+      },
+      {
+        "name": "defense",
+        "value": 15
+      },
+      {
+        "name": "special-attack",
+        "value": 105
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "types": [
+      "psychic"
+    ],
+    "height": 1.3,
+    "weight": 56.5,
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 35
+      },
+      {
+        "name": "defense",
+        "value": 30
+      },
+      {
+        "name": "special-attack",
+        "value": 120
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 105
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "types": [
+      "psychic"
+    ],
+    "height": 1.5,
+    "weight": 48,
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 135
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 120
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+  },
+  {
+    "id": 66,
+    "name": "machop",
+    "types": [
+      "fighting"
+    ],
+    "height": 0.8,
+    "weight": 19.5,
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 35
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+  },
+  {
+    "id": 67,
+    "name": "machoke",
+    "types": [
+      "fighting"
+    ],
+    "height": 1.5,
+    "weight": 70.5,
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 60
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "types": [
+      "fighting"
+    ],
+    "height": 1.6,
+    "weight": 130,
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 130
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+  },
+  {
+    "id": 69,
+    "name": "bellsprout",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 0.7,
+    "weight": 4,
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 75
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 30
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+  },
+  {
+    "id": 70,
+    "name": "weepinbell",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 1,
+    "weight": 6.4,
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height": 1.7,
+    "weight": 15.5,
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "height": 0.9,
+    "weight": 45.5,
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 40
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png"
+  },
+  {
+    "id": 73,
+    "name": "tentacruel",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "height": 1.6,
+    "weight": 55,
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 80
+      },
+      {
+        "name": "special-defense",
+        "value": 120
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png"
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height": 0.4,
+    "weight": 20,
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 30
+      },
+      {
+        "name": "special-defense",
+        "value": 30
+      },
+      {
+        "name": "speed",
+        "value": 20
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+  },
+  {
+    "id": 75,
+    "name": "graveler",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height": 1,
+    "weight": 105,
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 115
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png"
+  },
+  {
+    "id": 76,
+    "name": "golem",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height": 1.4,
+    "weight": 300,
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 120
+      },
+      {
+        "name": "defense",
+        "value": 130
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "types": [
+      "fire"
+    ],
+    "height": 1,
+    "weight": 30,
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 85
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+  },
+  {
+    "id": 78,
+    "name": "rapidash",
+    "types": [
+      "fire"
+    ],
+    "height": 1.7,
+    "weight": 95,
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 80
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 105
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png"
+  },
+  {
+    "id": 79,
+    "name": "slowpoke",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height": 1.2,
+    "weight": 36,
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 15
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height": 1.6,
+    "weight": 78.5,
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 95
+      },
+      {
+        "name": "attack",
+        "value": 75
+      },
+      {
+        "name": "defense",
+        "value": 110
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+  },
+  {
+    "id": 81,
+    "name": "magnemite",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "height": 0.3,
+    "weight": 6,
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 25
+      },
+      {
+        "name": "attack",
+        "value": 35
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png"
+  },
+  {
+    "id": 82,
+    "name": "magneton",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "height": 1,
+    "weight": 60,
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 120
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+  },
+  {
+    "id": 83,
+    "name": "farfetchd",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 0.8,
+    "weight": 15,
+    "abilities": [
+      "keen-eye",
+      "inner-focus",
+      "defiant"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 52
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 58
+      },
+      {
+        "name": "special-defense",
+        "value": 62
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+  },
+  {
+    "id": 84,
+    "name": "doduo",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.4,
+    "weight": 39.2,
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 85
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 35
+      },
+      {
+        "name": "speed",
+        "value": 75
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png"
+  },
+  {
+    "id": 85,
+    "name": "dodrio",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height": 1.8,
+    "weight": 85.2,
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 110
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 60
+      },
+      {
+        "name": "speed",
+        "value": 110
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+  },
+  {
+    "id": 86,
+    "name": "seel",
+    "types": [
+      "water"
+    ],
+    "height": 1.1,
+    "weight": 90,
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+  },
+  {
+    "id": 87,
+    "name": "dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "height": 1.7,
+    "weight": 120,
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 70
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+  },
+  {
+    "id": 88,
+    "name": "grimer",
+    "types": [
+      "poison"
+    ],
+    "height": 0.9,
+    "weight": 30,
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 25
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "types": [
+      "poison"
+    ],
+    "height": 1.2,
+    "weight": 30,
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 105
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 75
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png"
+  },
+  {
+    "id": 90,
+    "name": "shellder",
+    "types": [
+      "water"
+    ],
+    "height": 0.3,
+    "weight": 4,
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+  },
+  {
+    "id": 91,
+    "name": "cloyster",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "height": 1.5,
+    "weight": 132.5,
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 180
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png"
+  },
+  {
+    "id": 92,
+    "name": "gastly",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height": 1.3,
+    "weight": 0.1,
+    "abilities": [
+      "levitate"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 35
+      },
+      {
+        "name": "defense",
+        "value": 30
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 35
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+  },
+  {
+    "id": 93,
+    "name": "haunter",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height": 1.6,
+    "weight": 0.1,
+    "abilities": [
+      "levitate"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 115
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 95
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height": 1.5,
+    "weight": 40.5,
+    "abilities": [
+      "cursed-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 130
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 110
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height": 8.8,
+    "weight": 210,
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "weak-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 160
+      },
+      {
+        "name": "special-attack",
+        "value": 30
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  {
+    "id": 96,
+    "name": "drowzee",
+    "types": [
+      "psychic"
+    ],
+    "height": 1,
+    "weight": 32.4,
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 48
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 43
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 42
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+  },
+  {
+    "id": 97,
+    "name": "hypno",
+    "types": [
+      "psychic"
+    ],
+    "height": 1.6,
+    "weight": 75.6,
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 85
+      },
+      {
+        "name": "attack",
+        "value": 73
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 73
+      },
+      {
+        "name": "special-defense",
+        "value": 115
+      },
+      {
+        "name": "speed",
+        "value": 67
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png"
+  },
+  {
+    "id": 98,
+    "name": "krabby",
+    "types": [
+      "water"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 90
+      },
+      {
+        "name": "special-attack",
+        "value": 25
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png"
+  },
+  {
+    "id": 99,
+    "name": "kingler",
+    "types": [
+      "water"
+    ],
+    "height": 1.3,
+    "weight": 60,
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 130
+      },
+      {
+        "name": "defense",
+        "value": 115
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 75
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png"
+  },
+  {
+    "id": 100,
+    "name": "voltorb",
+    "types": [
+      "electric"
+    ],
+    "height": 0.5,
+    "weight": 10.4,
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 30
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+  },
+  {
+    "id": 101,
+    "name": "electrode",
+    "types": [
+      "electric"
+    ],
+    "height": 1.2,
+    "weight": 66.6,
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 80
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 150
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+  },
+  {
+    "id": 102,
+    "name": "exeggcute",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "height": 0.4,
+    "weight": 2.5,
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 40
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png"
+  },
+  {
+    "id": 103,
+    "name": "exeggutor",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "height": 2,
+    "weight": 120,
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 95
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 85
+      },
+      {
+        "name": "special-attack",
+        "value": 125
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "types": [
+      "ground"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+  },
+  {
+    "id": 105,
+    "name": "marowak",
+    "types": [
+      "ground"
+    ],
+    "height": 1,
+    "weight": 45,
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 110
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 45
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png"
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee",
+    "types": [
+      "fighting"
+    ],
+    "height": 1.5,
+    "weight": 49.8,
+    "abilities": [
+      "limber",
+      "reckless",
+      "unburden"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 120
+      },
+      {
+        "name": "defense",
+        "value": 53
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 110
+      },
+      {
+        "name": "speed",
+        "value": 87
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan",
+    "types": [
+      "fighting"
+    ],
+    "height": 1.4,
+    "weight": 50.2,
+    "abilities": [
+      "keen-eye",
+      "iron-fist",
+      "inner-focus"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 50
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 79
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 110
+      },
+      {
+        "name": "speed",
+        "value": 76
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png"
+  },
+  {
+    "id": 108,
+    "name": "lickitung",
+    "types": [
+      "normal"
+    ],
+    "height": 1.2,
+    "weight": 65.5,
+    "abilities": [
+      "own-tempo",
+      "oblivious",
+      "cloud-nine"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 75
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+  },
+  {
+    "id": 109,
+    "name": "koffing",
+    "types": [
+      "poison"
+    ],
+    "height": 0.6,
+    "weight": 1,
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png"
+  },
+  {
+    "id": 110,
+    "name": "weezing",
+    "types": [
+      "poison"
+    ],
+    "height": 1.2,
+    "weight": 9.5,
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 120
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "height": 1,
+    "weight": 115,
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 85
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 30
+      },
+      {
+        "name": "special-defense",
+        "value": 30
+      },
+      {
+        "name": "speed",
+        "value": 25
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png"
+  },
+  {
+    "id": 112,
+    "name": "rhydon",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "height": 1.9,
+    "weight": 120,
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 105
+      },
+      {
+        "name": "attack",
+        "value": 130
+      },
+      {
+        "name": "defense",
+        "value": 120
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png"
+  },
+  {
+    "id": 113,
+    "name": "chansey",
+    "types": [
+      "normal"
+    ],
+    "height": 1.1,
+    "weight": 34.6,
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "healer"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 250
+      },
+      {
+        "name": "attack",
+        "value": 5
+      },
+      {
+        "name": "defense",
+        "value": 5
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 105
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png"
+  },
+  {
+    "id": 114,
+    "name": "tangela",
+    "types": [
+      "grass"
+    ],
+    "height": 1,
+    "weight": 35,
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "regenerator"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 115
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 40
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "height": 2.2,
+    "weight": 80,
+    "abilities": [
+      "early-bird",
+      "scrappy",
+      "inner-focus"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 105
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+  },
+  {
+    "id": 116,
+    "name": "horsea",
+    "types": [
+      "water"
+    ],
+    "height": 0.4,
+    "weight": 8,
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 40
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 25
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+  },
+  {
+    "id": 117,
+    "name": "seadra",
+    "types": [
+      "water"
+    ],
+    "height": 1.2,
+    "weight": 25,
+    "abilities": [
+      "poison-point",
+      "sniper",
+      "damp"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+  },
+  {
+    "id": 118,
+    "name": "goldeen",
+    "types": [
+      "water"
+    ],
+    "height": 0.6,
+    "weight": 15,
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 45
+      },
+      {
+        "name": "attack",
+        "value": 67
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 35
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 63
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png"
+  },
+  {
+    "id": 119,
+    "name": "seaking",
+    "types": [
+      "water"
+    ],
+    "height": 1.3,
+    "weight": 39,
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 92
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 68
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png"
+  },
+  {
+    "id": 120,
+    "name": "staryu",
+    "types": [
+      "water"
+    ],
+    "height": 0.8,
+    "weight": 34.5,
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height": 1.1,
+    "weight": 80,
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 75
+      },
+      {
+        "name": "defense",
+        "value": 85
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 115
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+  },
+  {
+    "id": 122,
+    "name": "mr-mime",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height": 1.3,
+    "weight": 54.5,
+    "abilities": [
+      "soundproof",
+      "filter",
+      "technician"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 40
+      },
+      {
+        "name": "attack",
+        "value": 45
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 120
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png"
+  },
+  {
+    "id": 123,
+    "name": "scyther",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height": 1.5,
+    "weight": 56,
+    "abilities": [
+      "swarm",
+      "technician",
+      "steadfast"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 110
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 80
+      },
+      {
+        "name": "speed",
+        "value": 105
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+  },
+  {
+    "id": 124,
+    "name": "jynx",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "height": 1.4,
+    "weight": 40.6,
+    "abilities": [
+      "oblivious",
+      "forewarn",
+      "dry-skin"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 50
+      },
+      {
+        "name": "defense",
+        "value": 35
+      },
+      {
+        "name": "special-attack",
+        "value": 115
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 95
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png"
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "types": [
+      "electric"
+    ],
+    "height": 1.1,
+    "weight": 30,
+    "abilities": [
+      "static",
+      "vital-spirit"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 83
+      },
+      {
+        "name": "defense",
+        "value": 57
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 105
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png"
+  },
+  {
+    "id": 126,
+    "name": "magmar",
+    "types": [
+      "fire"
+    ],
+    "height": 1.3,
+    "weight": 44.5,
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 95
+      },
+      {
+        "name": "defense",
+        "value": 57
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 93
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "types": [
+      "bug"
+    ],
+    "height": 1.5,
+    "weight": 55,
+    "abilities": [
+      "hyper-cutter",
+      "mold-breaker",
+      "moxie"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 125
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "types": [
+      "normal"
+    ],
+    "height": 1.4,
+    "weight": 88.4,
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "sheer-force"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 75
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 40
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 110
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png"
+  },
+  {
+    "id": 129,
+    "name": "magikarp",
+    "types": [
+      "water"
+    ],
+    "height": 0.9,
+    "weight": 10,
+    "abilities": [
+      "swift-swim",
+      "rattled"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 20
+      },
+      {
+        "name": "attack",
+        "value": 10
+      },
+      {
+        "name": "defense",
+        "value": 55
+      },
+      {
+        "name": "special-attack",
+        "value": 15
+      },
+      {
+        "name": "special-defense",
+        "value": 20
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height": 6.5,
+    "weight": 235,
+    "abilities": [
+      "intimidate",
+      "moxie"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 95
+      },
+      {
+        "name": "attack",
+        "value": 125
+      },
+      {
+        "name": "defense",
+        "value": 79
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 81
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "height": 2.5,
+    "weight": 220,
+    "abilities": [
+      "water-absorb",
+      "shell-armor",
+      "hydration"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 130
+      },
+      {
+        "name": "attack",
+        "value": 85
+      },
+      {
+        "name": "defense",
+        "value": 80
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 60
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "types": [
+      "normal"
+    ],
+    "height": 0.3,
+    "weight": 4,
+    "abilities": [
+      "limber",
+      "imposter"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 48
+      },
+      {
+        "name": "attack",
+        "value": 48
+      },
+      {
+        "name": "defense",
+        "value": 48
+      },
+      {
+        "name": "special-attack",
+        "value": 48
+      },
+      {
+        "name": "special-defense",
+        "value": 48
+      },
+      {
+        "name": "speed",
+        "value": 48
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "types": [
+      "normal"
+    ],
+    "height": 0.3,
+    "weight": 6.5,
+    "abilities": [
+      "run-away",
+      "adaptability",
+      "anticipation"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 55
+      },
+      {
+        "name": "attack",
+        "value": 55
+      },
+      {
+        "name": "defense",
+        "value": 50
+      },
+      {
+        "name": "special-attack",
+        "value": 45
+      },
+      {
+        "name": "special-defense",
+        "value": 65
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "types": [
+      "water"
+    ],
+    "height": 1,
+    "weight": 29,
+    "abilities": [
+      "water-absorb",
+      "hydration"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 130
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 110
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "types": [
+      "electric"
+    ],
+    "height": 0.8,
+    "weight": 24.5,
+    "abilities": [
+      "volt-absorb",
+      "quick-feet"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 65
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 110
+      },
+      {
+        "name": "special-defense",
+        "value": 95
+      },
+      {
+        "name": "speed",
+        "value": 130
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "types": [
+      "fire"
+    ],
+    "height": 0.9,
+    "weight": 25,
+    "abilities": [
+      "flash-fire",
+      "guts"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 130
+      },
+      {
+        "name": "defense",
+        "value": 60
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 110
+      },
+      {
+        "name": "speed",
+        "value": 65
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+  },
+  {
+    "id": 137,
+    "name": "porygon",
+    "types": [
+      "normal"
+    ],
+    "height": 0.8,
+    "weight": 36.5,
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 65
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 70
+      },
+      {
+        "name": "special-attack",
+        "value": 85
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 40
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+  },
+  {
+    "id": 138,
+    "name": "omanyte",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height": 0.4,
+    "weight": 7.5,
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 35
+      },
+      {
+        "name": "attack",
+        "value": 40
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 90
+      },
+      {
+        "name": "special-defense",
+        "value": 55
+      },
+      {
+        "name": "speed",
+        "value": 35
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
+  },
+  {
+    "id": 139,
+    "name": "omastar",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height": 1,
+    "weight": 35,
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 70
+      },
+      {
+        "name": "attack",
+        "value": 60
+      },
+      {
+        "name": "defense",
+        "value": 125
+      },
+      {
+        "name": "special-attack",
+        "value": 115
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
+  },
+  {
+    "id": 140,
+    "name": "kabuto",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height": 0.5,
+    "weight": 11.5,
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 30
+      },
+      {
+        "name": "attack",
+        "value": 80
+      },
+      {
+        "name": "defense",
+        "value": 90
+      },
+      {
+        "name": "special-attack",
+        "value": 55
+      },
+      {
+        "name": "special-defense",
+        "value": 45
+      },
+      {
+        "name": "speed",
+        "value": 55
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png"
+  },
+  {
+    "id": 141,
+    "name": "kabutops",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height": 1.3,
+    "weight": 40.5,
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 60
+      },
+      {
+        "name": "attack",
+        "value": 115
+      },
+      {
+        "name": "defense",
+        "value": 105
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png"
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "height": 1.8,
+    "weight": 59,
+    "abilities": [
+      "rock-head",
+      "pressure",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 80
+      },
+      {
+        "name": "attack",
+        "value": 105
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 60
+      },
+      {
+        "name": "special-defense",
+        "value": 75
+      },
+      {
+        "name": "speed",
+        "value": 130
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "types": [
+      "normal"
+    ],
+    "height": 2.1,
+    "weight": 460,
+    "abilities": [
+      "immunity",
+      "thick-fat",
+      "gluttony"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 160
+      },
+      {
+        "name": "attack",
+        "value": 110
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 65
+      },
+      {
+        "name": "special-defense",
+        "value": 110
+      },
+      {
+        "name": "speed",
+        "value": 30
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "id": 144,
+    "name": "articuno",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "height": 1.7,
+    "weight": 55.4,
+    "abilities": [
+      "pressure",
+      "snow-cloak"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 85
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 95
+      },
+      {
+        "name": "special-defense",
+        "value": 125
+      },
+      {
+        "name": "speed",
+        "value": 85
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+  },
+  {
+    "id": 145,
+    "name": "zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "height": 1.6,
+    "weight": 52.6,
+    "abilities": [
+      "pressure",
+      "static"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 90
+      },
+      {
+        "name": "defense",
+        "value": 85
+      },
+      {
+        "name": "special-attack",
+        "value": 125
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+  },
+  {
+    "id": 146,
+    "name": "moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height": 2,
+    "weight": 60,
+    "abilities": [
+      "pressure",
+      "flame-body"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 90
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 90
+      },
+      {
+        "name": "special-attack",
+        "value": 125
+      },
+      {
+        "name": "special-defense",
+        "value": 85
+      },
+      {
+        "name": "speed",
+        "value": 90
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "types": [
+      "dragon"
+    ],
+    "height": 1.8,
+    "weight": 3.3,
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 41
+      },
+      {
+        "name": "attack",
+        "value": 64
+      },
+      {
+        "name": "defense",
+        "value": 45
+      },
+      {
+        "name": "special-attack",
+        "value": 50
+      },
+      {
+        "name": "special-defense",
+        "value": 50
+      },
+      {
+        "name": "speed",
+        "value": 50
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "types": [
+      "dragon"
+    ],
+    "height": 4,
+    "weight": 16.5,
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 61
+      },
+      {
+        "name": "attack",
+        "value": 84
+      },
+      {
+        "name": "defense",
+        "value": 65
+      },
+      {
+        "name": "special-attack",
+        "value": 70
+      },
+      {
+        "name": "special-defense",
+        "value": 70
+      },
+      {
+        "name": "speed",
+        "value": 70
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "height": 2.2,
+    "weight": 210,
+    "abilities": [
+      "inner-focus",
+      "multiscale"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 91
+      },
+      {
+        "name": "attack",
+        "value": 134
+      },
+      {
+        "name": "defense",
+        "value": 95
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 80
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "height": 2,
+    "weight": 122,
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 106
+      },
+      {
+        "name": "attack",
+        "value": 110
+      },
+      {
+        "name": "defense",
+        "value": 90
+      },
+      {
+        "name": "special-attack",
+        "value": 154
+      },
+      {
+        "name": "special-defense",
+        "value": 90
+      },
+      {
+        "name": "speed",
+        "value": 130
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "types": [
+      "psychic"
+    ],
+    "height": 0.4,
+    "weight": 4,
+    "abilities": [
+      "synchronize"
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "value": 100
+      },
+      {
+        "name": "attack",
+        "value": 100
+      },
+      {
+        "name": "defense",
+        "value": 100
+      },
+      {
+        "name": "special-attack",
+        "value": 100
+      },
+      {
+        "name": "special-defense",
+        "value": 100
+      },
+      {
+        "name": "speed",
+        "value": 100
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+  }
+]

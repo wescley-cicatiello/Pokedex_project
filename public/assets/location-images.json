@@ -1,0 +1,182 @@
+{
+  "pallet": {
+    "image": "/assets/locations/pallet.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Pallet_Town_PE.png"
+  },
+  "viridian": {
+    "image": "/assets/locations/viridian.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Viridian_City_PE.png"
+  },
+  "pewter": {
+    "image": "/assets/locations/pewter.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Pewter_City_PE.png"
+  },
+  "cerulean": {
+    "image": "/assets/locations/cerulean.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Cerulean_City_PE.png"
+  },
+  "vermilion": {
+    "image": "/assets/locations/vermilion.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Vermilion_City_PE.png"
+  },
+  "lavender": {
+    "image": "/assets/locations/lavender.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Lavender_Town_PE.png"
+  },
+  "celadon": {
+    "image": "/assets/locations/celadon.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Celadon_City_PE.png"
+  },
+  "saffron": {
+    "image": "/assets/locations/saffron.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Saffron_City_PE.png"
+  },
+  "fuchsia": {
+    "image": "/assets/locations/fuchsia.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Fuchsia_City_PE.png"
+  },
+  "cinnabar": {
+    "image": "/assets/locations/cinnabar.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Cinnabar_Island_PE.png"
+  },
+  "route-1": {
+    "image": "/assets/locations/route-1.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_1_PE.png"
+  },
+  "route-2": {
+    "image": "/assets/locations/route-2.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_2_PE.png"
+  },
+  "route-3": {
+    "image": "/assets/locations/route-3.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_3_PE.png"
+  },
+  "route-4": {
+    "image": "/assets/locations/route-4.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_4_PE.png"
+  },
+  "route-5": {
+    "image": "/assets/locations/route-5.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_5_PE.png"
+  },
+  "route-6": {
+    "image": "/assets/locations/route-6.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_6_PE.png"
+  },
+  "route-7": {
+    "image": "/assets/locations/route-7.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_7_PE.png"
+  },
+  "route-8": {
+    "image": "/assets/locations/route-8.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_8_PE.png"
+  },
+  "route-9": {
+    "image": "/assets/locations/route-9.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_9_PE.png"
+  },
+  "route-10": {
+    "image": "/assets/locations/route-10.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_10_PE.png"
+  },
+  "route-11": {
+    "image": "/assets/locations/route-11.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_11_PE.png"
+  },
+  "route-12": {
+    "image": "/assets/locations/route-12.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_12_PE.png"
+  },
+  "route-13": {
+    "image": "/assets/locations/route-13.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_13_PE.png"
+  },
+  "route-14": {
+    "image": "/assets/locations/route-14.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_14_PE.png"
+  },
+  "route-15": {
+    "image": "/assets/locations/route-15.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_15_PE.png"
+  },
+  "route-16": {
+    "image": "/assets/locations/route-16.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_16_PE.png"
+  },
+  "route-17": {
+    "image": "/assets/locations/route-17.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_17_PE.png"
+  },
+  "route-18": {
+    "image": "/assets/locations/route-18.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_18_PE.png"
+  },
+  "route-19": {
+    "image": "/assets/locations/route-19.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_19_PE.png"
+  },
+  "route-20": {
+    "image": "/assets/locations/route-20.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_20_PE.png"
+  },
+  "route-21": {
+    "image": "/assets/locations/route-21.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_21_PE.png"
+  },
+  "route-22": {
+    "image": "/assets/locations/route-22.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_22_PE.png"
+  },
+  "route-23": {
+    "image": "/assets/locations/route-23.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_23_PE.png"
+  },
+  "route-24": {
+    "image": "/assets/locations/route-24.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_24_PE.png"
+  },
+  "route-25": {
+    "image": "/assets/locations/route-25.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Route_25_PE.png"
+  },
+  "forest": {
+    "image": "/assets/locations/forest.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Viridian_Forest_PE.png"
+  },
+  "moon": {
+    "image": "/assets/locations/moon.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Mt._Moon_PE.png"
+  },
+  "rock": {
+    "image": "/assets/locations/rock.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Rock_Tunnel_PE.png"
+  },
+  "power": {
+    "image": "/assets/locations/power.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Power_Plant_PE.png"
+  },
+  "seafoam": {
+    "image": "/assets/locations/seafoam.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Seafoam_Islands_PE.png"
+  },
+  "victory": {
+    "image": "/assets/locations/victory.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Victory_Road_PE.png"
+  },
+  "cave": {
+    "image": "/assets/locations/cave.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Cerulean_Cave_Exterior_LGPE.png"
+  },
+  "league": {
+    "image": "/assets/locations/league.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Indigo_Plateau_PE.png"
+  },
+  "diglett": {
+    "image": "/assets/locations/diglett.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:Diglett%27s_Cave_PE.png"
+  },
+  "park": {
+    "image": "/assets/locations/park.png",
+    "source": "https://archives.bulbagarden.net/wiki/File:GO_Park_Exterior_LGPE.png"
+  }
+}

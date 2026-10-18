@@ -1,0 +1,5756 @@
+{
+  "reference": "lets-go",
+  "locations": {
+    "pallet": [],
+    "viridian": [],
+    "pewter": [],
+    "cerulean": [],
+    "vermilion": [],
+    "lavender": [],
+    "celadon": [],
+    "saffron": [],
+    "fuchsia": [],
+    "cinnabar": [],
+    "route-1": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-2": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "caterpie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "weedle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-3": [
+      {
+        "id": 4,
+        "name": "charmander",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "ekans",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "sandshrew",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 56,
+        "name": "mankey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-4": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-5": [
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 63,
+        "name": "abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      }
+    ],
+    "route-6": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 63,
+        "name": "abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 118,
+        "name": "goldeen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 119,
+        "name": "seaking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-7": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "ninetales",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 59,
+        "name": "arcanine",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 63,
+        "name": "abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "kadabra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 137,
+        "name": "porygon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-8": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "ninetales",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 59,
+        "name": "arcanine",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 63,
+        "name": "abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "kadabra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-9": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "nidorina",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "nidorino",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-10": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "nidorina",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "nidorino",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 98,
+        "name": "krabby",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 147,
+        "name": "dratini",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 148,
+        "name": "dragonair",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-11": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 96,
+        "name": "drowzee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "horsea",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "seadra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 122,
+        "name": "mr-mime",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-12": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 83,
+        "name": "farfetchd",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 98,
+        "name": "krabby",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 99,
+        "name": "kingler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "horsea",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "seadra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 143,
+        "name": "snorlax",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Static Encounters"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-13": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 83,
+        "name": "farfetchd",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 98,
+        "name": "krabby",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 99,
+        "name": "kingler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "horsea",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "seadra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-14": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "venomoth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 123,
+        "name": "scyther",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 127,
+        "name": "pinsir",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 128,
+        "name": "tauros",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-15": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "venomoth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 123,
+        "name": "scyther",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 127,
+        "name": "pinsir",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 128,
+        "name": "tauros",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-16": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 84,
+        "name": "doduo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 85,
+        "name": "dodrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 143,
+        "name": "snorlax",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Static Encounters"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-17": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 77,
+        "name": "ponyta",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 78,
+        "name": "rapidash",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 84,
+        "name": "doduo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 85,
+        "name": "dodrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 133,
+        "name": "eevee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-18": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 84,
+        "name": "doduo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 85,
+        "name": "dodrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 120,
+        "name": "staryu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 121,
+        "name": "starmie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-19": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 120,
+        "name": "staryu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 121,
+        "name": "starmie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 131,
+        "name": "lapras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In Water - Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-20": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 130,
+        "name": "gyarados",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 131,
+        "name": "lapras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In Water - Special Spawns"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-21": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 45,
+        "name": "vileplume",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 71,
+        "name": "victreebel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 114,
+        "name": "tangela",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 120,
+        "name": "staryu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 121,
+        "name": "starmie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-22": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 61,
+        "name": "poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-23": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "nidorina",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "nidoqueen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "nidorino",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "nidoking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 61,
+        "name": "poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "exeggcute",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "exeggutor",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-24": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "squirtle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 52,
+        "name": "meowth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "route-25": [
+      {
+        "id": 6,
+        "name": "charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "squirtle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 52,
+        "name": "meowth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 61,
+        "name": "poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "In The Sky - Special Spawns"
+        ]
+      }
+    ],
+    "forest": [
+      {
+        "id": 1,
+        "name": "bulbasaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "caterpie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "metapod",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "butterfree",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "weedle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "kakuna",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "beedrill",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "pikachu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      }
+    ],
+    "moon": [
+      {
+        "id": 35,
+        "name": "clefairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 46,
+        "name": "paras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 95,
+        "name": "onix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      }
+    ],
+    "rock": [
+      {
+        "id": 4,
+        "name": "charmander",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 66,
+        "name": "machop",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 75,
+        "name": "graveler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 95,
+        "name": "onix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "cubone",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "rhyhorn",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 115,
+        "name": "kangaskhan",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      }
+    ],
+    "power": [
+      {
+        "id": 81,
+        "name": "magnemite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 82,
+        "name": "magneton",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 88,
+        "name": "grimer",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 89,
+        "name": "muk",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+        "versions": [
+          "lets-go-pikachu"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 100,
+        "name": "voltorb",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 101,
+        "name": "electrode",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking",
+          "Static Encounters"
+        ]
+      },
+      {
+        "id": 109,
+        "name": "koffing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 110,
+        "name": "weezing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+        "versions": [
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 125,
+        "name": "electabuzz",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Static Encounters"
+        ]
+      }
+    ],
+    "seafoam": [
+      {
+        "id": 7,
+        "name": "squirtle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 79,
+        "name": "slowpoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 80,
+        "name": "slowbro",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 86,
+        "name": "seel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 87,
+        "name": "dewgong",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 124,
+        "name": "jynx",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      }
+    ],
+    "cave": [
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 55,
+        "name": "golduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 61,
+        "name": "poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 62,
+        "name": "poliwrath",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 75,
+        "name": "graveler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 108,
+        "name": "lickitung",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "rhyhorn",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "rhydon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 129,
+        "name": "magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard In Water"
+        ]
+      },
+      {
+        "id": 132,
+        "name": "ditto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 143,
+        "name": "snorlax",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      },
+      {
+        "id": 150,
+        "name": "mewtwo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Static Encounters"
+        ]
+      }
+    ],
+    "victory": [
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 66,
+        "name": "machop",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 67,
+        "name": "machoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 75,
+        "name": "graveler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 95,
+        "name": "onix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "rhyhorn",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "rhydon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      }
+    ],
+    "league": [],
+    "diglett": [
+      {
+        "id": 41,
+        "name": "zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 50,
+        "name": "diglett",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 51,
+        "name": "dugtrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Standard Walking"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "versions": [
+          "lets-go-pikachu",
+          "lets-go-eevee"
+        ],
+        "methods": [
+          "Special Spawns"
+        ]
+      }
+    ],
+    "park": []
+  },
+  "sources": {
+    "pallet": "https://www.serebii.net/pokearth/kanto/pallettown.shtml",
+    "viridian": "https://www.serebii.net/pokearth/kanto/viridiancity.shtml",
+    "pewter": "https://www.serebii.net/pokearth/kanto/pewtercity.shtml",
+    "cerulean": "https://www.serebii.net/pokearth/kanto/ceruleancity.shtml",
+    "vermilion": "https://www.serebii.net/pokearth/kanto/vermilioncity.shtml",
+    "lavender": "https://www.serebii.net/pokearth/kanto/lavendertown.shtml",
+    "celadon": "https://www.serebii.net/pokearth/kanto/celadoncity.shtml",
+    "saffron": "https://www.serebii.net/pokearth/kanto/saffroncity.shtml",
+    "fuchsia": "https://www.serebii.net/pokearth/kanto/fuchsiacity.shtml",
+    "cinnabar": "https://www.serebii.net/pokearth/kanto/cinnabarisland.shtml",
+    "route-1": "https://www.serebii.net/pokearth/kanto/route1.shtml",
+    "route-2": "https://www.serebii.net/pokearth/kanto/route2.shtml",
+    "route-3": "https://www.serebii.net/pokearth/kanto/route3.shtml",
+    "route-4": "https://www.serebii.net/pokearth/kanto/route4.shtml",
+    "route-5": "https://www.serebii.net/pokearth/kanto/route5.shtml",
+    "route-6": "https://www.serebii.net/pokearth/kanto/route6.shtml",
+    "route-7": "https://www.serebii.net/pokearth/kanto/route7.shtml",
+    "route-8": "https://www.serebii.net/pokearth/kanto/route8.shtml",
+    "route-9": "https://www.serebii.net/pokearth/kanto/route9.shtml",
+    "route-10": "https://www.serebii.net/pokearth/kanto/route10.shtml",
+    "route-11": "https://www.serebii.net/pokearth/kanto/route11.shtml",
+    "route-12": "https://www.serebii.net/pokearth/kanto/route12.shtml",
+    "route-13": "https://www.serebii.net/pokearth/kanto/route13.shtml",
+    "route-14": "https://www.serebii.net/pokearth/kanto/route14.shtml",
+    "route-15": "https://www.serebii.net/pokearth/kanto/route15.shtml",
+    "route-16": "https://www.serebii.net/pokearth/kanto/route16.shtml",
+    "route-17": "https://www.serebii.net/pokearth/kanto/route17.shtml",
+    "route-18": "https://www.serebii.net/pokearth/kanto/route18.shtml",
+    "route-19": "https://www.serebii.net/pokearth/kanto/route19.shtml",
+    "route-20": "https://www.serebii.net/pokearth/kanto/route20.shtml",
+    "route-21": "https://www.serebii.net/pokearth/kanto/route21.shtml",
+    "route-22": "https://www.serebii.net/pokearth/kanto/route22.shtml",
+    "route-23": "https://www.serebii.net/pokearth/kanto/route23.shtml",
+    "route-24": "https://www.serebii.net/pokearth/kanto/route24.shtml",
+    "route-25": "https://www.serebii.net/pokearth/kanto/route25.shtml",
+    "forest": "https://www.serebii.net/pokearth/kanto/viridianforest.shtml",
+    "moon": "https://www.serebii.net/pokearth/kanto/mt.moon.shtml",
+    "rock": "https://www.serebii.net/pokearth/kanto/rocktunnel.shtml",
+    "power": "https://www.serebii.net/pokearth/kanto/powerplant.shtml",
+    "seafoam": "https://www.serebii.net/pokearth/kanto/seafoamislands.shtml",
+    "cave": "https://www.serebii.net/pokearth/kanto/ceruleancave.shtml",
+    "victory": "https://www.serebii.net/pokearth/kanto/victoryroad.shtml",
+    "league": "https://www.serebii.net/pokearth/kanto/indigoplateau.shtml",
+    "diglett": "https://www.serebii.net/pokearth/kanto/diglett'scave.shtml"
+  }
+}

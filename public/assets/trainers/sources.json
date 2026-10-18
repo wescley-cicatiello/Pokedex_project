@@ -1,0 +1,54 @@
+{
+  "brock": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Brock.png",
+    "image": "/assets/trainers/brock.png"
+  },
+  "misty": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Misty.png",
+    "image": "/assets/trainers/misty.png"
+  },
+  "lt-surge": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Lt_Surge.png",
+    "image": "/assets/trainers/lt-surge.png"
+  },
+  "erika": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Erika.png",
+    "image": "/assets/trainers/erika.png"
+  },
+  "sabrina": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Sabrina.png",
+    "image": "/assets/trainers/sabrina.png"
+  },
+  "koga": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Koga.png",
+    "image": "/assets/trainers/koga.png"
+  },
+  "blaine": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Blaine.png",
+    "image": "/assets/trainers/blaine.png"
+  },
+  "giovanni": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Giovanni.png",
+    "image": "/assets/trainers/giovanni.png"
+  },
+  "lorelei": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Lorelei.png",
+    "image": "/assets/trainers/lorelei.png"
+  },
+  "bruno": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Bruno.png",
+    "image": "/assets/trainers/bruno.png"
+  },
+  "agatha": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Agatha.png",
+    "image": "/assets/trainers/agatha.png"
+  },
+  "lance": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Lance.png",
+    "image": "/assets/trainers/lance.png"
+  },
+  "trace": {
+    "source": "https://archives.bulbagarden.net/wiki/File:Lets_Go_Pikachu_Eevee_Trace.png",
+    "image": "/assets/trainers/trace.png"
+  }
+}

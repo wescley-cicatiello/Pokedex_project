@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pokedex-kanto
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.production
+    healthCheckPath: /health.php
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: DATABASE_URL
+        sync: false

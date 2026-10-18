@@ -1,0 +1,7 @@
+.git
+.env
+node_modules
+.qa
+data/encounter-cache
+data/letsgo-cache
+data/route-sample.html
