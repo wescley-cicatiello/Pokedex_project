@@ -13,6 +13,7 @@ for(const [version,{profiles}] of Object.entries(data)){
  for(const p of profiles)assert.equal(typeof p.obtainability.native,'boolean');
 }
 const native=(v,id)=>pokemon(v,id).obtainability.native;
+assert.equal(native('firered',179),false);assert.equal(native('firered',235),false);
 assert.equal(native('firered',380),false);assert.equal(native('firered',381),false);
 assert.equal(native('firered',196),false);assert.equal(native('firered',251),false);
 assert.equal(native('firered',3),true);assert.equal(native('firered',65),true);

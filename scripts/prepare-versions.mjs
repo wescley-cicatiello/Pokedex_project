@@ -22,7 +22,7 @@ function obtainability(version,info,encounters){
  const paths=new Map(),limit=id=>info.group==='letsgo'?id<=151:id<=info.count;
  const blocked=new Set(info.group==='frlg'?[196,197,251]:['heartgold','soulsilver'].includes(version)?[462,470,471,476,483,484,487,384]:[]);
  const put=(id,path)=>{if(!limit(id)||blocked.has(id)||paths.has(id))return false;paths.set(id,path);return true;};
- for(const e of encounters){const method=methods[slots[e.encounter_slot_id].encounter_method_id].identifier;if(externalMethods.test(method))continue;const area=areas[e.location_area_id],place=places[area.location_id];const event=info.group==='frlg'&&[249,250,386].includes(+e.pokemon_id);put(+e.pokemon_id,{method,source:names[place.id]||place.identifier,event,trade:false});}
+ for(const e of encounters){const method=methods[slots[e.encounter_slot_id].encounter_method_id].identifier;if(externalMethods.test(method))continue;const area=areas[e.location_area_id],place=places[area.location_id];if(info.group==='frlg'&&place.identifier.includes('altering-cave')&&+e.pokemon_id!==41)continue;const event=info.group==='frlg'&&[249,250,386].includes(+e.pokemon_id);put(+e.pokemon_id,{method,source:names[place.id]||place.identifier,event,trade:false});}
  // Historical event items unlock encounters within these editions; external Pokémon do not.
  if(version==='crystal')put(251,{method:'event',source:'GS Ball: evento histórico japonês ou distribuição da versão Virtual Console',event:true,trade:false});
  if(['heartgold','soulsilver'].includes(version))put(version==='heartgold'?381:380,{method:'event',source:'Enigma Stone: evento histórico',event:true,trade:false});
