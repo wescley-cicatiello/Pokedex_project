@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {"id":"frlg","name":"FireRed & LeafGreen","subtitle":"Kanto e as Ilhas Sevii","description":"O reencontro com Kanto no Game Boy Advance.","art":6,"color":"fire","versions":["firered","leafgreen"]},
+    {"id":"classics","name":"Red, Blue, Yellow & Green","subtitle":"Onde tudo começou","description":"As aventuras originais do Game Boy, incluindo Green japonês.","art":9,"color":"water","versions":["red","blue","yellow","green"]},
+    {"id":"johto","name":"Gold, Silver, Crystal, HeartGold & SoulSilver","subtitle":"Johto e Kanto","description":"Duas regiões, novas descobertas e os remakes para Nintendo DS.","art":250,"color":"electric","versions":["gold","silver","crystal","heartgold","soulsilver"]},
+    {"id":"letsgo","name":"Let’s Go, Pikachu! & Eevee!","subtitle":"Uma nova perspectiva de Kanto","description":"A jornada no Nintendo Switch com seus parceiros favoritos.","art":25,"color":"grass","versions":["lets-go-pikachu","lets-go-eevee"]}
+  ],
+  "versions": {
+    "firered":{"name":"FireRed","group":"frlg","generation":3,"count":386,"regional":151,"dex":2},
+    "leafgreen":{"name":"LeafGreen","group":"frlg","generation":3,"count":386,"regional":151,"dex":2},
+    "red":{"name":"Red","group":"classics","generation":1,"count":151,"regional":151,"dex":2},
+    "blue":{"name":"Blue (internacional)","group":"classics","generation":1,"count":151,"regional":151,"dex":2},
+    "yellow":{"name":"Yellow","group":"classics","generation":1,"count":151,"regional":151,"dex":2},
+    "green":{"name":"Green (Japão)","group":"classics","generation":1,"count":151,"regional":151,"dex":2},
+    "gold":{"name":"Gold","group":"johto","generation":2,"count":251,"regional":251,"dex":3},
+    "silver":{"name":"Silver","group":"johto","generation":2,"count":251,"regional":251,"dex":3},
+    "crystal":{"name":"Crystal","group":"johto","generation":2,"count":251,"regional":251,"dex":3},
+    "heartgold":{"name":"HeartGold","group":"johto","generation":4,"count":493,"regional":256,"dex":7},
+    "soulsilver":{"name":"SoulSilver","group":"johto","generation":4,"count":493,"regional":256,"dex":7},
+    "lets-go-pikachu":{"name":"Let’s Go, Pikachu!","group":"letsgo","generation":7,"count":153,"regional":153,"dex":26},
+    "lets-go-eevee":{"name":"Let’s Go, Eevee!","group":"letsgo","generation":7,"count":153,"regional":153,"dex":26}
+  }
+}

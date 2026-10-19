@@ -8,3 +8,4 @@ node_modules
 data/encounter-cache
 data/letsgo-cache
 data/route-sample.html
+data/version-cache

@@ -18,3 +18,17 @@ CREATE TABLE IF NOT EXISTS game_datasets (
     reference VARCHAR(20) PRIMARY KEY CHECK (reference = 'letsgo'),
     data JSONB NOT NULL
 );
+CREATE TABLE IF NOT EXISTS game_versions (
+    version VARCHAR(24) PRIMARY KEY,
+    data JSONB NOT NULL
+);
+CREATE TABLE IF NOT EXISTS version_pokemon (
+    version VARCHAR(24) NOT NULL REFERENCES game_versions(version),
+    pokemon_id SMALLINT NOT NULL CHECK (pokemon_id BETWEEN 1 AND 809),
+    data JSONB NOT NULL,
+    PRIMARY KEY (version, pokemon_id)
+);
+CREATE TABLE IF NOT EXISTS version_atlases (
+    version VARCHAR(24) PRIMARY KEY REFERENCES game_versions(version),
+    data JSONB NOT NULL
+);

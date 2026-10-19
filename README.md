@@ -1,10 +1,10 @@
 # Pokédex · Kanto
 
-## Alinhamento exclusivo com Let’s Go
+## Edições e nova entrada
 
-O site usa exclusivamente Pokémon Let’s Go nas telas. O seletor global alterna Pikachu/Eevee e desconsidera antigas preferências de jogos clássicos. A Pokédex e a página de tipos consultam `pokemon_profiles`; o mapa consulta `/world.php`, com cidades, encontros, equipes de ginásio e Liga armazenados em `game_datasets` no PostgreSQL. O catálogo permanece limitado às 151 formas comuns originais, com estatísticas dos parceiros Pikachu/Eevee adicionais; não é uma listagem de todas as formas e espécies extras disponíveis nos jogos.
+A raiz agora apresenta quatro grupos de aventuras e permite selecionar uma das 13 edições. A antiga página inicial está em `/inicio.php`. Pokédex, tipos e atlas consultam os dados correspondentes à edição no PostgreSQL, com catálogos completos de 151, 251, 386, 493 ou 153 espécies. O seletor global e os links preservam a edição. Veja [escopo, fontes e manutenção](docs/versions.md).
 
-`pokemon` e os arquivos clássicos foram preservados; `/api.php?reference=legacy` mantém compatibilidade para consulta histórica e não é utilizado pelas telas. `scripts/prepare-letsgo.mjs` prepara os dados de importação, e `scripts/seed.php` atualiza as novas tabelas transacionalmente sem excluir os registros anteriores. Os encontros ainda não cobrem todos os presentes/trocas e mantêm indicação de aparições especiais.
+As tabelas anteriores foram preservadas; `/api.php?reference=legacy` mantém a consulta histórica. `scripts/prepare-versions.mjs` prepara os catálogos e atlas a partir dos CSV oficiais da PokéAPI. O seed transacional insere as novas tabelas sem excluir os registros anteriores. Let’s Go conserva seu mapa interativo, cidades, ginásios e Liga. Os demais jogos oferecem um atlas de encontros por área; seus mapas ilustrados e guias de treinadores ainda precisam de conteúdo próprio. Catálogos nacionais incluem espécies que dependem de outros jogos, evolução ou eventos históricos, sem afirmar que todas possam ser capturadas.
 
 As seções abaixo registram a evolução do projeto; esta seção descreve o comportamento atual.
 
@@ -19,7 +19,7 @@ npm start
 npm run test:neon
 ```
 
-`npm start` abre o site em `http://localhost:8002` usando o banco Neon. Requer Node.js, npm e Docker Desktop. `npm run build` valida JavaScript, constrói PHP/Apache e verifica sintaxe PHP. `npm run test:neon` testa a saúde do banco, os 151 registros, a API padrão e anterior e as quatro páginas. O site local anterior continua em `localhost:8000`. Para encerrar o servidor Neon local: `docker stop pokedex-neon`.
+`npm start` abre o site em `http://localhost:8002` usando o banco Neon. Requer Node.js, npm e Docker Desktop. `npm run build` valida os datasets e JavaScript, constrói PHP/Apache e verifica sintaxe PHP. `npm run test:neon` testa as 13 edições, dados anteriores, APIs, atlas, preferência e páginas. O site local anterior continua em `localhost:8000`. Para encerrar o servidor Neon local: `docker stop pokedex-neon`.
 
 As skills Neon ficam em `.agents/skills`; o `neon init` instalou a integração/plugin Neon para Codex e configurou MCP com OAuth para os agentes detectados. Pode ser necessário reconectar o agente para usar as novas ferramentas MCP. O Neon não publica este frontend PHP; mantenha Render como hospedagem do aplicativo e preencha as mesmas variáveis na plataforma.
 

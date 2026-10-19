@@ -2,11 +2,10 @@
 declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
 require __DIR__ . '/../src/database.php';
+require __DIR__ . '/../src/games.php';
 try {
     if (($_GET['reference'] ?? '') !== 'legacy') {
-        $profiles = database()->query("SELECT data FROM pokemon_profiles WHERE reference='letsgo' ORDER BY pokemon_id")->fetchAll(PDO::FETCH_COLUMN);
-        if (count($profiles) !== 151) throw new RuntimeException('Importação Let’s Go incompleta');
-        echo json_encode(array_map(fn($data)=>json_decode($data, true, 512, JSON_THROW_ON_ERROR), $profiles), JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
+        echo json_encode(versionProfiles(database(), selectedVersion()), JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
         exit;
     }
     $rows = database()->query('SELECT * FROM pokemon ORDER BY id')->fetchAll(PDO::FETCH_ASSOC);

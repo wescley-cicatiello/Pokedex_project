@@ -1,6 +1,6 @@
 let world;
 try {
-  const response = await fetch('/world.php');
+  const response = await fetch(window.gameUrl('/world.php'));
   if (!response.ok) throw new Error('Falha ao carregar os dados do mapa');
   world = await response.json();
 } catch (error) {
@@ -62,7 +62,7 @@ function renderEncounters() {
   list.forEach(p => {
     const link = document.createElement('a');
     link.className = 'encounter-pokemon';
-    link.href = `/pokedex.php?pokemon=${p.id}`;
+    link.href = window.gameUrl(`/pokedex.php?pokemon=${p.id}`);
     const image = document.createElement('img');
     image.src = p.image; image.alt = ''; image.loading = 'lazy';
     const text = document.createElement('span');
@@ -91,7 +91,7 @@ function trainerHeading(name, id, description) {
 function pokemonTeam(members) {
   const team = document.createElement('div'); team.className = 'encounter-grid';
   members.forEach(([id,name,level]) => {
-    const link = document.createElement('a'); link.href = `/pokedex.php?pokemon=${id}`; link.className = 'encounter-pokemon';
+    const link = document.createElement('a'); link.href = window.gameUrl(`/pokedex.php?pokemon=${id}`); link.className = 'encounter-pokemon';
     const image = document.createElement('img'); image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`; image.alt = ''; image.loading = 'lazy';
     const label = document.createElement('span'); label.textContent = name;
     const detail = document.createElement('small'); detail.textContent = `Nível ${level} · #${String(id).padStart(3,'0')}`;

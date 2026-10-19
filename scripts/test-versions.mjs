@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const root=process.env.TEST_BASE_URL||'http://127.0.0.1:8002';
+const config=JSON.parse(readFileSync('data/games.json'));
+const catalogs={};
+const json=async path=>{const r=await fetch(root+path);assert.ok(r.ok,`${path}: ${r.status}`);return r.json();};
+const entries=Object.entries(config.versions);
+for(let i=0;i<entries.length;i+=3)await Promise.all(entries.slice(i,i+3).map(async([version,info])=>{
+ const [catalog,atlas,page,types]=await Promise.all([json(`/api.php?version=${version}`),json(`/atlas-api.php?version=${version}`),fetch(root+`/inicio.php?version=${version}`),fetch(root+`/tipos.php?version=${version}`)]);
+ catalogs[version]=catalog;assert.equal(catalog.length,info.count,version);assert.equal(catalog.filter(p=>p.regional_number!==null).length,info.regional);assert.equal(atlas.version,version);assert.ok(atlas.locations.length);assert.equal(page.status,200);assert.ok((await page.text()).includes(info.count.toString()));assert.equal(types.status,200);
+ console.log(`HTTP + PostgreSQL OK: ${version} · ${catalog.length} Pokémon · ${atlas.locations.length} áreas.`);
+}));
+assert.deepEqual(catalogs.red.find(p=>p.id===81).types,['electric']);assert.deepEqual(catalogs.gold.find(p=>p.id===81).types,['electric','steel']);
+assert.equal(catalogs.firered.find(p=>p.id===386).stats.find(s=>s.name==='attack').value,180);
+assert.equal((await fetch(root+'/api.php?version=invalid')).status,400);
+const remembered=await fetch(root+'/api.php',{headers:{Cookie:'pokemon-version=gold'}});assert.equal((await remembered.json()).length,251);
+const explicit=await fetch(root+'/api.php?version=heartgold',{headers:{Cookie:'pokemon-version=gold'}});assert.equal((await explicit.json()).length,493);
+const home=await(await fetch(root+'/')).text();assert.equal((home.match(/class="adventure-card/g)||[]).length,4);
+assert.equal((await fetch(root+'/world.php?version=red')).status,400);
+assert.ok((await(await fetch(root+'/mapa.php?version=gold')).text()).includes('id="version-atlas"'));
+assert.ok((await(await fetch(root+'/mapa.php?version=lets-go-eevee')).text()).includes('id="kanto-map"'));
+console.log('E2E VERSÕES OK: 13 edições, quatro grupos, navegação, tipos históricos, atlas, preferência e isolamento entre abas validados.');
