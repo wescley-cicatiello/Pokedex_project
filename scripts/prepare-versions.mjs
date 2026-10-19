@@ -15,12 +15,37 @@ const slots=index(csv('encounter_slots')),methods=index(csv('encounter_methods')
 const names=Object.fromEntries(csv('location_names').filter(n=>n.local_language_id==='9').map(n=>[n.location_id,n.name]));
 const versions=Object.fromEntries(csv('versions').map(v=>[v.identifier,v.id]));
 const allEncounters=group(csv('encounters'),'version_id');
+const species=index(csv('pokemon_species')),evolutions=csv('pokemon_evolution'),versionGroups=index(csv('version_groups'));
+// Only encounters taking place in this cartridge count. External distributions are not catches.
+const externalMethods=/colosseum|channel|ranger|battle-revolution|pokecenter|wish-eggs/;
+function obtainability(version,info,encounters){
+ const paths=new Map(),limit=id=>info.group==='letsgo'?id<=151:id<=info.count;
+ const blocked=new Set(info.group==='frlg'?[196,197,251]:['heartgold','soulsilver'].includes(version)?[462,470,471,476,483,484,487,384]:[]);
+ const put=(id,path)=>{if(!limit(id)||blocked.has(id)||paths.has(id))return false;paths.set(id,path);return true;};
+ for(const e of encounters){const method=methods[slots[e.encounter_slot_id].encounter_method_id].identifier;if(externalMethods.test(method))continue;const area=areas[e.location_area_id],place=places[area.location_id];const event=info.group==='frlg'&&[249,250,386].includes(+e.pokemon_id);put(+e.pokemon_id,{method,source:names[place.id]||place.identifier,event,trade:false});}
+ // Historical event items unlock encounters within these editions; external Pokémon do not.
+ if(version==='crystal')put(251,{method:'event',source:'GS Ball: evento histórico japonês ou distribuição da versão Virtual Console',event:true,trade:false});
+ if(['heartgold','soulsilver'].includes(version))put(version==='heartgold'?381:380,{method:'event',source:'Enigma Stone: evento histórico',event:true,trade:false});
+ let changed=true;
+ while(changed){changed=false;
+  for(const s of Object.values(species)){const id=+s.id,parent=+s.evolves_from_species_id;if(!parent||!paths.has(parent)||paths.has(id)||!limit(id))continue;
+   const rule=evolutions.find(e=>+e.evolved_species_id===id&&+versionGroups[e.version_group_id]?.generation_id<=info.generation&&(!e.evolved_pokemon_form_id||+e.evolved_pokemon_form_id===id)&&(!e.region_id||+e.region_id<=2));
+   if(!rule)continue;const origin=paths.get(parent);changed=put(id,{method:'evolution',source:species[parent].identifier,event:origin.event,trade:origin.trade||rule.evolution_trigger_id==='2'})||changed;
+  }
+  if(info.generation>=2&&info.group!=='letsgo'&&paths.has(132))for(const s of Object.values(species)){
+   const parent=+s.evolves_from_species_id;if(!parent||!paths.has(+s.id)||paths.has(parent)||s.is_baby==='1'||s.is_legendary==='1'||s.is_mythical==='1'||[30,31].includes(+s.id))continue;
+   const origin=paths.get(+s.id);changed=put(parent,{method:'breeding',source:s.identifier,event:origin.event,trade:origin.trade})||changed;
+  }
+ }
+ return paths;
+}
 const lg=JSON.parse(readFileSync('data/pokemon-letsgo.json'));
 mkdirSync('data/versions',{recursive:true});
 for(const [version,info] of Object.entries(config.versions)){
  const generation=info.generation,isLG=info.group==='letsgo';
  const encounters=allEncounters[versions[version==='green'?'blue':version]]||[];
  const availability=new Set(encounters.map(e=>+e.pokemon_id));
+ const native=obtainability(version,info,encounters);
  const regional=new Map((dexNumbers[info.dex]||[]).map(p=>[+p.species_id,+p.pokedex_number]));
  const profiles=pokemon.filter(p=>isLG?(+p.id<=151||[808,809].includes(+p.id)):+p.id<=info.count).map(p=>{
   const id=+p.id;
@@ -53,6 +78,10 @@ for(const [version,info] of Object.entries(config.versions)){
    if(id===809)item.availability='Evolua Meltan em Pokémon GO e transfira Melmetal para o GO Park.';
    if(id===151)item.availability='Presente da Poké Ball Plus, quando o Mew do acessório ainda não foi resgatado. Não é encontro selvagem.';
   }
+  const path=native.get(id);
+  item.obtainability={native:!!path,...(path||{})};
+  if(path){const method=path.method==='evolution'?`Evolução de ${path.source}`:path.method==='breeding'?`Reprodução de ${path.source} com Ditto`:`Obtenção nesta edição: ${path.source}`;item.availability=method+'.'+(path.trade?' A evolução exige troca com outro jogador.':'')+(path.event?' Exige evento histórico; não está normalmente disponível hoje.':'')+' Pode depender de progresso, escolhas, horário ou condições específicas.';}
+  else if(!isLG)item.availability='Sem caminho de obtenção interna identificado nesta edição. A Pokédex nacional inclui espécies compatíveis que podem exigir troca ou transferência de outro jogo; isso não indica encontro disponível.';
   return item;
  });
  if(profiles.length!==info.count)throw Error(`Catálogo incompleto: ${version} ${profiles.length}`);

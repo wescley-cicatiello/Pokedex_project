@@ -9,7 +9,12 @@ for(let i=0;i<entries.length;i+=3)await Promise.all(entries.slice(i,i+3).map(asy
  const [catalog,atlas,page,types]=await Promise.all([json(`/api.php?version=${version}`),json(`/atlas-api.php?version=${version}`),fetch(root+`/inicio.php?version=${version}`),fetch(root+`/tipos.php?version=${version}`)]);
  catalogs[version]=catalog;assert.equal(catalog.length,info.count,version);assert.equal(catalog.filter(p=>p.regional_number!==null).length,info.regional);assert.equal(atlas.version,version);assert.ok(atlas.locations.length);assert.equal(page.status,200);assert.ok((await page.text()).includes(info.count.toString()));assert.equal(types.status,200);
  console.log(`HTTP + PostgreSQL OK: ${version} · ${catalog.length} Pokémon · ${atlas.locations.length} áreas.`);
+ assert.ok(catalog.every(p=>typeof p.obtainability?.native==='boolean'),`${version}: disponibilidade`);
+ const dex=await(await fetch(root+`/pokedex.php?version=${version}`)).text();
+ for(const scope of ['available','regional','all'])assert.ok(dex.includes(`value="${scope}"`),`${version}: filtro ${scope}`);
 }));
+assert.equal(catalogs.firered.find(p=>p.id===380).obtainability.native,false);
+assert.equal(catalogs.heartgold.find(p=>p.id===380).obtainability.native,true);
 assert.deepEqual(catalogs.red.find(p=>p.id===81).types,['electric']);assert.deepEqual(catalogs.gold.find(p=>p.id===81).types,['electric','steel']);
 assert.equal(catalogs.firered.find(p=>p.id===386).stats.find(s=>s.name==='attack').value,180);
 assert.equal((await fetch(root+'/api.php?version=invalid')).status,400);

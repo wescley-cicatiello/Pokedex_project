@@ -3,3 +3,5 @@
 .gateway-intro>.eyebrow{justify-content:center}.adventure-card.fire-card .adventure-art{background:#fff0e8}.adventure-card.water-card .adventure-art{background:#eaf3fc}.adventure-card.electric-card .adventure-art{background:#fcf6de}.adventure-card.grass-card .adventure-art{background:#eaf5e9}
 @media(max-width:850px){.adventure-card{grid-template-columns:1fr}.adventure-art{min-height:190px;height:190px}.adventure-art img{height:190px;width:190px}.adventure-body{padding:24px}.gateway-intro{padding-top:45px}.gateway-intro h1{letter-spacing:-1.5px}}
 @media(max-width:540px){.adventure-grid{grid-template-columns:1fr}.adventure-card{grid-template-columns:30% 70%}.adventure-art{min-height:100%;height:auto}.adventure-art img{width:150%;height:auto}.adventure-body{padding:22px 18px}.adventure-body h2{font-size:21px}.gateway-label{font-size:8px;letter-spacing:1px}}
+
+.obtainability-label{display:block;color:#596273;font-size:11px;margin:0 0 8px}.catalog-note{max-width:850px;line-height:1.7}.dex-scope select{max-width:100%}

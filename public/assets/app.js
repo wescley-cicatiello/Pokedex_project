@@ -9,14 +9,17 @@ function render() {
   const term = $('search').value.trim().toLowerCase().replace(/^#/, '');
   const type = $('type').value;
   const scope=$('dex-scope').value;
-  const catalog=pokemon.filter(p=>scope!=='regional'||p.regional_number!==null);
+  const catalog=pokemon.filter(p=>scope==='regional'?p.regional_number!==null:scope==='available'?p.obtainability?.native:true);
+  $('scope-description').textContent=scope==='regional'?'Lista oficial da Pokédex regional. A inclusão não garante obtenção nesta edição. A ordenação usa o número regional.':scope==='all'?'Todas as espécies compatíveis com esta edição, incluindo as que exigem outros jogos. Não é uma lista de capturas.':'Obtenções internas identificadas: encontros, presentes, trocas com NPCs, reprodução e evoluções. Inclui escolhas alternativas e eventos históricos sinalizados nos detalhes; evoluções por troca exigem outro jogador. Não inclui espécies que só chegam de outros jogos ou acessórios.';
+  const url=new URL(location.href);url.searchParams.set('scope',scope);history.replaceState(null,'',url);
+  const order=p=>scope==='regional'?p.regional_number:p.id;
   const list = catalog.filter(p=>(nameOf(p).toLowerCase().includes(term) || String(p.id).padStart(3,'0').includes(term)) && (!type || p.types.includes(type)));
-  list.sort((a,b)=>$('sort').value==='name' ? nameOf(a).localeCompare(nameOf(b),'pt-BR') : $('sort').value==='reverse' ? b.id-a.id : a.id-b.id);
+  list.sort((a,b)=>$('sort').value==='name' ? nameOf(a).localeCompare(nameOf(b),'pt-BR') : $('sort').value==='reverse' ? order(b)-order(a) : order(a)-order(b));
   $('grid').replaceChildren(...list.map(p=>{
     const button = document.createElement('button');
     button.className = `card ${p.types[0]}-card`;
     button.setAttribute('aria-label',`Ver detalhes de ${nameOf(p)}`);
-    button.innerHTML = `<div class="card-top"><span>${numberOf(p)}</span><span class="card-arrow">↗</span></div><div class="pokemon-art"><img loading="lazy" src="${p.image}" alt="${nameOf(p)}"></div><h3>${nameOf(p)}</h3><div class="badges">${badges(p)}</div>`;
+    button.innerHTML = `<div class="card-top"><span>${scope==='regional'?'Regional #'+String(p.regional_number).padStart(3,'0'):numberOf(p)}</span><span class="card-arrow">↗</span></div><div class="pokemon-art"><img loading="lazy" src="${p.image}" alt="${nameOf(p)}"></div><h3>${nameOf(p)}</h3>${scope==='available'&&p.obtainability.event?'<small class="obtainability-label">Evento histórico</small>':scope==='available'&&p.obtainability.trade?'<small class="obtainability-label">Evolução por troca</small>':''}<div class="badges">${badges(p)}</div>`;
     button.addEventListener('click',()=>openDetails(p));
     return button;
   }));
@@ -29,7 +32,7 @@ function openDetails(p) {
   $('details').setAttribute('aria-labelledby','detail-title');
   document.querySelector('.detail-art > span').textContent=`${numberOf(p)} · ${context.game.name}`;
   if(!p.abilities.length && p.reference!=='letsgo')document.querySelector('#detail-content .abilities').textContent='Esta geração não utiliza habilidades.';
-  const availability=document.createElement('p');availability.className='availability-note';availability.textContent=p.availability;document.querySelector('.detail-body').append(availability);
+  const availability=document.createElement('p');availability.className='availability-note';availability.textContent=(p.obtainability?.native?'Disponível nesta edição. ':'Catálogo nacional / obtenção externa. ')+p.availability;document.querySelector('.detail-body').append(availability);
   if(p.form_label){const form=document.createElement('p');form.textContent=p.form_label;document.querySelector('.detail-body').append(form);}
   if(p.forms?.length){
     const forms=document.createElement('details');forms.className='legacy-details';const summary=document.createElement('summary');summary.textContent='Formas de Alola e Mega Evoluções desta edição';forms.append(summary);
@@ -68,6 +71,8 @@ async function load() {
   } finally { $('grid').setAttribute('aria-busy','false'); }
 }
 Object.entries(labels).sort((a,b)=>a[1].localeCompare(b[1],'pt-BR')).forEach(([value,label])=>$('type').add(new Option(label,value)));
+const initialScope=new URLSearchParams(location.search).get('scope');
+if(['all','regional','available'].includes(initialScope))$('dex-scope').value=initialScope;
 const initialType = new URLSearchParams(window.location.search).get('type');
 if (Object.hasOwn(labels, initialType)) $('type').value = initialType;
 ['search','type','sort','dex-scope'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
