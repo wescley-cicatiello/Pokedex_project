@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="pt-BR">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>Pokédex — Explore Kanto</title><meta name="description" content="Explore os 151 Pokémon da primeira geração. Descubra tipos, habilidades e estatísticas de Kanto."><link rel="stylesheet" href="/assets/style.css"><script src="/assets/app.js" defer></script><script src="/assets/site-version.js"></script></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>Pokédex — Explore Kanto</title><meta name="description" content="Explore os 151 Pokémon da primeira geração. Descubra tipos, habilidades e estatísticas de Kanto."><link rel="stylesheet" href="/assets/style.css?v=letsgo-db-1"><script src="/assets/app.js?v=letsgo-db-1" defer></script><script src="/assets/site-version.js?v=letsgo-db-1"></script></head>
 <body>
 <header class="topbar"><a href="/" class="brand"><span class="pokeball"></span>pokédex<span class="brand-dot">.</span></a><nav class="site-nav" aria-label="Navegação principal"><a href="/">Início</a><a href="/pokedex.php" aria-current="page">Pokédex</a><a href="/tipos.php">Tipos</a><a href="/mapa.php">Mapa</a></nav></header>
 <main>

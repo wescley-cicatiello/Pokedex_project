@@ -7,7 +7,7 @@
  $counts = [];
  foreach ($pokemon as $item) foreach ($item['types'] as $type) $counts[$type] = ($counts[$type] ?? 0) + 1;
 ?>
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tipos Pokémon — Pokédex</title><link rel="stylesheet" href="/assets/style.css"><script src="/assets/site-version.js"></script></head><body>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tipos Pokémon — Pokédex</title><link rel="stylesheet" href="/assets/style.css?v=letsgo-db-1"><script src="/assets/site-version.js?v=letsgo-db-1"></script></head><body>
 <header class="topbar"><a href="/" class="brand"><span class="pokeball"></span>pokédex.</a><nav class="site-nav" aria-label="Navegação principal"><a href="/">Início</a><a href="/pokedex.php">Pokédex</a><a href="/tipos.php" aria-current="page">Tipos</a><a href="/mapa.php">Mapa</a></nav></header>
 <main><section class="page-intro"><a class="back-link" href="/">← Voltar ao início</a><span class="eyebrow">CADA POKÉMON, UMA DESCOBERTA</span><h1>Qual é o seu <em>tipo?</em></h1><p>Escolha um tipo para ver seus Pokémon na Pokédex.</p><p>Tipos das formas comuns em Pokémon Let&#39;s Go. Pokémon com dois tipos aparecem em ambos os grupos.</p></section><section class="type-grid" aria-label="Tipos Pokémon">
 <?php foreach ($labels as $type => $label): if (!isset($counts[$type])) continue; ?>
