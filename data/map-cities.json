@@ -1,0 +1,2661 @@
+{
+  "red": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio de Viridian"
+      ],
+      "gym": {
+        "leader": "Giovanni",
+        "type": "Terra",
+        "badge": "Earth Badge",
+        "team": [
+          [
+            111,
+            "Rhyhorn",
+            45
+          ],
+          [
+            51,
+            "Dugtrio",
+            42
+          ],
+          [
+            31,
+            "Nidoqueen",
+            44
+          ],
+          [
+            34,
+            "Nidoking",
+            45
+          ],
+          [
+            112,
+            "Rhydon",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/33.png"
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            74,
+            "Geodude",
+            12
+          ],
+          [
+            95,
+            "Onix",
+            14
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/26.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Casa invadida pela Equipe Rocket",
+        "Ginásio de Cerulean"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            120,
+            "Staryu",
+            18
+          ],
+          [
+            121,
+            "Starmie",
+            21
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/27.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Casa do pescador",
+        "Porto e S.S. Anne",
+        "Ginásio de Vermilion"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            100,
+            "Voltorb",
+            21
+          ],
+          [
+            25,
+            "Pikachu",
+            18
+          ],
+          [
+            26,
+            "Raichu",
+            24
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/28.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Pokémon Tower",
+        "Casa do Sr. Fuji",
+        "Avaliador de nomes"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Esconderijo da Equipe Rocket",
+        "Mansão de Celadon",
+        "Ginásio de Celadon"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            71,
+            "Victreebel",
+            29
+          ],
+          [
+            114,
+            "Tangela",
+            24
+          ],
+          [
+            45,
+            "Vileplume",
+            29
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/29.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            64,
+            "Kadabra",
+            38
+          ],
+          [
+            122,
+            "Mr. Mime",
+            37
+          ],
+          [
+            49,
+            "Venomoth",
+            38
+          ],
+          [
+            65,
+            "Alakazam",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/30.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Safari Zone",
+        "Casa do guarda da Safari Zone",
+        "Casa do pescador",
+        "Ginásio de Fuchsia"
+      ],
+      "gym": {
+        "leader": "Koga",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "team": [
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            89,
+            "Muk",
+            39
+          ],
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            110,
+            "Weezing",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/31.png"
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Laboratório de pesquisas",
+        "Pokémon Mansion",
+        "Ginásio de Cinnabar"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "team": [
+          [
+            58,
+            "Growlithe",
+            42
+          ],
+          [
+            77,
+            "Ponyta",
+            40
+          ],
+          [
+            78,
+            "Rapidash",
+            42
+          ],
+          [
+            59,
+            "Arcanine",
+            47
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/32.png"
+      }
+    }
+  },
+  "blue": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio de Viridian"
+      ],
+      "gym": {
+        "leader": "Giovanni",
+        "type": "Terra",
+        "badge": "Earth Badge",
+        "team": [
+          [
+            111,
+            "Rhyhorn",
+            45
+          ],
+          [
+            51,
+            "Dugtrio",
+            42
+          ],
+          [
+            31,
+            "Nidoqueen",
+            44
+          ],
+          [
+            34,
+            "Nidoking",
+            45
+          ],
+          [
+            112,
+            "Rhydon",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/33.png"
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            74,
+            "Geodude",
+            12
+          ],
+          [
+            95,
+            "Onix",
+            14
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/26.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Casa invadida pela Equipe Rocket",
+        "Ginásio de Cerulean"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            120,
+            "Staryu",
+            18
+          ],
+          [
+            121,
+            "Starmie",
+            21
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/27.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Casa do pescador",
+        "Porto e S.S. Anne",
+        "Ginásio de Vermilion"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            100,
+            "Voltorb",
+            21
+          ],
+          [
+            25,
+            "Pikachu",
+            18
+          ],
+          [
+            26,
+            "Raichu",
+            24
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/28.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Pokémon Tower",
+        "Casa do Sr. Fuji",
+        "Avaliador de nomes"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Esconderijo da Equipe Rocket",
+        "Mansão de Celadon",
+        "Ginásio de Celadon"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            71,
+            "Victreebel",
+            29
+          ],
+          [
+            114,
+            "Tangela",
+            24
+          ],
+          [
+            45,
+            "Vileplume",
+            29
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/29.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            64,
+            "Kadabra",
+            38
+          ],
+          [
+            122,
+            "Mr. Mime",
+            37
+          ],
+          [
+            49,
+            "Venomoth",
+            38
+          ],
+          [
+            65,
+            "Alakazam",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/30.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Safari Zone",
+        "Casa do guarda da Safari Zone",
+        "Casa do pescador",
+        "Ginásio de Fuchsia"
+      ],
+      "gym": {
+        "leader": "Koga",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "team": [
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            89,
+            "Muk",
+            39
+          ],
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            110,
+            "Weezing",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/31.png"
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Laboratório de pesquisas",
+        "Pokémon Mansion",
+        "Ginásio de Cinnabar"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "team": [
+          [
+            58,
+            "Growlithe",
+            42
+          ],
+          [
+            77,
+            "Ponyta",
+            40
+          ],
+          [
+            78,
+            "Rapidash",
+            42
+          ],
+          [
+            59,
+            "Arcanine",
+            47
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/32.png"
+      }
+    }
+  },
+  "green": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio de Viridian"
+      ],
+      "gym": {
+        "leader": "Giovanni",
+        "type": "Terra",
+        "badge": "Earth Badge",
+        "team": [
+          [
+            111,
+            "Rhyhorn",
+            45
+          ],
+          [
+            51,
+            "Dugtrio",
+            42
+          ],
+          [
+            31,
+            "Nidoqueen",
+            44
+          ],
+          [
+            34,
+            "Nidoking",
+            45
+          ],
+          [
+            112,
+            "Rhydon",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/33.png"
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            74,
+            "Geodude",
+            12
+          ],
+          [
+            95,
+            "Onix",
+            14
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/26.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Casa invadida pela Equipe Rocket",
+        "Ginásio de Cerulean"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            120,
+            "Staryu",
+            18
+          ],
+          [
+            121,
+            "Starmie",
+            21
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/27.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Casa do pescador",
+        "Porto e S.S. Anne",
+        "Ginásio de Vermilion"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            100,
+            "Voltorb",
+            21
+          ],
+          [
+            25,
+            "Pikachu",
+            18
+          ],
+          [
+            26,
+            "Raichu",
+            24
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/28.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Pokémon Tower",
+        "Casa do Sr. Fuji",
+        "Avaliador de nomes"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Esconderijo da Equipe Rocket",
+        "Mansão de Celadon",
+        "Ginásio de Celadon"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            71,
+            "Victreebel",
+            29
+          ],
+          [
+            114,
+            "Tangela",
+            24
+          ],
+          [
+            45,
+            "Vileplume",
+            29
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/29.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            64,
+            "Kadabra",
+            38
+          ],
+          [
+            122,
+            "Mr. Mime",
+            37
+          ],
+          [
+            49,
+            "Venomoth",
+            38
+          ],
+          [
+            65,
+            "Alakazam",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/30.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Safari Zone",
+        "Casa do guarda da Safari Zone",
+        "Casa do pescador",
+        "Ginásio de Fuchsia"
+      ],
+      "gym": {
+        "leader": "Koga",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "team": [
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            89,
+            "Muk",
+            39
+          ],
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            110,
+            "Weezing",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/31.png"
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Laboratório de pesquisas",
+        "Pokémon Mansion",
+        "Ginásio de Cinnabar"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "team": [
+          [
+            58,
+            "Growlithe",
+            42
+          ],
+          [
+            77,
+            "Ponyta",
+            40
+          ],
+          [
+            78,
+            "Rapidash",
+            42
+          ],
+          [
+            59,
+            "Arcanine",
+            47
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/32.png"
+      }
+    }
+  },
+  "yellow": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio de Viridian"
+      ],
+      "gym": {
+        "leader": "Giovanni",
+        "type": "Terra",
+        "badge": "Earth Badge",
+        "team": [
+          [
+            51,
+            "Dugtrio",
+            50
+          ],
+          [
+            53,
+            "Persian",
+            53
+          ],
+          [
+            31,
+            "Nidoqueen",
+            53
+          ],
+          [
+            34,
+            "Nidoking",
+            55
+          ],
+          [
+            112,
+            "Rhydon",
+            55
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/33.png"
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            74,
+            "Geodude",
+            10
+          ],
+          [
+            95,
+            "Onix",
+            12
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/26.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Casa invadida pela Equipe Rocket",
+        "Ginásio de Cerulean"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            120,
+            "Staryu",
+            18
+          ],
+          [
+            121,
+            "Starmie",
+            21
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/27.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Casa do pescador",
+        "Porto e S.S. Anne",
+        "Ginásio de Vermilion"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            26,
+            "Raichu",
+            28
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/28.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Pokémon Tower",
+        "Casa do Sr. Fuji",
+        "Avaliador de nomes"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Esconderijo da Equipe Rocket",
+        "Mansão de Celadon",
+        "Ginásio de Celadon"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            70,
+            "Weepinbell",
+            32
+          ],
+          [
+            114,
+            "Tangela",
+            30
+          ],
+          [
+            44,
+            "Gloom",
+            32
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/29.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            63,
+            "Abra",
+            50
+          ],
+          [
+            64,
+            "Kadabra",
+            50
+          ],
+          [
+            65,
+            "Alakazam",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/30.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Safari Zone",
+        "Casa do guarda da Safari Zone",
+        "Casa do pescador",
+        "Ginásio de Fuchsia"
+      ],
+      "gym": {
+        "leader": "Koga",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "team": [
+          [
+            48,
+            "Venonat",
+            44
+          ],
+          [
+            48,
+            "Venonat",
+            46
+          ],
+          [
+            48,
+            "Venonat",
+            48
+          ],
+          [
+            49,
+            "Venomoth",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/31.png"
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Laboratório de pesquisas",
+        "Pokémon Mansion",
+        "Ginásio de Cinnabar"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "team": [
+          [
+            38,
+            "Ninetales",
+            48
+          ],
+          [
+            78,
+            "Rapidash",
+            50
+          ],
+          [
+            59,
+            "Arcanine",
+            54
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/rby/32.png"
+      }
+    }
+  },
+  "frlg": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio de Viridian"
+      ],
+      "gym": {
+        "leader": "Giovanni",
+        "type": "Terra",
+        "badge": "Earth Badge",
+        "team": [
+          [
+            111,
+            "Rhyhorn",
+            45
+          ],
+          [
+            51,
+            "Dugtrio",
+            42
+          ],
+          [
+            31,
+            "Nidoqueen",
+            44
+          ],
+          [
+            34,
+            "Nidoking",
+            45
+          ],
+          [
+            111,
+            "Rhyhorn",
+            50
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/37.png"
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            74,
+            "Geodude",
+            12
+          ],
+          [
+            95,
+            "Onix",
+            14
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/30.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Casa invadida pela Equipe Rocket",
+        "Ginásio de Cerulean"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            120,
+            "Staryu",
+            18
+          ],
+          [
+            121,
+            "Starmie",
+            21
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/31.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Casa do pescador",
+        "Porto e S.S. Anne",
+        "Ginásio de Vermilion"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            100,
+            "Voltorb",
+            21
+          ],
+          [
+            25,
+            "Pikachu",
+            18
+          ],
+          [
+            26,
+            "Raichu",
+            24
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/32.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Pokémon Tower",
+        "Casa do Sr. Fuji",
+        "Avaliador de nomes"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Esconderijo da Equipe Rocket",
+        "Mansão de Celadon",
+        "Ginásio de Celadon"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            71,
+            "Victreebel",
+            29
+          ],
+          [
+            114,
+            "Tangela",
+            24
+          ],
+          [
+            45,
+            "Vileplume",
+            29
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/33.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            64,
+            "Kadabra",
+            38
+          ],
+          [
+            122,
+            "Mr-mime",
+            37
+          ],
+          [
+            49,
+            "Venomoth",
+            38
+          ],
+          [
+            65,
+            "Alakazam",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/35.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Safari Zone",
+        "Casa do guarda da Safari Zone",
+        "Casa do pescador",
+        "Ginásio de Fuchsia"
+      ],
+      "gym": {
+        "leader": "Koga",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "team": [
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            89,
+            "Muk",
+            39
+          ],
+          [
+            109,
+            "Koffing",
+            37
+          ],
+          [
+            110,
+            "Weezing",
+            43
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/34.png"
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Laboratório de pesquisas",
+        "Pokémon Mansion",
+        "Ginásio de Cinnabar"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "team": [
+          [
+            58,
+            "Growlithe",
+            42
+          ],
+          [
+            77,
+            "Ponyta",
+            40
+          ],
+          [
+            78,
+            "Rapidash",
+            42
+          ],
+          [
+            59,
+            "Arcanine",
+            47
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth//trainers/frlg/36.png"
+      }
+    }
+  },
+  "gsc": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Blue",
+        "type": "Variados",
+        "badge": "Earth Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/35.gif",
+        "team": [
+          [
+            18,
+            "Pidgeot",
+            56
+          ],
+          [
+            65,
+            "Alakazam",
+            54
+          ],
+          [
+            112,
+            "Rhydon",
+            56
+          ],
+          [
+            130,
+            "Gyarados",
+            58
+          ],
+          [
+            103,
+            "Exeggutor",
+            58
+          ],
+          [
+            59,
+            "Arcanine",
+            58
+          ]
+        ]
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            75,
+            "Graveler",
+            41
+          ],
+          [
+            111,
+            "Rhyhorn",
+            41
+          ],
+          [
+            139,
+            "Omastar",
+            42
+          ],
+          [
+            95,
+            "Onix",
+            44
+          ],
+          [
+            141,
+            "Kabutops",
+            42
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/28.gif"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            55,
+            "Golduck",
+            42
+          ],
+          [
+            195,
+            "Quagsire",
+            42
+          ],
+          [
+            131,
+            "Lapras",
+            44
+          ],
+          [
+            121,
+            "Starmie",
+            47
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/29.gif"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Porto do S.S. Aqua",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            26,
+            "Raichu",
+            44
+          ],
+          [
+            101,
+            "Electrode",
+            40
+          ],
+          [
+            101,
+            "Electrode",
+            40
+          ],
+          [
+            82,
+            "Magneton",
+            40
+          ],
+          [
+            125,
+            "Electabuzz",
+            45
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/30.gif"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Radio Tower",
+        "Casa do Sr. Fuji",
+        "House of Memories"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Mansão de Celadon",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            114,
+            "Tangela",
+            42
+          ],
+          [
+            189,
+            "Jumpluff",
+            41
+          ],
+          [
+            71,
+            "Victreebel",
+            46
+          ],
+          [
+            182,
+            "Bellossom",
+            46
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/31.gif"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            196,
+            "Espeon",
+            46
+          ],
+          [
+            122,
+            "Mr-mime",
+            46
+          ],
+          [
+            65,
+            "Alakazam",
+            48
+          ]
+        ],
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/32.gif"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Janine",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/33.gif",
+        "team": [
+          [
+            169,
+            "Crobat",
+            36
+          ],
+          [
+            110,
+            "Weezing",
+            36
+          ],
+          [
+            110,
+            "Weezing",
+            36
+          ],
+          [
+            168,
+            "Ariados",
+            33
+          ],
+          [
+            49,
+            "Venomoth",
+            39
+          ]
+        ]
+      },
+      "note": "A Safari Zone de Kanto está fechada nesta geração."
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Ruínas da ilha"
+      ],
+      "note": "O vulcão destruiu a cidade. O ginásio de Blaine mudou-se para Seafoam Islands."
+    },
+    "violet": {
+      "name": "Violet City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Sprout Tower",
+        "Escola de treinadores",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Falkner",
+        "type": "Voador",
+        "badge": "Zephyr Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/20.gif",
+        "team": [
+          [
+            16,
+            "Pidgey",
+            7
+          ],
+          [
+            17,
+            "Pidgeotto",
+            9
+          ]
+        ]
+      }
+    },
+    "azalea": {
+      "name": "Azalea Town",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Casa de Kurt",
+        "Slowpoke Well",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Bugsy",
+        "type": "Inseto",
+        "badge": "Hive Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/21.gif",
+        "team": [
+          [
+            11,
+            "Metapod",
+            14
+          ],
+          [
+            14,
+            "Kakuna",
+            14
+          ],
+          [
+            123,
+            "Scyther",
+            16
+          ]
+        ]
+      }
+    },
+    "goldenrod": {
+      "name": "Goldenrod City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de departamentos",
+        "Radio Tower",
+        "Estação do Magnet Train",
+        "Game Corner",
+        "Bike Shop",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Whitney",
+        "type": "Normal",
+        "badge": "Plain Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/22.gif",
+        "team": [
+          [
+            35,
+            "Clefairy",
+            18
+          ],
+          [
+            241,
+            "Miltank",
+            20
+          ]
+        ]
+      }
+    },
+    "ecruteak": {
+      "name": "Ecruteak City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Burned Tower",
+        "Bell Tower",
+        "Dance Theater",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Morty",
+        "type": "Fantasma",
+        "badge": "Fog Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/23.gif",
+        "team": [
+          [
+            92,
+            "Gastly",
+            21
+          ],
+          [
+            93,
+            "Haunter",
+            21
+          ],
+          [
+            93,
+            "Haunter",
+            23
+          ],
+          [
+            94,
+            "Gengar",
+            25
+          ]
+        ]
+      }
+    },
+    "cianwood": {
+      "name": "Cianwood City",
+      "points": [
+        "Centro Pokémon",
+        "Farmácia",
+        "Praia",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Chuck",
+        "type": "Lutador",
+        "badge": "Storm Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/24.gif",
+        "team": [
+          [
+            57,
+            "Primeape",
+            27
+          ],
+          [
+            62,
+            "Poliwrath",
+            30
+          ]
+        ]
+      }
+    },
+    "olivine": {
+      "name": "Olivine City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Lighthouse",
+        "Porto do S.S. Aqua",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Jasmine",
+        "type": "Aço",
+        "badge": "Mineral Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/25.gif",
+        "team": [
+          [
+            81,
+            "Magnemite",
+            30
+          ],
+          [
+            81,
+            "Magnemite",
+            30
+          ],
+          [
+            208,
+            "Steelix",
+            35
+          ]
+        ]
+      }
+    },
+    "mahogany": {
+      "name": "Mahogany Town",
+      "points": [
+        "Centro Pokémon",
+        "Team Rocket HQ",
+        "Loja de lembranças",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Pryce",
+        "type": "Gelo",
+        "badge": "Glacier Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/26.gif",
+        "team": [
+          [
+            86,
+            "Seel",
+            27
+          ],
+          [
+            87,
+            "Dewgong",
+            29
+          ],
+          [
+            221,
+            "Piloswine",
+            31
+          ]
+        ]
+      }
+    },
+    "blackthorn": {
+      "name": "Blackthorn City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Dragon’s Den",
+        "Move Deleter",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Clair",
+        "type": "Dragão",
+        "badge": "Rising Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/27.gif",
+        "team": [
+          [
+            148,
+            "Dragonair",
+            37
+          ],
+          [
+            148,
+            "Dragonair",
+            37
+          ],
+          [
+            148,
+            "Dragonair",
+            37
+          ],
+          [
+            230,
+            "Kingdra",
+            40
+          ]
+        ]
+      }
+    },
+    "newbark": {
+      "points": [
+        "Laboratório do Professor Elm",
+        "Casa do protagonista"
+      ],
+      "note": "Cidade de partida de Johto."
+    },
+    "cherrygrove": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Casa do Guide Gent"
+      ],
+      "note": "O Guide Gent apresenta os serviços da cidade."
+    },
+    "seafoam": {
+      "points": [
+        "Ginásio de Blaine"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "portrait": "https://www.serebii.net/pokearth/trainers/gsc/34.gif",
+        "team": [
+          [
+            219,
+            "Magcargo",
+            45
+          ],
+          [
+            126,
+            "Magmar",
+            45
+          ],
+          [
+            78,
+            "Rapidash",
+            50
+          ]
+        ]
+      }
+    }
+  },
+  "hgss": {
+    "pallet": {
+      "points": [
+        "Laboratório do Professor Oak",
+        "Casa do protagonista",
+        "Casa do rival"
+      ],
+      "note": "Pallet não possui Centro Pokémon, Poké Mart ou ginásio."
+    },
+    "viridian": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Escola de treinadores",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Blue",
+        "type": "Variados",
+        "badge": "Earth Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/green.png",
+        "team": [
+          [
+            103,
+            "Exeggutor",
+            55
+          ],
+          [
+            68,
+            "Machamp",
+            56
+          ],
+          [
+            59,
+            "Arcanine",
+            58
+          ],
+          [
+            112,
+            "Rhydon",
+            58
+          ],
+          [
+            130,
+            "Gyarados",
+            52
+          ],
+          [
+            18,
+            "Pidgeot",
+            60
+          ]
+        ]
+      }
+    },
+    "pewter": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Museu de Ciências",
+        "Ginásio de Pewter"
+      ],
+      "gym": {
+        "leader": "Brock",
+        "type": "Pedra",
+        "badge": "Boulder Badge",
+        "team": [
+          [
+            75,
+            "Graveler",
+            51
+          ],
+          [
+            111,
+            "Rhyhorn",
+            51
+          ],
+          [
+            139,
+            "Omastar",
+            53
+          ],
+          [
+            95,
+            "Onix",
+            54
+          ],
+          [
+            141,
+            "Kabutops",
+            52
+          ]
+        ],
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/brock.png"
+      }
+    },
+    "cerulean": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de bicicletas",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Misty",
+        "type": "Água",
+        "badge": "Cascade Badge",
+        "team": [
+          [
+            55,
+            "Golduck",
+            49
+          ],
+          [
+            195,
+            "Quagsire",
+            49
+          ],
+          [
+            131,
+            "Lapras",
+            52
+          ],
+          [
+            121,
+            "Starmie",
+            54
+          ]
+        ],
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/misty.png"
+      }
+    },
+    "vermilion": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Fã-clube Pokémon",
+        "Porto do S.S. Aqua",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Lt. Surge",
+        "type": "Elétrico",
+        "badge": "Thunder Badge",
+        "team": [
+          [
+            26,
+            "Raichu",
+            51
+          ],
+          [
+            101,
+            "Electrode",
+            47
+          ],
+          [
+            101,
+            "Electrode",
+            47
+          ],
+          [
+            82,
+            "Magneton",
+            47
+          ],
+          [
+            125,
+            "Electabuzz",
+            53
+          ]
+        ],
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/surge.png"
+      }
+    },
+    "lavender": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Radio Tower",
+        "Casa do Sr. Fuji",
+        "House of Memories"
+      ],
+      "note": "Lavender não possui ginásio."
+    },
+    "celadon": {
+      "points": [
+        "Centro Pokémon",
+        "Loja de departamentos",
+        "Game Corner",
+        "Mansão de Celadon",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Erika",
+        "type": "Planta",
+        "badge": "Rainbow Badge",
+        "team": [
+          [
+            189,
+            "Jumpluff",
+            51
+          ],
+          [
+            114,
+            "Tangela",
+            52
+          ],
+          [
+            71,
+            "Victreebel",
+            56
+          ],
+          [
+            182,
+            "Bellossom",
+            56
+          ]
+        ],
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/erika.png"
+      }
+    },
+    "saffron": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Silph Co.",
+        "Dojo de lutas",
+        "Casa do Mr. Psychic",
+        "Ginásio de Saffron"
+      ],
+      "gym": {
+        "leader": "Sabrina",
+        "type": "Psíquico",
+        "badge": "Marsh Badge",
+        "team": [
+          [
+            196,
+            "Espeon",
+            53
+          ],
+          [
+            122,
+            "Mr-mime",
+            53
+          ],
+          [
+            65,
+            "Alakazam",
+            55
+          ]
+        ],
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/sabrina.png"
+      }
+    },
+    "fuchsia": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Ginásio",
+        "Pal Park"
+      ],
+      "gym": {
+        "leader": "Janine",
+        "type": "Veneno",
+        "badge": "Soul Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/janine.png",
+        "team": [
+          [
+            169,
+            "Crobat",
+            47
+          ],
+          [
+            110,
+            "Weezing",
+            44
+          ],
+          [
+            168,
+            "Ariados",
+            47
+          ],
+          [
+            168,
+            "Ariados",
+            47
+          ],
+          [
+            49,
+            "Venomoth",
+            50
+          ]
+        ]
+      }
+    },
+    "cinnabar": {
+      "points": [
+        "Centro Pokémon",
+        "Ruínas da ilha"
+      ],
+      "note": "O vulcão destruiu a cidade. O ginásio de Blaine mudou-se para Seafoam Islands."
+    },
+    "violet": {
+      "name": "Violet City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Sprout Tower",
+        "Escola de treinadores",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Falkner",
+        "type": "Voador",
+        "badge": "Zephyr Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/falkner.png",
+        "team": [
+          [
+            16,
+            "Pidgey",
+            9
+          ],
+          [
+            17,
+            "Pidgeotto",
+            13
+          ]
+        ]
+      }
+    },
+    "azalea": {
+      "name": "Azalea Town",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Casa de Kurt",
+        "Slowpoke Well",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Bugsy",
+        "type": "Inseto",
+        "badge": "Hive Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/bugsy.png",
+        "team": [
+          [
+            11,
+            "Metapod",
+            15
+          ],
+          [
+            14,
+            "Kakuna",
+            15
+          ],
+          [
+            123,
+            "Scyther",
+            17
+          ]
+        ]
+      }
+    },
+    "goldenrod": {
+      "name": "Goldenrod City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Loja de departamentos",
+        "Radio Tower",
+        "Estação do Magnet Train",
+        "Game Corner",
+        "Bike Shop",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Whitney",
+        "type": "Normal",
+        "badge": "Plain Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/whitney.png",
+        "team": [
+          [
+            35,
+            "Clefairy",
+            17
+          ],
+          [
+            241,
+            "Miltank",
+            19
+          ]
+        ]
+      }
+    },
+    "ecruteak": {
+      "name": "Ecruteak City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Burned Tower",
+        "Bell Tower",
+        "Dance Theater",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Morty",
+        "type": "Fantasma",
+        "badge": "Fog Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/morty.png",
+        "team": [
+          [
+            92,
+            "Gastly",
+            21
+          ],
+          [
+            93,
+            "Haunter",
+            21
+          ],
+          [
+            93,
+            "Haunter",
+            23
+          ],
+          [
+            94,
+            "Gengar",
+            25
+          ]
+        ]
+      }
+    },
+    "cianwood": {
+      "name": "Cianwood City",
+      "points": [
+        "Centro Pokémon",
+        "Farmácia",
+        "Praia",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Chuck",
+        "type": "Lutador",
+        "badge": "Storm Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/chuck.png",
+        "team": [
+          [
+            57,
+            "Primeape",
+            29
+          ],
+          [
+            62,
+            "Poliwrath",
+            31
+          ]
+        ]
+      }
+    },
+    "olivine": {
+      "name": "Olivine City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Lighthouse",
+        "Porto do S.S. Aqua",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Jasmine",
+        "type": "Aço",
+        "badge": "Mineral Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/jasmine.png",
+        "team": [
+          [
+            81,
+            "Magnemite",
+            30
+          ],
+          [
+            81,
+            "Magnemite",
+            30
+          ],
+          [
+            208,
+            "Steelix",
+            35
+          ]
+        ]
+      }
+    },
+    "mahogany": {
+      "name": "Mahogany Town",
+      "points": [
+        "Centro Pokémon",
+        "Team Rocket HQ",
+        "Loja de lembranças",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Pryce",
+        "type": "Gelo",
+        "badge": "Glacier Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/pryce.png",
+        "team": [
+          [
+            86,
+            "Seel",
+            30
+          ],
+          [
+            87,
+            "Dewgong",
+            32
+          ],
+          [
+            221,
+            "Piloswine",
+            34
+          ]
+        ]
+      }
+    },
+    "blackthorn": {
+      "name": "Blackthorn City",
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Dragon’s Den",
+        "Move Deleter",
+        "Ginásio"
+      ],
+      "gym": {
+        "leader": "Clair",
+        "type": "Dragão",
+        "badge": "Rising Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/clair.png",
+        "team": [
+          [
+            148,
+            "Dragonair",
+            38
+          ],
+          [
+            148,
+            "Dragonair",
+            38
+          ],
+          [
+            130,
+            "Gyarados",
+            38
+          ],
+          [
+            230,
+            "Kingdra",
+            41
+          ]
+        ]
+      }
+    },
+    "newbark": {
+      "points": [
+        "Laboratório do Professor Elm",
+        "Casa do protagonista"
+      ],
+      "note": "Cidade de partida de Johto."
+    },
+    "cherrygrove": {
+      "points": [
+        "Centro Pokémon",
+        "Poké Mart",
+        "Casa do Guide Gent"
+      ],
+      "note": "O Guide Gent apresenta os serviços da cidade."
+    },
+    "seafoam": {
+      "points": [
+        "Ginásio de Blaine"
+      ],
+      "gym": {
+        "leader": "Blaine",
+        "type": "Fogo",
+        "badge": "Volcano Badge",
+        "portrait": "https://www.serebii.net/heartgoldsoulsilver/gym/blaine.png",
+        "team": [
+          [
+            126,
+            "Magmar",
+            54
+          ],
+          [
+            219,
+            "Magcargo",
+            54
+          ],
+          [
+            78,
+            "Rapidash",
+            59
+          ]
+        ]
+      }
+    }
+  }
+}

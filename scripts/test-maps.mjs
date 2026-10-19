@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const root=process.env.TEST_BASE_URL||'http://127.0.0.1:8002';
+const config=JSON.parse(readFileSync('data/games.json'));
+const worlds={};
+const entries=Object.entries(config.versions);
+for(let i=0;i<entries.length;i+=3)await Promise.all(entries.slice(i,i+3).map(async([version,info])=>{
+ const response=await fetch(root+`/world.php?version=${version}`);assert.ok(response.ok,version);const world=await response.json();worlds[version]=world;
+ assert.equal(world.version,version);assert.equal(world.maps.length,info.group==='frlg'?4:info.group==='johto'?2:1);assert.equal(world.league.length,5);assert.equal(new Set(world.locations.map(l=>l.id)).size,world.locations.length);
+ for(const map of world.maps)assert.ok((await fetch(root+map.image)).ok,map.image);
+ const page=await fetch(root+`/mapa.php?version=${version}`);assert.ok(page.ok);assert.ok((await page.text()).includes('id="map-region"'));
+ console.log(`MAPA HTTP OK: ${version} · ${world.maps.length} regiões · ${world.locations.length} locais.`);
+}));
+assert.ok(worlds.crystal.locations.find(l=>l.name==='Battle Tower'));assert.ok(!worlds.gold.locations.find(l=>l.name==='Battle Tower'));
+assert.ok(worlds.heartgold.locations.find(l=>l.name==='Johto Safari Zone'));assert.ok(!worlds.crystal.locations.find(l=>l.name==='Johto Safari Zone'));
+assert.equal(worlds.red.cities.viridian.gym.leader,'Giovanni');assert.equal(worlds.crystal.cities.viridian.gym.leader,'Blue');
+assert.equal(worlds.heartgold.cities.fuchsia.gym.leader,'Janine');assert.equal(worlds.crystal.cities.seafoam.gym.leader,'Blaine');
+const firstRoute=worlds.firered.locations.find(l=>l.name==='Route 1');assert.ok(worlds.firered.encounters[firstRoute.id].every(p=>p.versions.includes('firered')));
+assert.equal(worlds.yellow.league[4].variants.length,3);assert.equal(worlds.firered.league[4].variants.length,3);
+console.log('E2E MAPAS OK: 13 edições, imagens, encontros por edição, ginásios, Liga, variantes do rival e diferenças entre gerações validados.');

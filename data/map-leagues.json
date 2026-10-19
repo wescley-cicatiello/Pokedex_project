@@ -1,0 +1,1746 @@
+{
+  "red": [
+    {
+      "name": "Lorelei",
+      "id": "lorelei",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/13.png",
+      "team": [
+        [
+          87,
+          "Dewgong",
+          54
+        ],
+        [
+          91,
+          "Cloyster",
+          53
+        ],
+        [
+          80,
+          "Slowbro",
+          54
+        ],
+        [
+          124,
+          "Jynx",
+          56
+        ],
+        [
+          131,
+          "Lapras",
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/14.png",
+      "team": [
+        [
+          95,
+          "Onix",
+          53
+        ],
+        [
+          107,
+          "Hitmonchan",
+          55
+        ],
+        [
+          106,
+          "Hitmonlee",
+          55
+        ],
+        [
+          95,
+          "Onix",
+          56
+        ],
+        [
+          68,
+          "Machamp",
+          58
+        ]
+      ]
+    },
+    {
+      "name": "Agatha",
+      "id": "agatha",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/15.png",
+      "team": [
+        [
+          94,
+          "Gengar",
+          56
+        ],
+        [
+          42,
+          "Golbat",
+          56
+        ],
+        [
+          93,
+          "Haunter",
+          55
+        ],
+        [
+          24,
+          "Arbok",
+          58
+        ],
+        [
+          94,
+          "Gengar",
+          60
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/16.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          58
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          142,
+          "Aerodactyl",
+          60
+        ],
+        [
+          149,
+          "Dragonite",
+          62
+        ]
+      ]
+    },
+    {
+      "name": "Blue",
+      "id": "blue",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/8.png",
+      "team": [
+        [
+          18,
+          "Pidgeot",
+          61
+        ],
+        [
+          65,
+          "Alakazam",
+          59
+        ],
+        [
+          112,
+          "Rhydon",
+          61
+        ],
+        [
+          59,
+          "Arcanine",
+          63
+        ],
+        [
+          130,
+          "Gyarados",
+          61
+        ],
+        [
+          3,
+          "Venusaur",
+          65
+        ]
+      ],
+      "variants": [
+        {
+          "label": "Rival com Venusaur",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              59,
+              "Arcanine",
+              63
+            ],
+            [
+              130,
+              "Gyarados",
+              61
+            ],
+            [
+              3,
+              "Venusaur",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Charizard",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              130,
+              "Gyarados",
+              63
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              6,
+              "Charizard",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Blastoise",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              103,
+              "Exeggutor",
+              63
+            ],
+            [
+              59,
+              "Arcanine",
+              61
+            ],
+            [
+              9,
+              "Blastoise",
+              65
+            ]
+          ]
+        }
+      ],
+      "note": "A equipe do rival depende do Pokémon inicial escolhido. Escolha o inicial que o rival usa."
+    }
+  ],
+  "yellow": [
+    {
+      "name": "Lorelei",
+      "id": "lorelei",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/13.png",
+      "team": [
+        [
+          87,
+          "Dewgong",
+          54
+        ],
+        [
+          91,
+          "Cloyster",
+          53
+        ],
+        [
+          80,
+          "Slowbro",
+          54
+        ],
+        [
+          124,
+          "Jynx",
+          56
+        ],
+        [
+          131,
+          "Lapras",
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/14.png",
+      "team": [
+        [
+          95,
+          "Onix",
+          53
+        ],
+        [
+          107,
+          "Hitmonchan",
+          55
+        ],
+        [
+          106,
+          "Hitmonlee",
+          55
+        ],
+        [
+          95,
+          "Onix",
+          56
+        ],
+        [
+          68,
+          "Machamp",
+          58
+        ]
+      ]
+    },
+    {
+      "name": "Agatha",
+      "id": "agatha",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/15.png",
+      "team": [
+        [
+          94,
+          "Gengar",
+          56
+        ],
+        [
+          42,
+          "Golbat",
+          56
+        ],
+        [
+          93,
+          "Haunter",
+          55
+        ],
+        [
+          24,
+          "Arbok",
+          58
+        ],
+        [
+          94,
+          "Gengar",
+          60
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/16.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          58
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          142,
+          "Aerodactyl",
+          60
+        ],
+        [
+          149,
+          "Dragonite",
+          62
+        ]
+      ]
+    },
+    {
+      "name": "Blue",
+      "id": "blue",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/8.png",
+      "team": [
+        [
+          28,
+          "Sandslash",
+          61
+        ],
+        [
+          65,
+          "Alakazam",
+          59
+        ],
+        [
+          103,
+          "Exeggutor",
+          61
+        ],
+        [
+          82,
+          "Magneton",
+          63
+        ],
+        [
+          38,
+          "Ninetales",
+          61
+        ],
+        [
+          134,
+          "Vaporeon",
+          65
+        ]
+      ],
+      "variants": [
+        {
+          "label": "Equipe com Vaporeon",
+          "team": [
+            [
+              28,
+              "Sandslash",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              82,
+              "Magneton",
+              63
+            ],
+            [
+              38,
+              "Ninetales",
+              61
+            ],
+            [
+              134,
+              "Vaporeon",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Equipe com Jolteon",
+          "team": [
+            [
+              28,
+              "Sandslash",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              38,
+              "Ninetales",
+              63
+            ],
+            [
+              91,
+              "Cloyster",
+              61
+            ],
+            [
+              135,
+              "Jolteon",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Equipe com Flareon",
+          "team": [
+            [
+              28,
+              "Sandslash",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              91,
+              "Cloyster",
+              63
+            ],
+            [
+              82,
+              "Magneton",
+              61
+            ],
+            [
+              136,
+              "Flareon",
+              65
+            ]
+          ]
+        }
+      ],
+      "note": "A evolução de Eevee do rival depende dos resultados das primeiras batalhas. Escolha a equipe correspondente."
+    }
+  ],
+  "frlg": [
+    {
+      "name": "Lorelei",
+      "id": "lorelei",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/frlg/18.png",
+      "team": [
+        [
+          87,
+          "Dewgong",
+          52
+        ],
+        [
+          91,
+          "Cloyster",
+          51
+        ],
+        [
+          80,
+          "Slowbro",
+          52
+        ],
+        [
+          124,
+          "Jynx",
+          54
+        ],
+        [
+          131,
+          "Lapras",
+          54
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/frlg/19.png",
+      "team": [
+        [
+          95,
+          "Onix",
+          51
+        ],
+        [
+          107,
+          "Hitmonchan",
+          53
+        ],
+        [
+          106,
+          "Hitmonlee",
+          53
+        ],
+        [
+          95,
+          "Onix",
+          54
+        ],
+        [
+          68,
+          "Machamp",
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Agatha",
+      "id": "agatha",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/frlg/20.png",
+      "team": [
+        [
+          94,
+          "Gengar",
+          54
+        ],
+        [
+          42,
+          "Golbat",
+          54
+        ],
+        [
+          93,
+          "Haunter",
+          53
+        ],
+        [
+          24,
+          "Arbok",
+          56
+        ],
+        [
+          94,
+          "Gengar",
+          58
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/frlg/21.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          56
+        ],
+        [
+          148,
+          "Dragonair",
+          54
+        ],
+        [
+          148,
+          "Dragonair",
+          54
+        ],
+        [
+          142,
+          "Aerodactyl",
+          58
+        ],
+        [
+          149,
+          "Dragonite",
+          60
+        ]
+      ]
+    },
+    {
+      "name": "Blue",
+      "id": "blue",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/frlg/10.png",
+      "team": [
+        [
+          18,
+          "Pidgeot",
+          59
+        ],
+        [
+          65,
+          "Alakazam",
+          57
+        ],
+        [
+          112,
+          "Rhydon",
+          59
+        ],
+        [
+          130,
+          "Gyarados",
+          59
+        ],
+        [
+          59,
+          "Arcanine",
+          61
+        ],
+        [
+          3,
+          "Venusaur",
+          63
+        ]
+      ],
+      "variants": [
+        {
+          "label": "Rival com Venusaur",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              59
+            ],
+            [
+              65,
+              "Alakazam",
+              57
+            ],
+            [
+              112,
+              "Rhydon",
+              59
+            ],
+            [
+              130,
+              "Gyarados",
+              59
+            ],
+            [
+              59,
+              "Arcanine",
+              61
+            ],
+            [
+              3,
+              "Venusaur",
+              63
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Charizard",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              59
+            ],
+            [
+              65,
+              "Alakazam",
+              57
+            ],
+            [
+              112,
+              "Rhydon",
+              59
+            ],
+            [
+              103,
+              "Exeggutor",
+              59
+            ],
+            [
+              130,
+              "Gyarados",
+              61
+            ],
+            [
+              6,
+              "Charizard",
+              63
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Blastoise",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              59
+            ],
+            [
+              65,
+              "Alakazam",
+              57
+            ],
+            [
+              112,
+              "Rhydon",
+              59
+            ],
+            [
+              59,
+              "Arcanine",
+              59
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              9,
+              "Blastoise",
+              63
+            ]
+          ]
+        }
+      ],
+      "note": "A equipe do rival depende do Pokémon inicial escolhido. Escolha o inicial que o rival usa."
+    }
+  ],
+  "gsc": [
+    {
+      "name": "Will",
+      "id": "will",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/gsc/12.gif",
+      "team": [
+        [
+          178,
+          "Xatu",
+          40
+        ],
+        [
+          124,
+          "Jynx",
+          41
+        ],
+        [
+          103,
+          "Exeggutor",
+          41
+        ],
+        [
+          80,
+          "Slowbro",
+          41
+        ],
+        [
+          178,
+          "Xatu",
+          42
+        ]
+      ]
+    },
+    {
+      "name": "Koga",
+      "id": "koga",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/gsc/13.gif",
+      "team": [
+        [
+          168,
+          "Ariados",
+          40
+        ],
+        [
+          49,
+          "Venomoth",
+          41
+        ],
+        [
+          205,
+          "Forretress",
+          43
+        ],
+        [
+          89,
+          "Muk",
+          42
+        ],
+        [
+          169,
+          "Crobat",
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/gsc/14.gif",
+      "team": [
+        [
+          237,
+          "Hitmontop",
+          42
+        ],
+        [
+          106,
+          "Hitmonlee",
+          42
+        ],
+        [
+          107,
+          "Hitmonchan",
+          42
+        ],
+        [
+          95,
+          "Onix",
+          43
+        ],
+        [
+          68,
+          "Machamp",
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Karen",
+      "id": "karen",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/gsc/15.gif",
+      "team": [
+        [
+          197,
+          "Umbreon",
+          42
+        ],
+        [
+          45,
+          "Vileplume",
+          42
+        ],
+        [
+          94,
+          "Gengar",
+          45
+        ],
+        [
+          198,
+          "Murkrow",
+          44
+        ],
+        [
+          229,
+          "Houndoom",
+          47
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/gsc/9.gif",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          44
+        ],
+        [
+          149,
+          "Dragonite",
+          47
+        ],
+        [
+          149,
+          "Dragonite",
+          47
+        ],
+        [
+          142,
+          "Aerodactyl",
+          46
+        ],
+        [
+          6,
+          "Charizard",
+          46
+        ],
+        [
+          149,
+          "Dragonite",
+          50
+        ]
+      ]
+    }
+  ],
+  "hgss": [
+    {
+      "name": "Will",
+      "id": "will",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/heartgoldsoulsilver/elite/will.png",
+      "team": [
+        [
+          178,
+          "Xatu",
+          40
+        ],
+        [
+          124,
+          "Jynx",
+          41
+        ],
+        [
+          103,
+          "Exeggutor",
+          41
+        ],
+        [
+          80,
+          "Slowbro",
+          41
+        ],
+        [
+          178,
+          "Xatu",
+          42
+        ]
+      ]
+    },
+    {
+      "name": "Koga",
+      "id": "koga",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/heartgoldsoulsilver/elite/koga.png",
+      "team": [
+        [
+          168,
+          "Ariados",
+          40
+        ],
+        [
+          49,
+          "Venomoth",
+          41
+        ],
+        [
+          205,
+          "Forretress",
+          43
+        ],
+        [
+          89,
+          "Muk",
+          42
+        ],
+        [
+          169,
+          "Crobat",
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/heartgoldsoulsilver/elite/bruno.png",
+      "team": [
+        [
+          237,
+          "Hitmontop",
+          42
+        ],
+        [
+          106,
+          "Hitmonlee",
+          42
+        ],
+        [
+          107,
+          "Hitmonchan",
+          42
+        ],
+        [
+          95,
+          "Onix",
+          43
+        ],
+        [
+          68,
+          "Machamp",
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Karen",
+      "id": "karen",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/heartgoldsoulsilver/elite/karen.png",
+      "team": [
+        [
+          197,
+          "Umbreon",
+          42
+        ],
+        [
+          45,
+          "Vileplume",
+          42
+        ],
+        [
+          94,
+          "Gengar",
+          45
+        ],
+        [
+          198,
+          "Murkrow",
+          44
+        ],
+        [
+          229,
+          "Houndoom",
+          47
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/heartgoldsoulsilver/elite/lance.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          44
+        ],
+        [
+          149,
+          "Dragonite",
+          49
+        ],
+        [
+          149,
+          "Dragonite",
+          49
+        ],
+        [
+          142,
+          "Aerodactyl",
+          48
+        ],
+        [
+          6,
+          "Charizard",
+          48
+        ],
+        [
+          149,
+          "Dragonite",
+          50
+        ]
+      ]
+    }
+  ],
+  "blue": [
+    {
+      "name": "Lorelei",
+      "id": "lorelei",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/13.png",
+      "team": [
+        [
+          87,
+          "Dewgong",
+          54
+        ],
+        [
+          91,
+          "Cloyster",
+          53
+        ],
+        [
+          80,
+          "Slowbro",
+          54
+        ],
+        [
+          124,
+          "Jynx",
+          56
+        ],
+        [
+          131,
+          "Lapras",
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/14.png",
+      "team": [
+        [
+          95,
+          "Onix",
+          53
+        ],
+        [
+          107,
+          "Hitmonchan",
+          55
+        ],
+        [
+          106,
+          "Hitmonlee",
+          55
+        ],
+        [
+          95,
+          "Onix",
+          56
+        ],
+        [
+          68,
+          "Machamp",
+          58
+        ]
+      ]
+    },
+    {
+      "name": "Agatha",
+      "id": "agatha",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/15.png",
+      "team": [
+        [
+          94,
+          "Gengar",
+          56
+        ],
+        [
+          42,
+          "Golbat",
+          56
+        ],
+        [
+          93,
+          "Haunter",
+          55
+        ],
+        [
+          24,
+          "Arbok",
+          58
+        ],
+        [
+          94,
+          "Gengar",
+          60
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/16.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          58
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          142,
+          "Aerodactyl",
+          60
+        ],
+        [
+          149,
+          "Dragonite",
+          62
+        ]
+      ]
+    },
+    {
+      "name": "Blue",
+      "id": "blue",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/8.png",
+      "team": [
+        [
+          18,
+          "Pidgeot",
+          61
+        ],
+        [
+          65,
+          "Alakazam",
+          59
+        ],
+        [
+          112,
+          "Rhydon",
+          61
+        ],
+        [
+          59,
+          "Arcanine",
+          63
+        ],
+        [
+          130,
+          "Gyarados",
+          61
+        ],
+        [
+          3,
+          "Venusaur",
+          65
+        ]
+      ],
+      "variants": [
+        {
+          "label": "Rival com Venusaur",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              59,
+              "Arcanine",
+              63
+            ],
+            [
+              130,
+              "Gyarados",
+              61
+            ],
+            [
+              3,
+              "Venusaur",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Charizard",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              130,
+              "Gyarados",
+              63
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              6,
+              "Charizard",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Blastoise",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              103,
+              "Exeggutor",
+              63
+            ],
+            [
+              59,
+              "Arcanine",
+              61
+            ],
+            [
+              9,
+              "Blastoise",
+              65
+            ]
+          ]
+        }
+      ],
+      "note": "A equipe do rival depende do Pokémon inicial escolhido. Escolha o inicial que o rival usa."
+    }
+  ],
+  "green": [
+    {
+      "name": "Lorelei",
+      "id": "lorelei",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/13.png",
+      "team": [
+        [
+          87,
+          "Dewgong",
+          54
+        ],
+        [
+          91,
+          "Cloyster",
+          53
+        ],
+        [
+          80,
+          "Slowbro",
+          54
+        ],
+        [
+          124,
+          "Jynx",
+          56
+        ],
+        [
+          131,
+          "Lapras",
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Bruno",
+      "id": "bruno",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/14.png",
+      "team": [
+        [
+          95,
+          "Onix",
+          53
+        ],
+        [
+          107,
+          "Hitmonchan",
+          55
+        ],
+        [
+          106,
+          "Hitmonlee",
+          55
+        ],
+        [
+          95,
+          "Onix",
+          56
+        ],
+        [
+          68,
+          "Machamp",
+          58
+        ]
+      ]
+    },
+    {
+      "name": "Agatha",
+      "id": "agatha",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/15.png",
+      "team": [
+        [
+          94,
+          "Gengar",
+          56
+        ],
+        [
+          42,
+          "Golbat",
+          56
+        ],
+        [
+          93,
+          "Haunter",
+          55
+        ],
+        [
+          24,
+          "Arbok",
+          58
+        ],
+        [
+          94,
+          "Gengar",
+          60
+        ]
+      ]
+    },
+    {
+      "name": "Lance",
+      "id": "lance",
+      "role": "Elite Four",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/16.png",
+      "team": [
+        [
+          130,
+          "Gyarados",
+          58
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          148,
+          "Dragonair",
+          56
+        ],
+        [
+          142,
+          "Aerodactyl",
+          60
+        ],
+        [
+          149,
+          "Dragonite",
+          62
+        ]
+      ]
+    },
+    {
+      "name": "Blue",
+      "id": "blue",
+      "role": "Campeão",
+      "portrait": "https://www.serebii.net/pokearth/trainers/rby/8.png",
+      "team": [
+        [
+          18,
+          "Pidgeot",
+          61
+        ],
+        [
+          65,
+          "Alakazam",
+          59
+        ],
+        [
+          112,
+          "Rhydon",
+          61
+        ],
+        [
+          59,
+          "Arcanine",
+          63
+        ],
+        [
+          130,
+          "Gyarados",
+          61
+        ],
+        [
+          3,
+          "Venusaur",
+          65
+        ]
+      ],
+      "variants": [
+        {
+          "label": "Rival com Venusaur",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              59,
+              "Arcanine",
+              63
+            ],
+            [
+              130,
+              "Gyarados",
+              61
+            ],
+            [
+              3,
+              "Venusaur",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Charizard",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              130,
+              "Gyarados",
+              63
+            ],
+            [
+              103,
+              "Exeggutor",
+              61
+            ],
+            [
+              6,
+              "Charizard",
+              65
+            ]
+          ]
+        },
+        {
+          "label": "Rival com Blastoise",
+          "team": [
+            [
+              18,
+              "Pidgeot",
+              61
+            ],
+            [
+              65,
+              "Alakazam",
+              59
+            ],
+            [
+              112,
+              "Rhydon",
+              61
+            ],
+            [
+              103,
+              "Exeggutor",
+              63
+            ],
+            [
+              59,
+              "Arcanine",
+              61
+            ],
+            [
+              9,
+              "Blastoise",
+              65
+            ]
+          ]
+        }
+      ],
+      "note": "A equipe do rival depende do Pokémon inicial escolhido. Escolha o inicial que o rival usa."
+    }
+  ]
+}

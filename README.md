@@ -4,7 +4,7 @@
 
 A raiz agora apresenta quatro grupos de aventuras e permite selecionar uma das 13 edições. A antiga página inicial está em `/inicio.php`. Pokédex, tipos e atlas consultam os dados correspondentes à edição no PostgreSQL, com catálogos completos de 151, 251, 386, 493 ou 153 espécies. O seletor global e os links preservam a edição. Veja [escopo, fontes e manutenção](docs/versions.md).
 
-As tabelas anteriores foram preservadas; `/api.php?reference=legacy` mantém a consulta histórica. `scripts/prepare-versions.mjs` prepara os catálogos e atlas a partir dos CSV oficiais da PokéAPI. O seed transacional insere as novas tabelas sem excluir os registros anteriores. Let’s Go conserva seu mapa interativo, cidades, ginásios e Liga. Os demais jogos oferecem um atlas de encontros por área; seus mapas ilustrados e guias de treinadores ainda precisam de conteúdo próprio. Catálogos nacionais incluem espécies que dependem de outros jogos, evolução ou eventos históricos, sem afirmar que todas possam ser capturadas.
+As tabelas anteriores foram preservadas; `/api.php?reference=legacy` mantém a consulta histórica. `scripts/prepare-versions.mjs` prepara os catálogos e atlas a partir dos CSV oficiais da PokéAPI. O seed transacional insere as novas tabelas sem excluir os registros anteriores. Todas as edições têm [mapas interativos por região](docs/maps.md), com encontros, cidades, ginásios e Liga do jogo selecionado. Let’s Go conserva sua arte e suas imagens de localidades. Catálogos nacionais incluem espécies que dependem de outros jogos, evolução ou eventos históricos, sem afirmar que todas possam ser capturadas.
 
 As seções abaixo registram a evolução do projeto; esta seção descreve o comportamento atual.
 

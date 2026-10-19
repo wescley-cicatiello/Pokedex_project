@@ -34,6 +34,6 @@ O cache de download não entra no Git nem na imagem Docker. Para atualizar as fo
 
 ## Mapas
 
-Let’s Go mantém o mapa ilustrado, imagens, pontos de interesse, ginásios e Liga já existentes. As outras edições têm um atlas pesquisável de áreas de encontro da PokéAPI, incluindo Johto e Ilhas Sevii nos jogos correspondentes. As áreas mostram níveis mínimos/máximos e métodos agregados; algumas aparições dependem de horário, rádio, enxames, evento ou progresso. O atlas não representa todos os presentes, trocas, evoluções ou transferências. Não foram copiados ginásios, fotos ou equipes de Let’s Go para jogos antigos; mapas ilustrados e guias de treinadores dessas edições ainda precisam de conteúdo específico.
+Todas as edições têm [mapas interativos específicos](maps.md), com seletor de região, zoom, filtros e janelas de informações. Os encontros continuam vindo do atlas de cada edição no PostgreSQL. Let’s Go mantém as imagens de localidades já existentes; as demais edições usam suas próprias artes regionais ou Town Maps e equipes de ginásios/Liga. As áreas mostram níveis mínimos/máximos e métodos agregados; algumas aparições dependem de horário, rádio, enxames, evento ou progresso. Os registros não representam todos os presentes, trocas, evoluções ou transferências.
 
 `npm run test:neon` valida todas as edições através do PHP e PostgreSQL, o isolamento por parâmetro/cookie, os tipos, o mundo de Let’s Go e as páginas. Defina `TEST_BASE_URL` para executar a mesma verificação após publicar.

@@ -13,4 +13,5 @@ run(process.execPath,['scripts/prepare-letsgo.mjs']);
 run(process.execPath,['scripts/validate-versions.mjs']);
 run('docker',['build','-f','Dockerfile.production','-t','pokedex-neon:latest','.']);
 run('docker',['run','--rm','pokedex-neon:latest','sh','-c',"find public src scripts -name '*.php' -print0 | xargs -0 -n1 php -l"]);
+run('docker',['run','--rm','pokedex-neon:latest','php','scripts/verify-maps.php']);
 console.log('BUILD OK: imagem PHP/Apache e sintaxe PHP/JavaScript validadas.');

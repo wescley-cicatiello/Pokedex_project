@@ -1,0 +1,2072 @@
+{
+  "kanto-frlg": {
+    "id": "kanto-frlg",
+    "label": "Kanto",
+    "image": "/assets/maps/kanto-frlg.png",
+    "width": 1000,
+    "height": 750,
+    "source": "https://archives.bulbagarden.net/wiki/File:FRLG_Kanto.png",
+    "title": "FRLG Kanto.png",
+    "pixelated": false,
+    "locations": [
+      {
+        "name": "Pallet Town",
+        "x": 24,
+        "y": 65,
+        "category": "city"
+      },
+      {
+        "name": "Viridian City",
+        "x": 24,
+        "y": 49,
+        "category": "city"
+      },
+      {
+        "name": "Pewter City",
+        "x": 22,
+        "y": 24,
+        "category": "city"
+      },
+      {
+        "name": "Cerulean City",
+        "x": 68,
+        "y": 19,
+        "category": "city"
+      },
+      {
+        "name": "Vermilion City",
+        "x": 67,
+        "y": 55.00000000000001,
+        "category": "city"
+      },
+      {
+        "name": "Lavender Town",
+        "x": 85,
+        "y": 39,
+        "category": "city"
+      },
+      {
+        "name": "Celadon City",
+        "x": 49,
+        "y": 36,
+        "category": "city"
+      },
+      {
+        "name": "Saffron City",
+        "x": 68,
+        "y": 36,
+        "category": "city"
+      },
+      {
+        "name": "Fuchsia City",
+        "x": 57.99999999999999,
+        "y": 75,
+        "category": "city"
+      },
+      {
+        "name": "Cinnabar Island",
+        "x": 24,
+        "y": 89,
+        "category": "city"
+      },
+      {
+        "name": "Route 1",
+        "x": 24,
+        "y": 56.99999999999999,
+        "category": "route"
+      },
+      {
+        "name": "Route 2",
+        "x": 24,
+        "y": 35,
+        "category": "route"
+      },
+      {
+        "name": "Route 3",
+        "x": 32,
+        "y": 25,
+        "category": "route"
+      },
+      {
+        "name": "Route 4",
+        "x": 54,
+        "y": 20,
+        "category": "route"
+      },
+      {
+        "name": "Route 5",
+        "x": 68,
+        "y": 27,
+        "category": "route"
+      },
+      {
+        "name": "Route 6",
+        "x": 67,
+        "y": 45,
+        "category": "route"
+      },
+      {
+        "name": "Route 7",
+        "x": 57.99999999999999,
+        "y": 36,
+        "category": "route"
+      },
+      {
+        "name": "Route 8",
+        "x": 77,
+        "y": 38,
+        "category": "route"
+      },
+      {
+        "name": "Route 9",
+        "x": 77,
+        "y": 18,
+        "category": "route"
+      },
+      {
+        "name": "Route 10",
+        "x": 86,
+        "y": 28.000000000000004,
+        "category": "route"
+      },
+      {
+        "name": "Route 11",
+        "x": 77,
+        "y": 56.00000000000001,
+        "category": "route"
+      },
+      {
+        "name": "Route 12",
+        "x": 86,
+        "y": 54,
+        "category": "route"
+      },
+      {
+        "name": "Route 13",
+        "x": 82,
+        "y": 68,
+        "category": "route"
+      },
+      {
+        "name": "Route 14",
+        "x": 76,
+        "y": 72,
+        "category": "route"
+      },
+      {
+        "name": "Route 15",
+        "x": 67,
+        "y": 74,
+        "category": "route"
+      },
+      {
+        "name": "Route 16",
+        "x": 38,
+        "y": 37,
+        "category": "route"
+      },
+      {
+        "name": "Route 17",
+        "x": 37,
+        "y": 55.00000000000001,
+        "category": "route"
+      },
+      {
+        "name": "Route 18",
+        "x": 43,
+        "y": 74,
+        "category": "route"
+      },
+      {
+        "name": "Route 19",
+        "x": 57.99999999999999,
+        "y": 84,
+        "category": "route"
+      },
+      {
+        "name": "Route 20",
+        "x": 40,
+        "y": 91,
+        "category": "route"
+      },
+      {
+        "name": "Route 21",
+        "x": 24,
+        "y": 78,
+        "category": "route"
+      },
+      {
+        "name": "Route 22",
+        "x": 15,
+        "y": 48,
+        "category": "route"
+      },
+      {
+        "name": "Route 23",
+        "x": 8,
+        "y": 30,
+        "category": "route"
+      },
+      {
+        "name": "Route 24",
+        "x": 68,
+        "y": 11,
+        "category": "route"
+      },
+      {
+        "name": "Route 25",
+        "x": 74,
+        "y": 6,
+        "category": "route"
+      },
+      {
+        "name": "Viridian Forest",
+        "x": 22,
+        "y": 39,
+        "category": "place"
+      },
+      {
+        "name": "Mt. Moon",
+        "x": 42,
+        "y": 15,
+        "category": "place"
+      },
+      {
+        "name": "Rock Tunnel",
+        "x": 86,
+        "y": 23,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Power Plant",
+        "x": 87,
+        "y": 33,
+        "category": "place"
+      },
+      {
+        "name": "Seafoam Islands",
+        "x": 44,
+        "y": 91,
+        "category": "place"
+      },
+      {
+        "name": "Cerulean Cave",
+        "x": 64,
+        "y": 13,
+        "category": "place"
+      },
+      {
+        "name": "Victory Road",
+        "x": 8,
+        "y": 23,
+        "category": "place"
+      },
+      {
+        "name": "Indigo Plateau",
+        "x": 8,
+        "y": 10,
+        "category": "place"
+      },
+      {
+        "name": "Diglett's Cave",
+        "x": 28.999999999999996,
+        "y": 46,
+        "category": "place"
+      },
+      {
+        "name": "Safari Zone",
+        "x": 57.99999999999999,
+        "y": 69,
+        "category": "place"
+      },
+      {
+        "name": "Pokémon Tower",
+        "x": 89,
+        "y": 37,
+        "category": "place"
+      },
+      {
+        "name": "Pokémon Mansion",
+        "x": 26,
+        "y": 86,
+        "category": "place"
+      },
+      {
+        "name": "S.S. Anne",
+        "x": 67,
+        "y": 60,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Underground Path",
+        "x": 72,
+        "y": 44,
+        "category": "place"
+      }
+    ]
+  },
+  "kanto-classics": {
+    "id": "kanto-classics",
+    "label": "Kanto",
+    "image": "/assets/maps/kanto-classics.png",
+    "width": 160,
+    "height": 136,
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Town_Map_RBY.png",
+    "title": "Kanto Town Map RBY.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "Pallet Town",
+        "x": 22.5,
+        "y": 67.64705882352942,
+        "category": "city"
+      },
+      {
+        "name": "Viridian City",
+        "x": 22.5,
+        "y": 50,
+        "category": "city"
+      },
+      {
+        "name": "Pewter City",
+        "x": 22.5,
+        "y": 20.588235294117645,
+        "category": "city"
+      },
+      {
+        "name": "Cerulean City",
+        "x": 62.5,
+        "y": 14.705882352941178,
+        "category": "city"
+      },
+      {
+        "name": "Vermilion City",
+        "x": 62.5,
+        "y": 55.88235294117647,
+        "category": "city"
+      },
+      {
+        "name": "Lavender Town",
+        "x": 82.5,
+        "y": 32.35294117647059,
+        "category": "city"
+      },
+      {
+        "name": "Celadon City",
+        "x": 47.5,
+        "y": 32.35294117647059,
+        "category": "city"
+      },
+      {
+        "name": "Saffron City",
+        "x": 62.5,
+        "y": 32.35294117647059,
+        "category": "city"
+      },
+      {
+        "name": "Fuchsia City",
+        "x": 52.5,
+        "y": 79.41176470588235,
+        "category": "city"
+      },
+      {
+        "name": "Cinnabar Island",
+        "x": 22.5,
+        "y": 91.17647058823529,
+        "category": "city"
+      },
+      {
+        "name": "Route 1",
+        "x": 22.5,
+        "y": 58.82352941176471,
+        "category": "route"
+      },
+      {
+        "name": "Route 2",
+        "x": 22.5,
+        "y": 38.23529411764706,
+        "category": "route"
+      },
+      {
+        "name": "Route 3",
+        "x": 32.5,
+        "y": 14.705882352941178,
+        "category": "route"
+      },
+      {
+        "name": "Route 4",
+        "x": 52.5,
+        "y": 14.705882352941178,
+        "category": "route"
+      },
+      {
+        "name": "Route 5",
+        "x": 62.5,
+        "y": 23.52941176470588,
+        "category": "route"
+      },
+      {
+        "name": "Route 6",
+        "x": 62.5,
+        "y": 44.11764705882353,
+        "category": "route"
+      },
+      {
+        "name": "Route 7",
+        "x": 55.00000000000001,
+        "y": 32.35294117647059,
+        "category": "route"
+      },
+      {
+        "name": "Route 8",
+        "x": 72.5,
+        "y": 32.35294117647059,
+        "category": "route"
+      },
+      {
+        "name": "Route 9",
+        "x": 72.5,
+        "y": 14.705882352941178,
+        "category": "route"
+      },
+      {
+        "name": "Route 10",
+        "x": 82.5,
+        "y": 23.52941176470588,
+        "category": "route"
+      },
+      {
+        "name": "Route 11",
+        "x": 72.5,
+        "y": 55.88235294117647,
+        "category": "route"
+      },
+      {
+        "name": "Route 12",
+        "x": 82.5,
+        "y": 55.88235294117647,
+        "category": "route"
+      },
+      {
+        "name": "Route 13",
+        "x": 77.5,
+        "y": 70.58823529411765,
+        "category": "route"
+      },
+      {
+        "name": "Route 14",
+        "x": 72.5,
+        "y": 79.41176470588235,
+        "category": "route"
+      },
+      {
+        "name": "Route 15",
+        "x": 62.5,
+        "y": 79.41176470588235,
+        "category": "route"
+      },
+      {
+        "name": "Route 16",
+        "x": 37.5,
+        "y": 32.35294117647059,
+        "category": "route"
+      },
+      {
+        "name": "Route 17",
+        "x": 32.5,
+        "y": 55.88235294117647,
+        "category": "route"
+      },
+      {
+        "name": "Route 18",
+        "x": 42.5,
+        "y": 79.41176470588235,
+        "category": "route"
+      },
+      {
+        "name": "Route 19",
+        "x": 52.5,
+        "y": 88.23529411764706,
+        "category": "route"
+      },
+      {
+        "name": "Route 20",
+        "x": 37.5,
+        "y": 91.17647058823529,
+        "category": "route"
+      },
+      {
+        "name": "Route 21",
+        "x": 22.5,
+        "y": 79.41176470588235,
+        "category": "route"
+      },
+      {
+        "name": "Route 22",
+        "x": 15,
+        "y": 44.11764705882353,
+        "category": "route"
+      },
+      {
+        "name": "Route 23",
+        "x": 12.5,
+        "y": 29.411764705882355,
+        "category": "route"
+      },
+      {
+        "name": "Route 24",
+        "x": 62.5,
+        "y": 8.823529411764707,
+        "category": "route"
+      },
+      {
+        "name": "Route 25",
+        "x": 72.5,
+        "y": 2.941176470588235,
+        "category": "route"
+      },
+      {
+        "name": "Viridian Forest",
+        "x": 22.5,
+        "y": 32.35294117647059,
+        "category": "place"
+      },
+      {
+        "name": "Mt. Moon",
+        "x": 42.5,
+        "y": 14.705882352941178,
+        "category": "place"
+      },
+      {
+        "name": "Rock Tunnel",
+        "x": 82.5,
+        "y": 19.11764705882353,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Power Plant",
+        "x": 87.5,
+        "y": 26.47058823529412,
+        "category": "place"
+      },
+      {
+        "name": "Seafoam Islands",
+        "x": 32.5,
+        "y": 91.17647058823529,
+        "category": "place"
+      },
+      {
+        "name": "Cerulean Cave",
+        "x": 56.875,
+        "y": 11.029411764705882,
+        "category": "place"
+      },
+      {
+        "name": "Victory Road",
+        "x": 12.5,
+        "y": 23.52941176470588,
+        "category": "place"
+      },
+      {
+        "name": "Indigo Plateau",
+        "x": 12.5,
+        "y": 14.705882352941178,
+        "category": "place"
+      },
+      {
+        "name": "Diglett's Cave",
+        "x": 27.500000000000004,
+        "y": 40.44117647058824,
+        "category": "place"
+      },
+      {
+        "name": "Safari Zone",
+        "x": 52.5,
+        "y": 73.52941176470588,
+        "category": "place"
+      },
+      {
+        "name": "Pokémon Tower",
+        "x": 87.5,
+        "y": 32.35294117647059,
+        "category": "place"
+      },
+      {
+        "name": "Pokémon Mansion",
+        "x": 17.5,
+        "y": 91.17647058823529,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Underground Path",
+        "x": 67.5,
+        "y": 44.11764705882353,
+        "category": "place"
+      }
+    ]
+  },
+  "johto-gsc": {
+    "id": "johto-gsc",
+    "label": "Johto",
+    "image": "/assets/maps/johto-gsc.png",
+    "width": 144,
+    "height": 120,
+    "source": "https://archives.bulbagarden.net/wiki/File:Johto_Town_Map_GSC.png",
+    "title": "Johto Town Map GSC.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "New Bark Town",
+        "x": 91.66666666666666,
+        "y": 70,
+        "category": "city"
+      },
+      {
+        "name": "Route 29",
+        "x": 83.33333333333334,
+        "y": 70,
+        "category": "route"
+      },
+      {
+        "name": "Cherrygrove City",
+        "x": 63.888888888888886,
+        "y": 70,
+        "category": "city"
+      },
+      {
+        "name": "Route 30",
+        "x": 63.888888888888886,
+        "y": 53.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Route 31",
+        "x": 61.111111111111114,
+        "y": 36.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Violet City",
+        "x": 52.77777777777778,
+        "y": 36.666666666666664,
+        "category": "city"
+      },
+      {
+        "name": "Sprout Tower",
+        "x": 53.47222222222222,
+        "y": 35,
+        "category": "place"
+      },
+      {
+        "name": "Route 32",
+        "x": 52.77777777777778,
+        "y": 63.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Ruins of Alph",
+        "x": 47.22222222222222,
+        "y": 50,
+        "category": "place"
+      },
+      {
+        "name": "Union Cave",
+        "x": 52.77777777777778,
+        "y": 90,
+        "category": "place"
+      },
+      {
+        "name": "Route 33",
+        "x": 51.388888888888886,
+        "y": 90,
+        "category": "route"
+      },
+      {
+        "name": "Azalea Town",
+        "x": 41.66666666666667,
+        "y": 90,
+        "category": "city"
+      },
+      {
+        "name": "Slowpoke Well",
+        "x": 43.05555555555556,
+        "y": 88.33333333333333,
+        "category": "place"
+      },
+      {
+        "name": "Ilex Forest",
+        "x": 30.555555555555557,
+        "y": 86.66666666666667,
+        "category": "place"
+      },
+      {
+        "name": "Route 34",
+        "x": 30.555555555555557,
+        "y": 80,
+        "category": "route"
+      },
+      {
+        "name": "Goldenrod City",
+        "x": 30.555555555555557,
+        "y": 63.33333333333333,
+        "category": "city"
+      },
+      {
+        "name": "Radio Tower",
+        "x": 29.166666666666668,
+        "y": 63.33333333333333,
+        "category": "place"
+      },
+      {
+        "name": "Route 35",
+        "x": 30.555555555555557,
+        "y": 50,
+        "category": "route"
+      },
+      {
+        "name": "National Park",
+        "x": 30.555555555555557,
+        "y": 36.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Route 36",
+        "x": 38.88888888888889,
+        "y": 36.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Route 37",
+        "x": 41.66666666666667,
+        "y": 30,
+        "category": "route"
+      },
+      {
+        "name": "Ecruteak City",
+        "x": 41.66666666666667,
+        "y": 23.333333333333332,
+        "category": "city"
+      },
+      {
+        "name": "Bell Tower",
+        "x": 43.05555555555556,
+        "y": 21.666666666666668,
+        "category": "place"
+      },
+      {
+        "name": "Burned Tower",
+        "x": 40.27777777777778,
+        "y": 21.666666666666668,
+        "category": "place"
+      },
+      {
+        "name": "Route 38",
+        "x": 30.555555555555557,
+        "y": 23.333333333333332,
+        "category": "route"
+      },
+      {
+        "name": "Route 39",
+        "x": 19.444444444444446,
+        "y": 26.666666666666668,
+        "category": "route"
+      },
+      {
+        "name": "Olivine City",
+        "x": 19.444444444444446,
+        "y": 36.666666666666664,
+        "category": "city"
+      },
+      {
+        "name": "Olivine Lighthouse",
+        "x": 20.833333333333336,
+        "y": 38.333333333333336,
+        "category": "place"
+      },
+      {
+        "name": "Battle Tower",
+        "x": 13.88888888888889,
+        "y": 33.33333333333333,
+        "category": "place"
+      },
+      {
+        "name": "Route 40",
+        "x": 13.88888888888889,
+        "y": 40,
+        "category": "route"
+      },
+      {
+        "name": "Whirl Islands",
+        "x": 13.88888888888889,
+        "y": 63.33333333333333,
+        "category": "place"
+      },
+      {
+        "name": "Route 41",
+        "x": 13.88888888888889,
+        "y": 70,
+        "category": "route"
+      },
+      {
+        "name": "Cianwood City",
+        "x": 8.333333333333332,
+        "y": 70,
+        "category": "city"
+      },
+      {
+        "name": "Route 42",
+        "x": 58.333333333333336,
+        "y": 23.333333333333332,
+        "category": "route"
+      },
+      {
+        "name": "Mt. Mortar",
+        "x": 52.77777777777778,
+        "y": 23.333333333333332,
+        "category": "place"
+      },
+      {
+        "name": "Mahogany Town",
+        "x": 69.44444444444444,
+        "y": 23.333333333333332,
+        "category": "city"
+      },
+      {
+        "name": "Route 43",
+        "x": 69.44444444444444,
+        "y": 16.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Lake of Rage",
+        "x": 69.44444444444444,
+        "y": 10,
+        "category": "place"
+      },
+      {
+        "name": "Route 44",
+        "x": 77.77777777777779,
+        "y": 23.333333333333332,
+        "category": "route"
+      },
+      {
+        "name": "Ice Path",
+        "x": 84.72222222222221,
+        "y": 18.333333333333332,
+        "category": "place"
+      },
+      {
+        "name": "Blackthorn City",
+        "x": 86.11111111111111,
+        "y": 23.333333333333332,
+        "category": "city"
+      },
+      {
+        "name": "Dragon's Den",
+        "x": 86.11111111111111,
+        "y": 16.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Route 45",
+        "x": 86.11111111111111,
+        "y": 40,
+        "category": "route"
+      },
+      {
+        "name": "Dark Cave",
+        "x": 72.22222222222221,
+        "y": 46.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Route 46",
+        "x": 80.55555555555556,
+        "y": 60,
+        "category": "route"
+      },
+      {
+        "name": "Mt. Silver",
+        "x": 97.22222222222221,
+        "y": 43.333333333333336,
+        "category": "place"
+      }
+    ]
+  },
+  "kanto-gsc": {
+    "id": "kanto-gsc",
+    "label": "Kanto",
+    "image": "/assets/maps/kanto-gsc.png",
+    "width": 144,
+    "height": 120,
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Town_Map_GSC.png",
+    "title": "Kanto Town Map GSC.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "Pallet Town",
+        "x": 30.555555555555557,
+        "y": 76.66666666666667,
+        "category": "city"
+      },
+      {
+        "name": "Route 1",
+        "x": 30.555555555555557,
+        "y": 63.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Viridian City",
+        "x": 30.555555555555557,
+        "y": 50,
+        "category": "city"
+      },
+      {
+        "name": "Route 2",
+        "x": 30.555555555555557,
+        "y": 40,
+        "category": "route"
+      },
+      {
+        "name": "Pewter City",
+        "x": 30.555555555555557,
+        "y": 30,
+        "category": "city"
+      },
+      {
+        "name": "Route 3",
+        "x": 38.88888888888889,
+        "y": 30,
+        "category": "route"
+      },
+      {
+        "name": "Mt. Moon",
+        "x": 47.22222222222222,
+        "y": 30,
+        "category": "place"
+      },
+      {
+        "name": "Route 4",
+        "x": 55.55555555555556,
+        "y": 30,
+        "category": "route"
+      },
+      {
+        "name": "Cerulean City",
+        "x": 63.888888888888886,
+        "y": 30,
+        "category": "city"
+      },
+      {
+        "name": "Route 24",
+        "x": 63.888888888888886,
+        "y": 23.333333333333332,
+        "category": "route"
+      },
+      {
+        "name": "Route 25",
+        "x": 69.44444444444444,
+        "y": 16.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Route 5",
+        "x": 63.888888888888886,
+        "y": 36.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Kanto Underground Path",
+        "x": 69.44444444444444,
+        "y": 50,
+        "category": "place"
+      },
+      {
+        "name": "Route 6",
+        "x": 63.888888888888886,
+        "y": 50,
+        "category": "route"
+      },
+      {
+        "name": "Vermilion City",
+        "x": 63.888888888888886,
+        "y": 56.666666666666664,
+        "category": "city"
+      },
+      {
+        "name": "Diglett's Cave",
+        "x": 55.55555555555556,
+        "y": 36.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Route 7",
+        "x": 55.55555555555556,
+        "y": 43.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Route 8",
+        "x": 75,
+        "y": 43.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Route 9",
+        "x": 75,
+        "y": 30,
+        "category": "route"
+      },
+      {
+        "name": "Rock Tunnel",
+        "x": 86.11111111111111,
+        "y": 30,
+        "category": "place"
+      },
+      {
+        "name": "Route 10",
+        "x": 86.11111111111111,
+        "y": 33.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Kanto Power Plant",
+        "x": 86.11111111111111,
+        "y": 36.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Lavender Town",
+        "x": 86.11111111111111,
+        "y": 43.333333333333336,
+        "category": "city"
+      },
+      {
+        "name": "Lavender Radio Tower",
+        "x": 91.66666666666666,
+        "y": 43.333333333333336,
+        "category": "place"
+      },
+      {
+        "name": "Celadon City",
+        "x": 47.22222222222222,
+        "y": 43.333333333333336,
+        "category": "city"
+      },
+      {
+        "name": "Saffron City",
+        "x": 63.888888888888886,
+        "y": 43.333333333333336,
+        "category": "city"
+      },
+      {
+        "name": "Route 11",
+        "x": 75,
+        "y": 56.666666666666664,
+        "category": "route"
+      },
+      {
+        "name": "Route 12",
+        "x": 86.11111111111111,
+        "y": 53.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Route 13",
+        "x": 80.55555555555556,
+        "y": 70,
+        "category": "route"
+      },
+      {
+        "name": "Route 14",
+        "x": 75,
+        "y": 80,
+        "category": "route"
+      },
+      {
+        "name": "Route 15",
+        "x": 66.66666666666666,
+        "y": 83.33333333333334,
+        "category": "route"
+      },
+      {
+        "name": "Route 16",
+        "x": 41.66666666666667,
+        "y": 43.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Route 17",
+        "x": 41.66666666666667,
+        "y": 63.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Route 18",
+        "x": 50,
+        "y": 83.33333333333334,
+        "category": "route"
+      },
+      {
+        "name": "Fuchsia City",
+        "x": 58.333333333333336,
+        "y": 83.33333333333334,
+        "category": "city"
+      },
+      {
+        "name": "Route 19",
+        "x": 58.333333333333336,
+        "y": 93.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Route 20",
+        "x": 47.22222222222222,
+        "y": 96.66666666666667,
+        "category": "route"
+      },
+      {
+        "name": "Seafoam Islands",
+        "x": 41.66666666666667,
+        "y": 96.66666666666667,
+        "category": "place"
+      },
+      {
+        "name": "Cinnabar Island",
+        "x": 30.555555555555557,
+        "y": 96.66666666666667,
+        "category": "place"
+      },
+      {
+        "name": "Route 21",
+        "x": 30.555555555555557,
+        "y": 86.66666666666667,
+        "category": "route"
+      },
+      {
+        "name": "Route 22",
+        "x": 19.444444444444446,
+        "y": 43.333333333333336,
+        "category": "route"
+      },
+      {
+        "name": "Victory Road",
+        "x": 13.88888888888889,
+        "y": 30,
+        "category": "place"
+      },
+      {
+        "name": "Route 23",
+        "x": 13.88888888888889,
+        "y": 23.333333333333332,
+        "category": "route"
+      },
+      {
+        "name": "Indigo Plateau",
+        "x": 13.88888888888889,
+        "y": 16.666666666666664,
+        "category": "place"
+      },
+      {
+        "name": "Route 26",
+        "x": 13.88888888888889,
+        "y": 63.33333333333333,
+        "category": "route"
+      },
+      {
+        "name": "Route 27",
+        "x": 8.333333333333332,
+        "y": 70,
+        "category": "route"
+      },
+      {
+        "name": "Tohjo Falls",
+        "x": 2.7777777777777777,
+        "y": 70,
+        "category": "place"
+      },
+      {
+        "name": "Route 28",
+        "x": 8.333333333333332,
+        "y": 43.333333333333336,
+        "category": "route"
+      }
+    ]
+  },
+  "johto-hgss": {
+    "id": "johto-hgss",
+    "label": "Johto",
+    "image": "/assets/maps/johto-hgss.png",
+    "width": 1961,
+    "height": 1316,
+    "source": "https://archives.bulbagarden.net/wiki/File:JohtoMap.png",
+    "title": "JohtoMap.png",
+    "pixelated": false,
+    "locations": [
+      {
+        "name": "New Bark Town",
+        "x": 90,
+        "y": 66,
+        "category": "city"
+      },
+      {
+        "name": "Cherrygrove City",
+        "x": 68,
+        "y": 67,
+        "category": "city"
+      },
+      {
+        "name": "Violet City",
+        "x": 50,
+        "y": 48,
+        "category": "city"
+      },
+      {
+        "name": "Azalea Town",
+        "x": 42,
+        "y": 80,
+        "category": "city"
+      },
+      {
+        "name": "Goldenrod City",
+        "x": 37,
+        "y": 63,
+        "category": "city"
+      },
+      {
+        "name": "Ecruteak City",
+        "x": 41,
+        "y": 34,
+        "category": "city"
+      },
+      {
+        "name": "Olivine City",
+        "x": 28.000000000000004,
+        "y": 48,
+        "category": "city"
+      },
+      {
+        "name": "Cianwood City",
+        "x": 20,
+        "y": 62,
+        "category": "city"
+      },
+      {
+        "name": "Mahogany Town",
+        "x": 55.00000000000001,
+        "y": 35,
+        "category": "city"
+      },
+      {
+        "name": "Blackthorn City",
+        "x": 68,
+        "y": 34,
+        "category": "city"
+      },
+      {
+        "name": "Route 29",
+        "x": 78,
+        "y": 66,
+        "category": "route"
+      },
+      {
+        "name": "Route 30",
+        "x": 68,
+        "y": 56.00000000000001,
+        "category": "route"
+      },
+      {
+        "name": "Route 31",
+        "x": 61,
+        "y": 48,
+        "category": "route"
+      },
+      {
+        "name": "Route 32",
+        "x": 54,
+        "y": 57.99999999999999,
+        "category": "route"
+      },
+      {
+        "name": "Route 33",
+        "x": 52,
+        "y": 73,
+        "category": "route"
+      },
+      {
+        "name": "Route 34",
+        "x": 38,
+        "y": 73,
+        "category": "route"
+      },
+      {
+        "name": "Route 35",
+        "x": 37,
+        "y": 51,
+        "category": "route"
+      },
+      {
+        "name": "Route 36",
+        "x": 40,
+        "y": 46,
+        "category": "route"
+      },
+      {
+        "name": "Route 37",
+        "x": 41,
+        "y": 41,
+        "category": "route"
+      },
+      {
+        "name": "Route 38",
+        "x": 33,
+        "y": 34,
+        "category": "route"
+      },
+      {
+        "name": "Route 39",
+        "x": 28.000000000000004,
+        "y": 39,
+        "category": "route"
+      },
+      {
+        "name": "Route 40",
+        "x": 24,
+        "y": 50,
+        "category": "route"
+      },
+      {
+        "name": "Route 41",
+        "x": 22,
+        "y": 56.99999999999999,
+        "category": "route"
+      },
+      {
+        "name": "Route 42",
+        "x": 48,
+        "y": 35,
+        "category": "route"
+      },
+      {
+        "name": "Route 43",
+        "x": 55.00000000000001,
+        "y": 28.999999999999996,
+        "category": "route"
+      },
+      {
+        "name": "Route 44",
+        "x": 61,
+        "y": 35,
+        "category": "route"
+      },
+      {
+        "name": "Route 45",
+        "x": 67,
+        "y": 47,
+        "category": "route"
+      },
+      {
+        "name": "Route 46",
+        "x": 67,
+        "y": 60,
+        "category": "route"
+      },
+      {
+        "name": "Route 47",
+        "x": 10,
+        "y": 61,
+        "category": "route"
+      },
+      {
+        "name": "Route 48",
+        "x": 9,
+        "y": 54,
+        "category": "route"
+      },
+      {
+        "name": "Sprout Tower",
+        "x": 50.5,
+        "y": 42,
+        "category": "place"
+      },
+      {
+        "name": "Ruins of Alph",
+        "x": 46,
+        "y": 50,
+        "category": "place"
+      },
+      {
+        "name": "Union Cave",
+        "x": 55.00000000000001,
+        "y": 68,
+        "category": "place"
+      },
+      {
+        "name": "Slowpoke Well",
+        "x": 46,
+        "y": 79,
+        "category": "place"
+      },
+      {
+        "name": "Ilex Forest",
+        "x": 38,
+        "y": 77,
+        "category": "place"
+      },
+      {
+        "name": "Radio Tower",
+        "x": 34,
+        "y": 62,
+        "category": "place"
+      },
+      {
+        "name": "National Park",
+        "x": 37,
+        "y": 43,
+        "category": "place"
+      },
+      {
+        "name": "Bell Tower",
+        "x": 41,
+        "y": 27,
+        "category": "place"
+      },
+      {
+        "name": "Burned Tower",
+        "x": 37,
+        "y": 33,
+        "category": "place"
+      },
+      {
+        "name": "Olivine Lighthouse",
+        "x": 31,
+        "y": 49,
+        "category": "place"
+      },
+      {
+        "name": "Battle Frontier",
+        "x": 24,
+        "y": 39,
+        "category": "place"
+      },
+      {
+        "name": "Whirl Islands",
+        "x": 25,
+        "y": 60,
+        "category": "place"
+      },
+      {
+        "name": "Mt. Mortar",
+        "x": 49,
+        "y": 32,
+        "category": "place"
+      },
+      {
+        "name": "Lake of Rage",
+        "x": 54,
+        "y": 17,
+        "category": "place"
+      },
+      {
+        "name": "Ice Path",
+        "x": 67,
+        "y": 30,
+        "category": "place"
+      },
+      {
+        "name": "Dragon's Den",
+        "x": 70,
+        "y": 28.999999999999996,
+        "category": "place"
+      },
+      {
+        "name": "Dark Cave",
+        "x": 60,
+        "y": 48,
+        "category": "place"
+      },
+      {
+        "name": "Mt. Silver",
+        "x": 91,
+        "y": 39,
+        "category": "place"
+      },
+      {
+        "name": "Johto Safari Zone",
+        "x": 9,
+        "y": 51,
+        "category": "place"
+      },
+      {
+        "name": "Safari Zone Gate",
+        "x": 9,
+        "y": 56.99999999999999,
+        "category": "place"
+      },
+      {
+        "name": "Embedded Tower",
+        "x": 8,
+        "y": 63,
+        "category": "place"
+      },
+      {
+        "name": "Cliff Cave",
+        "x": 12,
+        "y": 64,
+        "category": "place"
+      },
+      {
+        "name": "Team Rocket HQ",
+        "x": 56.99999999999999,
+        "y": 36,
+        "category": "place"
+      }
+    ]
+  },
+  "kanto-hgss": {
+    "id": "kanto-hgss",
+    "label": "Kanto",
+    "image": "/assets/maps/kanto-hgss.png",
+    "width": 1594,
+    "height": 1215,
+    "source": "https://archives.bulbagarden.net/wiki/File:HGSS_Kanto.png",
+    "title": "HGSS Kanto.png",
+    "pixelated": false,
+    "locations": [
+      {
+        "name": "Pallet Town",
+        "x": 41,
+        "y": 63,
+        "category": "city"
+      },
+      {
+        "name": "Viridian City",
+        "x": 41,
+        "y": 46,
+        "category": "city"
+      },
+      {
+        "name": "Pewter City",
+        "x": 43,
+        "y": 20,
+        "category": "city"
+      },
+      {
+        "name": "Cerulean City",
+        "x": 74,
+        "y": 26,
+        "category": "city"
+      },
+      {
+        "name": "Vermilion City",
+        "x": 74,
+        "y": 54,
+        "category": "city"
+      },
+      {
+        "name": "Lavender Town",
+        "x": 87,
+        "y": 43,
+        "category": "city"
+      },
+      {
+        "name": "Celadon City",
+        "x": 63,
+        "y": 44,
+        "category": "city"
+      },
+      {
+        "name": "Saffron City",
+        "x": 74,
+        "y": 41,
+        "category": "city"
+      },
+      {
+        "name": "Fuchsia City",
+        "x": 65,
+        "y": 72,
+        "category": "city"
+      },
+      {
+        "name": "Cinnabar Island",
+        "x": 41,
+        "y": 85,
+        "category": "city"
+      },
+      {
+        "name": "Route 1",
+        "x": 41,
+        "y": 56.00000000000001,
+        "category": "route"
+      },
+      {
+        "name": "Route 2",
+        "x": 41,
+        "y": 31,
+        "category": "route"
+      },
+      {
+        "name": "Route 3",
+        "x": 50,
+        "y": 23,
+        "category": "route"
+      },
+      {
+        "name": "Route 4",
+        "x": 60,
+        "y": 23,
+        "category": "route"
+      },
+      {
+        "name": "Route 5",
+        "x": 74,
+        "y": 33,
+        "category": "route"
+      },
+      {
+        "name": "Route 6",
+        "x": 74,
+        "y": 48,
+        "category": "route"
+      },
+      {
+        "name": "Route 7",
+        "x": 68,
+        "y": 45,
+        "category": "route"
+      },
+      {
+        "name": "Route 8",
+        "x": 81,
+        "y": 43,
+        "category": "route"
+      },
+      {
+        "name": "Route 9",
+        "x": 80,
+        "y": 26,
+        "category": "route"
+      },
+      {
+        "name": "Route 10",
+        "x": 87,
+        "y": 33,
+        "category": "route"
+      },
+      {
+        "name": "Route 11",
+        "x": 81,
+        "y": 54,
+        "category": "route"
+      },
+      {
+        "name": "Route 12",
+        "x": 88,
+        "y": 59,
+        "category": "route"
+      },
+      {
+        "name": "Route 13",
+        "x": 85,
+        "y": 65,
+        "category": "route"
+      },
+      {
+        "name": "Route 14",
+        "x": 80,
+        "y": 69,
+        "category": "route"
+      },
+      {
+        "name": "Route 15",
+        "x": 73,
+        "y": 72,
+        "category": "route"
+      },
+      {
+        "name": "Route 16",
+        "x": 55.00000000000001,
+        "y": 45,
+        "category": "route"
+      },
+      {
+        "name": "Route 17",
+        "x": 53,
+        "y": 62,
+        "category": "route"
+      },
+      {
+        "name": "Route 18",
+        "x": 57.99999999999999,
+        "y": 74,
+        "category": "route"
+      },
+      {
+        "name": "Route 19",
+        "x": 65,
+        "y": 79,
+        "category": "route"
+      },
+      {
+        "name": "Route 20",
+        "x": 52,
+        "y": 85,
+        "category": "route"
+      },
+      {
+        "name": "Route 21",
+        "x": 41,
+        "y": 75,
+        "category": "route"
+      },
+      {
+        "name": "Route 22",
+        "x": 32,
+        "y": 47,
+        "category": "route"
+      },
+      {
+        "name": "Route 23",
+        "x": 25,
+        "y": 33,
+        "category": "route"
+      },
+      {
+        "name": "Route 24",
+        "x": 76,
+        "y": 18,
+        "category": "route"
+      },
+      {
+        "name": "Route 25",
+        "x": 82,
+        "y": 13,
+        "category": "route"
+      },
+      {
+        "name": "Viridian Forest",
+        "x": 40,
+        "y": 36,
+        "category": "place"
+      },
+      {
+        "name": "Mt. Moon",
+        "x": 56.00000000000001,
+        "y": 22,
+        "category": "place"
+      },
+      {
+        "name": "Rock Tunnel",
+        "x": 87,
+        "y": 28.999999999999996,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Power Plant",
+        "x": 88,
+        "y": 34,
+        "category": "place"
+      },
+      {
+        "name": "Seafoam Islands",
+        "x": 51,
+        "y": 85,
+        "category": "place"
+      },
+      {
+        "name": "Cerulean Cave",
+        "x": 73,
+        "y": 22,
+        "category": "place"
+      },
+      {
+        "name": "Victory Road",
+        "x": 25,
+        "y": 37,
+        "category": "place"
+      },
+      {
+        "name": "Indigo Plateau",
+        "x": 25,
+        "y": 41,
+        "category": "place"
+      },
+      {
+        "name": "Diglett's Cave",
+        "x": 47,
+        "y": 30,
+        "category": "place"
+      },
+      {
+        "name": "Pal Park",
+        "x": 65,
+        "y": 67,
+        "category": "place"
+      },
+      {
+        "name": "Lavender Radio Tower",
+        "x": 89,
+        "y": 43,
+        "category": "place"
+      },
+      {
+        "name": "Kanto Underground Path",
+        "x": 76,
+        "y": 49,
+        "category": "place"
+      },
+      {
+        "name": "Route 26",
+        "x": 25,
+        "y": 57,
+        "category": "route"
+      },
+      {
+        "name": "Route 27",
+        "x": 13,
+        "y": 69,
+        "category": "route"
+      },
+      {
+        "name": "Route 28",
+        "x": 18,
+        "y": 47,
+        "category": "route"
+      },
+      {
+        "name": "Tohjo Falls",
+        "x": 5,
+        "y": 68,
+        "category": "place"
+      }
+    ]
+  },
+  "sevii-123": {
+    "id": "sevii-123",
+    "label": "Sevii · Ilhas 1–3",
+    "image": "/assets/maps/sevii-123.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_1_2_and_3_Town_Map.png",
+    "title": "Sevii Islands 1 2 and 3 Town Map.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "One Island",
+        "x": 10.416666666666668,
+        "y": 56.94444444444444,
+        "category": "city"
+      },
+      {
+        "name": "Kindle Road",
+        "x": 15.104166666666666,
+        "y": 45.13888888888889,
+        "category": "route"
+      },
+      {
+        "name": "Mt. Ember",
+        "x": 14.583333333333334,
+        "y": 30.555555555555557,
+        "category": "place"
+      },
+      {
+        "name": "Treasure Beach",
+        "x": 10.416666666666668,
+        "y": 72.22222222222221,
+        "category": "route"
+      },
+      {
+        "name": "Two Island",
+        "x": 43.75,
+        "y": 63.888888888888886,
+        "category": "city"
+      },
+      {
+        "name": "Cape Brink",
+        "x": 43.75,
+        "y": 57.638888888888886,
+        "category": "route"
+      },
+      {
+        "name": "Three Island",
+        "x": 81.25,
+        "y": 81.25,
+        "category": "city"
+      },
+      {
+        "name": "Three Isle Port",
+        "x": 81.77083333333334,
+        "y": 86.11111111111111,
+        "category": "place"
+      },
+      {
+        "name": "Bond Bridge",
+        "x": 72.39583333333334,
+        "y": 79.86111111111111,
+        "category": "route"
+      },
+      {
+        "name": "Berry Forest",
+        "x": 63.020833333333336,
+        "y": 79.16666666666666,
+        "category": "place"
+      }
+    ]
+  },
+  "sevii-45": {
+    "id": "sevii-45",
+    "label": "Sevii · Ilhas 4–5",
+    "image": "/assets/maps/sevii-45.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_4_and_5_Town_Map.png",
+    "title": "Sevii Islands 4 and 5 Town Map.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "Four Island",
+        "x": 18.75,
+        "y": 36.11111111111111,
+        "category": "city"
+      },
+      {
+        "name": "Icefall Cave",
+        "x": 21.875,
+        "y": 34.02777777777778,
+        "category": "place"
+      },
+      {
+        "name": "Five Island",
+        "x": 72.91666666666666,
+        "y": 75,
+        "category": "city"
+      },
+      {
+        "name": "Five Isle Meadow",
+        "x": 76.5625,
+        "y": 77.77777777777779,
+        "category": "route"
+      },
+      {
+        "name": "Water Labyrinth",
+        "x": 64.58333333333334,
+        "y": 70.13888888888889,
+        "category": "route"
+      },
+      {
+        "name": "Resort Gorgeous",
+        "x": 72.91666666666666,
+        "y": 63.19444444444444,
+        "category": "route"
+      },
+      {
+        "name": "Lost Cave",
+        "x": 81.25,
+        "y": 63.888888888888886,
+        "category": "place"
+      },
+      {
+        "name": "Memorial Pillar",
+        "x": 77.60416666666666,
+        "y": 88.88888888888889,
+        "category": "place"
+      },
+      {
+        "name": "Rocket Warehouse",
+        "x": 79.16666666666666,
+        "y": 81.25,
+        "category": "place"
+      }
+    ]
+  },
+  "sevii-67": {
+    "id": "sevii-67",
+    "label": "Sevii · Ilhas 6–7",
+    "image": "/assets/maps/sevii-67.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_6_and_7_Town_Map.png",
+    "title": "Sevii Islands 6 and 7 Town Map.png",
+    "pixelated": true,
+    "locations": [
+      {
+        "name": "Six Island",
+        "x": 76.5625,
+        "y": 38.19444444444444,
+        "category": "city"
+      },
+      {
+        "name": "Water Path",
+        "x": 77.08333333333334,
+        "y": 47.91666666666667,
+        "category": "route"
+      },
+      {
+        "name": "Green Path",
+        "x": 76.04166666666666,
+        "y": 32.63888888888889,
+        "category": "route"
+      },
+      {
+        "name": "Pattern Bush",
+        "x": 73.4375,
+        "y": 29.166666666666668,
+        "category": "place"
+      },
+      {
+        "name": "Outcast Island",
+        "x": 68.75,
+        "y": 15.972222222222221,
+        "category": "place"
+      },
+      {
+        "name": "Altering Cave",
+        "x": 70.3125,
+        "y": 11.11111111111111,
+        "category": "place"
+      },
+      {
+        "name": "Ruin Valley",
+        "x": 77.08333333333334,
+        "y": 61.111111111111114,
+        "category": "route"
+      },
+      {
+        "name": "Dotted Hole",
+        "x": 80.20833333333334,
+        "y": 65.97222222222221,
+        "category": "place"
+      },
+      {
+        "name": "Seven Island",
+        "x": 22.916666666666664,
+        "y": 54.166666666666664,
+        "category": "city"
+      },
+      {
+        "name": "Trainer Tower",
+        "x": 22.916666666666664,
+        "y": 44.44444444444444,
+        "category": "place"
+      },
+      {
+        "name": "Canyon Entrance",
+        "x": 22.916666666666664,
+        "y": 59.72222222222222,
+        "category": "route"
+      },
+      {
+        "name": "Sevault Canyon",
+        "x": 25.520833333333332,
+        "y": 68.05555555555556,
+        "category": "route"
+      },
+      {
+        "name": "Tanoby Ruins",
+        "x": 22.916666666666664,
+        "y": 81.25,
+        "category": "place"
+      }
+    ]
+  }
+}

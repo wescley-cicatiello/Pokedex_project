@@ -11,6 +11,12 @@ try {
 const locations = world.locations;
 const cityInfo = world.cities;
 const leagueTrainers = world.league;
+const isLetsGo=world.reference==='letsgo';
+const regionSelect=document.getElementById('map-region');
+let activeMap;
+let categoryFilter='all';
+const search=document.getElementById('map-search');
+const readable=text=>text.replaceAll('-',' ').replace(/(^|\s)(\p{L})/gu,(_,space,letter)=>space+letter.toUpperCase());
 // Files are served locally; source URLs remain in the manifest for provenance.
 const map = document.getElementById('kanto-map');
 const viewport = document.getElementById('map-viewport');
@@ -34,7 +40,6 @@ function showError() {
   document.querySelectorAll('.map-controls button').forEach(button => button.disabled = true);
 }
 map.addEventListener('error', showError);
-if (map.complete && map.naturalWidth === 0) showError();
 
 const markers = document.getElementById('map-markers');
 const select = document.getElementById('location-select');
@@ -46,10 +51,13 @@ let encounterError = false;
 const encounterRequest = Promise.resolve().then(() => { encounterData = world.encounters; });
 const versionSelect = document.getElementById('encounter-version');
 {
-  versionSelect.replaceChildren(new Option('Let’s Go, Pikachu!','lets-go-pikachu'),new Option('Let’s Go, Eevee!','lets-go-eevee'));
-  versionSelect.value = `lets-go-${window.pokedexEdition || 'pikachu'}`;
-  document.querySelector('.encounter-note').textContent = 'Encontros de Let’s Go · Fonte: Serebii Pokéarth. Inclui aparições raras e no céu; algumas dependem de Catch Combo ou do pós-jogo. Não inclui equipes de treinadores ou todas as formas de obtenção por presentes e trocas.';
+  const group=context.catalog.groups.find(g=>g.id===context.game.group);
+  versionSelect.replaceChildren(...(isLetsGo?group.versions:[context.version]).map(v=>new Option(context.catalog.versions[v].name,v)));
+  versionSelect.value=context.version;
+  versionSelect.hidden=!isLetsGo;
+  document.querySelector('.encounter-note').textContent = isLetsGo?'Encontros de Let’s Go · Fonte: Serebii Pokéarth. Inclui aparições raras e no céu; algumas dependem de Catch Combo ou do pós-jogo. Não inclui equipes de treinadores ou todas as formas de obtenção por presentes e trocas.':world.note;
 }
+const areaSelect=document.getElementById('encounter-area');
 const encounterList = document.getElementById('location-pokemon');
 const encounterStatus = document.getElementById('encounter-status');
 function renderEncounters() {
@@ -57,8 +65,9 @@ function renderEncounters() {
   if (!currentLocation || currentLocation.category === 'city' || currentLocation.id === 'league') return;
   if (encounterError) { encounterStatus.textContent = 'Não foi possível carregar os encontros. Recarregue a página para tentar novamente.'; return; }
   if (!encounterData) { encounterStatus.textContent = 'Carregando Pokémon…'; return; }
-  const list = (encounterData[currentLocation.id] || []).filter(p => versionSelect.value === 'all' || p.versions.includes(versionSelect.value));
-  encounterStatus.textContent = currentLocation.id === 'park' ? 'O GO Park recebe Pokémon transferidos de Pokémon GO, em vez de encontros selvagens comuns.' : list.length ? `${list.length} espécies registradas nesta seleção.` : 'Sem obtenções registradas nesta seleção. Pokémon de treinadores não estão incluídos.';
+  const area=currentLocation.areas?.find(a=>a.id===areaSelect.value);
+  const list = (area?area.pokemon:encounterData[currentLocation.id] || []).filter(p => p.versions.includes(versionSelect.value));
+  encounterStatus.textContent = isLetsGo&&currentLocation.id === 'park' ? 'O GO Park recebe Pokémon transferidos de Pokémon GO, em vez de encontros selvagens comuns.' : list.length ? `${list.length} espécies registradas nesta seleção.` : 'Sem obtenções registradas nesta seleção. Pokémon de treinadores não estão incluídos.';
   list.forEach(p => {
     const link = document.createElement('a');
     link.className = 'encounter-pokemon';
@@ -69,20 +78,22 @@ function renderEncounters() {
     const name = {'nidoran-f':'Nidoran ♀','nidoran-m':'Nidoran ♂','mr-mime':'Mr. Mime',farfetchd:'Farfetch’d'}[p.name] || p.name[0].toUpperCase()+p.name.slice(1);
     text.textContent = name;
     const detail = document.createElement('small');
-    detail.textContent = `#${String(p.id).padStart(3,'0')} · ${p.versions.map(v=>v==='lets-go-pikachu'?'LG Pikachu':v==='lets-go-eevee'?'LG Eevee':v[0].toUpperCase()+v.slice(1)).join(' / ')}`;
+    detail.textContent = `#${String(p.id).padStart(3,'0')} · ${isLetsGo?p.versions.map(v=>context.catalog.versions[v]?.name||v).join(' / '):`Nível ${p.min_level}–${p.max_level}`}`;
     const methods = document.createElement('small');
-    const methodLabels = {walk:'Grama / caverna',surf:'Surf','old-rod':'Old Rod','good-rod':'Good Rod','super-rod':'Super Rod',gift:'Presente',static:'Encontro fixo','npc-trade':'Troca com NPC',pokeflute:'Poké Flute'};
+    const methodLabels = {walk:'Grama / caverna',surf:'Surf','old-rod':'Old Rod','good-rod':'Good Rod','super-rod':'Super Rod',gift:'Presente',static:'Encontro fixo','npc-trade':'Troca com NPC',pokeflute:'Poké Flute','rock-smash':'Rock Smash',headbutt:'Headbutt','headbutt-low':'Headbutt','headbutt-normal':'Headbutt','headbutt-high':'Headbutt'};
     const lgMethods = {'Standard Walking':'Caminhando','In The Sky':'No céu','In The Sky - Special Spawns':'No céu · aparição especial','Special Spawns':'Aparição especial','Standard In Water':'Na água','In Water - Special Spawns':'Na água · aparição especial','Rare Spawns':'Aparição rara','Surfing':'Na água','Special':'Especial','Static Encounters':'Encontro fixo'};
-    methods.textContent = p.methods.map(method=>lgMethods[method] || methodLabels[method] || method).join(' · ');
+    methods.textContent = [...new Set(p.methods.map(method=>lgMethods[method] || methodLabels[method] || method))].join(' · ');
     link.append(image,text,detail,methods);
     encounterList.append(link);
   });
 }
 versionSelect.addEventListener('change',renderEncounters);
+areaSelect.addEventListener('change',renderEncounters);
 encounterRequest.then(renderEncounters);
-function trainerHeading(name, id, description) {
+function trainerHeading(name, id, description, image) {
   const header = document.createElement('div'); header.className = 'trainer-heading';
-  const portrait = document.createElement('img'); portrait.className = 'trainer-portrait'; portrait.src = `/assets/trainers/${id}.png`; portrait.alt = name; portrait.loading = 'lazy';
+  const portrait = document.createElement('img'); portrait.className = 'trainer-portrait'; portrait.alt = name; portrait.loading = 'lazy';
+  if(image||isLetsGo){portrait.src=image||`/assets/trainers/${id}.png`;portrait.addEventListener('error',()=>portrait.hidden=true);}else portrait.hidden=true;
   const text = document.createElement('div');
   const title = document.createElement('h4'); title.textContent = name;
   const subtitle = document.createElement('p'); subtitle.textContent = description;
@@ -101,20 +112,24 @@ function pokemonTeam(members) {
 }
 function renderLeague(container) {
   const heading = document.createElement('h3'); heading.textContent = 'Liga Pokémon · Indigo Plateau';
-  const note = document.createElement('p'); note.className = 'gym-reference'; note.textContent = 'Equipes do primeiro desafio em Pokémon: Let’s Go. As revanches possuem equipes diferentes. Artes: Bulbagarden Archives · © Pokémon.';
+  const note = document.createElement('p'); note.className = 'gym-reference'; note.textContent = `Equipes do primeiro desafio em ${context.game.name}. As revanches possuem equipes diferentes. ${!leagueTrainers.length?'A Elite Four e o Campeão são desafiados neste local.':''}`;
   const label = document.createElement('label'); label.className = 'league-version'; label.textContent = 'Versão do jogo ';
   const version = document.createElement('select'); version.add(new Option('Let’s Go, Pikachu!','pikachu')); version.add(new Option('Let’s Go, Eevee!','eevee')); label.append(version);
-  version.value = window.pokedexEdition || 'pikachu';
+  version.value = window.pokedexEdition || 'pikachu';label.hidden=!isLetsGo;
   const trainers = document.createElement('div');
   function updateTeams() {
     trainers.replaceChildren();
     leagueTrainers.forEach(trainer => {
       const section = document.createElement('section'); section.className = 'league-trainer';
-      section.append(trainerHeading(trainer.name,trainer.id,trainer.role));
+      section.append(trainerHeading(trainer.name,trainer.id,trainer.role,trainer.portrait));
       const members = trainer.team.map(member=>[...member]);
       if (trainer.alternate && version.value === 'eevee') members[members.length-1] = trainer.alternate;
       if (trainer.note) {const info=document.createElement('p');info.className='gym-reference';info.textContent=trainer.note;section.append(info);}
-      section.append(pokemonTeam(members)); trainers.append(section);
+      if(trainer.variants?.length){
+        const choice=document.createElement('select');choice.setAttribute('aria-label',`Equipe de ${trainer.name}`);trainer.variants.forEach((v,i)=>choice.add(new Option(v.label,String(i))));
+        const variantTeam=document.createElement('div');variantTeam.append(pokemonTeam(trainer.variants[0].team));choice.addEventListener('change',()=>variantTeam.replaceChildren(pokemonTeam(trainer.variants[Number(choice.value)].team)));section.append(choice,variantTeam);
+      }else section.append(pokemonTeam(members));
+      trainers.append(section);
     });
   }
   version.addEventListener('change',updateTeams);updateTeams();
@@ -125,11 +140,11 @@ function renderCity(location) {
   const container = document.getElementById('city-info');
   const isCity = location.category === 'city';
   const isLeague = location.id === 'league';
-  container.hidden = !isCity && !isLeague;
+  container.hidden = !isCity && !isLeague && !city;
   document.querySelector('.location-encounters').hidden = isCity || isLeague;
   container.replaceChildren();
   if (isLeague) {renderLeague(container);return;}
-  if (!isCity || !city) return;
+  if (!city) return;
   const title = document.createElement('h3'); title.textContent = 'Pontos de interesse';
   const list = document.createElement('ul'); list.className = 'city-points';
   city.points.forEach(point => {const item = document.createElement('li'); item.textContent = point; list.append(item);});
@@ -140,14 +155,16 @@ function renderCity(location) {
   const gym = city.gym;
   const gymTitle = document.createElement('h3'); gymTitle.textContent = 'Líder de ginásio';
   const portraitId = gym.leader === 'Lt. Surge' ? 'lt-surge' : gym.leader.toLowerCase();
-  const leader = trainerHeading(gym.leader,portraitId,`Tipo ${gym.type}`);
-  const badge = document.createElement('p'); badge.className = 'gym-reference'; badge.textContent = `Insígnia: ${gym.badge} · Primeira batalha em Let’s Go.`;
+  const leader = trainerHeading(gym.leader,portraitId,`Tipo ${gym.type}`,gym.portrait);
+  const badge = document.createElement('p'); badge.className = 'gym-reference'; badge.textContent = `Insígnia: ${gym.badge} · Primeira batalha em ${context.game.name}.`;
   const team = pokemonTeam(gym.team);
   container.append(gymTitle,leader,badge,team);
 }
 function openLocation(location, trigger) {
   lastTrigger = trigger;
   currentLocation = location;
+  areaSelect.replaceChildren(new Option('Todas as áreas','all'),...(location.areas||[]).map(a=>new Option(readable(a.area||'Área principal'),a.id)));
+  document.querySelector('.encounter-area').hidden=!location.areas?.length;
   renderCity(location);
   renderEncounters();
   document.getElementById('location-category').textContent = {city:'CIDADE',route:'ROTA',place:'LOCAL DE INTERESSE'}[location.category];
@@ -155,37 +172,56 @@ function openLocation(location, trigger) {
   document.getElementById('location-subtitle').textContent = location.subtitle;
   document.getElementById('location-description').textContent = location.description;
   const photo = document.getElementById('location-image');
-  photo.hidden = false;
-  photo.alt = `${location.name} em Pokémon: Let’s Go, Pikachu! e Let’s Go, Eevee!`;
-  photo.src = `/assets/locations/${location.id}.png`;
+  photo.hidden = !location.image;
+  photo.alt = `${location.name} · Pokémon ${context.game.name}`;
+  if(location.image)photo.src=location.image;else photo.removeAttribute('src');
+  document.getElementById('location-reference').textContent=`Pokémon ${context.game.name} · Encontros: ${isLetsGo?'Serebii':'PokéAPI'} · Dados da edição selecionada.`;
   panel.showModal();
   select.value = location.id;
   markers.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.id === location.id)));
   document.getElementById('location-name').focus({preventScroll:true});
 }
 function filterLocations(category) {
+  categoryFilter=category;
   document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.category === category)));
   select.replaceChildren(new Option('Ir para um local…',''));
+  let visibleCount=0;let specialCount=0;
+  const term=search.value.trim().toLocaleLowerCase('pt-BR');
   locations.forEach(location => {
-    const visible = category === 'all' || location.category === category;
-    document.getElementById(`marker-${location.id}`).hidden = !visible;
-    if (visible) select.add(new Option(location.name,location.id));
+    const visible = (location.mapId===activeMap.id||location.mapId==='special')&&(category === 'all' || location.category === category)&&`${location.name} ${location.id}`.toLocaleLowerCase('pt-BR').includes(term);
+    const marker=document.getElementById(`marker-${location.id}`);if(marker)marker.hidden=!visible;
+    if (visible){select.add(new Option(location.name,location.id));visibleCount++;if(location.mapId==='special')specialCount++;}
   });
+  document.getElementById('special-locations').hidden=!specialCount;
+  document.getElementById('map-empty').hidden=visibleCount>0;
+  document.getElementById('map-summary').textContent=`${visibleCount-specialCount} locais no mapa · ${context.game.name}`;
 }
 locations.forEach(location => {
   const marker = document.createElement('button');
   marker.id = `marker-${location.id}`;
   marker.dataset.id = location.id;
-  marker.className = `map-marker marker-${location.category}`;
+  marker.className = location.mapId==='special'?'special-location-button':`map-marker marker-${location.category}`;
   marker.style.left = `${location.x}%`;
   marker.style.top = `${location.y}%`;
-  marker.textContent = location.number || (location.category === 'city' ? '●' : '◆');
+  marker.textContent = location.mapId==='special'?location.name:location.number || location.name.match(/^Route (\d+)$/)?.[1] || (location.category === 'city' ? '●' : '◆');
   marker.title = location.name;
   marker.setAttribute('aria-label',`Ver informações: ${location.name}`);
   marker.setAttribute('aria-pressed','false');
   marker.addEventListener('click',()=>openLocation(location,marker));
-  markers.append(marker);
+  (location.mapId==='special'?document.getElementById('special-buttons'):markers).append(marker);
 });
+regionSelect.replaceChildren(...world.maps.map(m=>new Option(m.label,m.id)));regionSelect.disabled=false;select.disabled=false;
+function changeRegion(id){
+ activeMap=world.maps.find(m=>m.id===id)||world.maps[0];regionSelect.value=activeMap.id;
+ map.src=activeMap.image;map.alt=`Mapa de ${activeMap.label} · Pokémon ${context.game.name}`;map.hidden=false;map.classList.toggle('pixel-map',!!activeMap.pixelated);
+ document.getElementById('map-title').textContent=activeMap.label.toUpperCase();
+ document.getElementById('map-error').hidden=true;
+ document.querySelectorAll('.map-controls button').forEach(button=>button.disabled=false);setZoom(100);
+ const source=document.getElementById('map-source');source.href=activeMap.source;source.textContent='Mapa · © Pokémon / '+(isLetsGo?'Nintendo':'Bulbagarden Archives')+' ↗';
+ filterLocations(categoryFilter);
+}
+regionSelect.addEventListener('change',()=>{changeRegion(regionSelect.value);const url=new URL(location.href);url.searchParams.set('region',activeMap.id);url.searchParams.delete('local');history.replaceState(null,'',url);});
+search.addEventListener('input',()=>filterLocations(categoryFilter));
 document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click',()=>filterLocations(button.dataset.category)));
 select.addEventListener('change',()=>{ const location = locations.find(item=>item.id===select.value); if(location) openLocation(location,select); });
 function closePanel() {
@@ -203,4 +239,6 @@ panel.addEventListener('click', event => {
   const bounds = panel.getBoundingClientRect();
   if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) closePanel();
 });
-filterLocations('all');
+const params=new URLSearchParams(location.search);const initialLocation=locations.find(l=>l.id===params.get('local'));
+changeRegion(initialLocation&&initialLocation.mapId!=='special'?initialLocation.mapId:params.get('region'));
+if(initialLocation)openLocation(initialLocation,select);

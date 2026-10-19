@@ -1,0 +1,74 @@
+{
+  "kanto-classics": {
+    "image": "/assets/maps/kanto-classics.png",
+    "width": 160,
+    "height": 136,
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Town_Map_RBY.png",
+    "title": "Kanto Town Map RBY.png",
+    "pixelated": true
+  },
+  "kanto-frlg": {
+    "image": "/assets/maps/kanto-frlg.png",
+    "width": 1000,
+    "height": 750,
+    "source": "https://archives.bulbagarden.net/wiki/File:FRLG_Kanto.png",
+    "title": "FRLG Kanto.png",
+    "pixelated": false
+  },
+  "johto-gsc": {
+    "image": "/assets/maps/johto-gsc.png",
+    "width": 144,
+    "height": 120,
+    "source": "https://archives.bulbagarden.net/wiki/File:Johto_Town_Map_GSC.png",
+    "title": "Johto Town Map GSC.png",
+    "pixelated": true
+  },
+  "kanto-gsc": {
+    "image": "/assets/maps/kanto-gsc.png",
+    "width": 144,
+    "height": 120,
+    "source": "https://archives.bulbagarden.net/wiki/File:Kanto_Town_Map_GSC.png",
+    "title": "Kanto Town Map GSC.png",
+    "pixelated": true
+  },
+  "johto-hgss": {
+    "image": "/assets/maps/johto-hgss.png",
+    "width": 1961,
+    "height": 1316,
+    "source": "https://archives.bulbagarden.net/wiki/File:JohtoMap.png",
+    "title": "JohtoMap.png",
+    "pixelated": false
+  },
+  "kanto-hgss": {
+    "image": "/assets/maps/kanto-hgss.png",
+    "width": 1594,
+    "height": 1215,
+    "source": "https://archives.bulbagarden.net/wiki/File:HGSS_Kanto.png",
+    "title": "HGSS Kanto.png",
+    "pixelated": false
+  },
+  "sevii-123": {
+    "image": "/assets/maps/sevii-123.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_1_2_and_3_Town_Map.png",
+    "title": "Sevii Islands 1 2 and 3 Town Map.png",
+    "pixelated": true
+  },
+  "sevii-45": {
+    "image": "/assets/maps/sevii-45.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_4_and_5_Town_Map.png",
+    "title": "Sevii Islands 4 and 5 Town Map.png",
+    "pixelated": true
+  },
+  "sevii-67": {
+    "image": "/assets/maps/sevii-67.png",
+    "width": 192,
+    "height": 144,
+    "source": "https://archives.bulbagarden.net/wiki/File:Sevii_Islands_6_and_7_Town_Map.png",
+    "title": "Sevii Islands 6 and 7 Town Map.png",
+    "pixelated": true
+  }
+}
