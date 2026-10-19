@@ -42,6 +42,23 @@ function showError() {
 map.addEventListener('error', showError);
 
 const markers = document.getElementById('map-markers');
+const connectors=document.createElementNS('http://www.w3.org/2000/svg','svg');connectors.classList.add('map-connectors');connectors.setAttribute('aria-hidden','true');markers.prepend(connectors);
+function arrangeMarkers(){
+  if(!activeMap)return;
+  const width=stage.clientWidth,height=map.clientHeight;if(!width||!height)return;
+  connectors.setAttribute('viewBox',`0 0 ${width} ${height}`);connectors.replaceChildren();
+  const occupied=[];
+  const points=locations.filter(l=>l.mapId===activeMap.id&&!document.getElementById(`marker-${l.id}`).hidden).sort((a,b)=>({city:0,route:1,place:2}[a.category]-({city:0,route:1,place:2}[b.category])));
+  const offsets=[[0,0]];for(const radius of [32,48,64,80,96])for(let n=0;n<16;n++)offsets.push([Math.cos(n*Math.PI/8)*radius,Math.sin(n*Math.PI/8)*radius]);
+  for(const point of points){
+    const anchor={x:point.x/100*width,y:point.y/100*height};let position;
+    for(const [dx,dy] of offsets){const candidate={x:Math.max(16,Math.min(width-16,anchor.x+dx)),y:Math.max(16,Math.min(height-16,anchor.y+dy))};if(occupied.every(p=>Math.hypot(p.x-candidate.x,p.y-candidate.y)>=32)){position=candidate;break;}}
+    position??=anchor;occupied.push(position);
+    const marker=document.getElementById(`marker-${point.id}`);marker.style.left=`${position.x/width*100}%`;marker.style.top=`${position.y/height*100}%`;
+    if(Math.hypot(position.x-anchor.x,position.y-anchor.y)>2){const line=document.createElementNS('http://www.w3.org/2000/svg','line');for(const [key,value] of Object.entries({x1:anchor.x,y1:anchor.y,x2:position.x,y2:position.y}))line.setAttribute(key,String(value));connectors.append(line);}
+  }
+}
+map.addEventListener('load',arrangeMarkers);new ResizeObserver(arrangeMarkers).observe(stage);
 const select = document.getElementById('location-select');
 const panel = document.getElementById('location-panel');
 let lastTrigger;
@@ -195,6 +212,7 @@ function filterLocations(category) {
   document.getElementById('special-locations').hidden=!specialCount;
   document.getElementById('map-empty').hidden=visibleCount>0;
   document.getElementById('map-summary').textContent=`${visibleCount-specialCount} locais no mapa · ${context.game.name}`;
+  arrangeMarkers();
 }
 locations.forEach(location => {
   const marker = document.createElement('button');

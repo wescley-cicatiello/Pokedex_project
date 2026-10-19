@@ -1,6 +1,7 @@
 # Mapas interativos por edição
 
 Todas as 13 edições usam `/mapa.php?version=...`, com seleção de região, busca, filtros de categoria, zoom e janelas acessíveis por mouse, teclado ou seletor de local.
+Marcadores próximos são afastados automaticamente conforme a largura e o zoom, com uma linha discreta indicando a posição original, para evitar que o toque abra o ponto vizinho em telas menores. As coordenadas de referência permanecem preservadas.
 
 | Edições | Mapas |
 | --- | --- |
