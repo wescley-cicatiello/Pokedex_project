@@ -1,4 +1,8 @@
 .env
+.env.*
+!.env.example
+.neon/
+.neon
 node_modules/
 *.log
 .qa/

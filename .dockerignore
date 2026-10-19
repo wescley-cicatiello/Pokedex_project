@@ -1,5 +1,8 @@
 .git
 .env
+.env.*
+.neon
+.agents
 node_modules
 .qa
 data/encounter-cache

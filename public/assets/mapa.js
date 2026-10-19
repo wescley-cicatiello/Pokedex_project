@@ -1,7 +1,16 @@
-import { locations } from './kanto-locations.js';
-import { cityInfo } from './kanto-cities.js';
-import { leagueTrainers } from './kanto-league.js';
-import { letsgoGyms, letsgoPoints } from './letsgo-gyms.js';
+let world;
+try {
+  const response = await fetch('/world.php');
+  if (!response.ok) throw new Error('Falha ao carregar os dados do mapa');
+  world = await response.json();
+} catch (error) {
+  const message = document.getElementById('map-error');
+  message.hidden = false; message.textContent = 'Não foi possível carregar os dados do mapa. Recarregue a página para tentar novamente.';
+  throw error;
+}
+const locations = world.locations;
+const cityInfo = world.cities;
+const leagueTrainers = world.league;
 // Files are served locally; source URLs remain in the manifest for provenance.
 const map = document.getElementById('kanto-map');
 const viewport = document.getElementById('map-viewport');
@@ -34,14 +43,11 @@ let lastTrigger;
 let currentLocation;
 let encounterData;
 let encounterError = false;
-const letsgoMode = window.pokedexMode !== 'legacy';
-const encounterRequest = fetch(letsgoMode ? '/assets/letsgo-encounters.json' : '/assets/location-encounters.json').then(response => {
-  if (!response.ok) throw new Error('Falha nos encontros');
-  return response.json();
-}).then(data => { encounterData = data.locations; }).catch(() => { encounterError = true; });
+const encounterRequest = Promise.resolve().then(() => { encounterData = world.encounters; });
 const versionSelect = document.getElementById('encounter-version');
-if (letsgoMode) {
+{
   versionSelect.replaceChildren(new Option('Let’s Go, Pikachu!','lets-go-pikachu'),new Option('Let’s Go, Eevee!','lets-go-eevee'));
+  versionSelect.value = `lets-go-${window.pokedexEdition || 'pikachu'}`;
   document.querySelector('.encounter-note').textContent = 'Encontros de Let’s Go · Fonte: Serebii Pokéarth. Inclui aparições raras e no céu; algumas dependem de Catch Combo ou do pós-jogo. Não inclui equipes de treinadores ou todas as formas de obtenção por presentes e trocas.';
 }
 const encounterList = document.getElementById('location-pokemon');
@@ -98,6 +104,7 @@ function renderLeague(container) {
   const note = document.createElement('p'); note.className = 'gym-reference'; note.textContent = 'Equipes do primeiro desafio em Pokémon: Let’s Go. As revanches possuem equipes diferentes. Artes: Bulbagarden Archives · © Pokémon.';
   const label = document.createElement('label'); label.className = 'league-version'; label.textContent = 'Versão do jogo ';
   const version = document.createElement('select'); version.add(new Option('Let’s Go, Pikachu!','pikachu')); version.add(new Option('Let’s Go, Eevee!','eevee')); label.append(version);
+  version.value = window.pokedexEdition || 'pikachu';
   const trainers = document.createElement('div');
   function updateTeams() {
     trainers.replaceChildren();
@@ -125,8 +132,7 @@ function renderCity(location) {
   if (!isCity || !city) return;
   const title = document.createElement('h3'); title.textContent = 'Pontos de interesse';
   const list = document.createElement('ul'); list.className = 'city-points';
-  const points = letsgoMode ? letsgoPoints[location.id] || city.points : city.points;
-  points.forEach(point => {const item = document.createElement('li'); item.textContent = letsgoMode ? point.replace('Game Corner','Game Corner (sem jogos de aposta)') : point; list.append(item);});
+  city.points.forEach(point => {const item = document.createElement('li'); item.textContent = point; list.append(item);});
   container.append(title,list);
   if (!city.gym) {
     const note = document.createElement('p'); note.textContent = city.note; container.append(note); return;
@@ -135,8 +141,8 @@ function renderCity(location) {
   const gymTitle = document.createElement('h3'); gymTitle.textContent = 'Líder de ginásio';
   const portraitId = gym.leader === 'Lt. Surge' ? 'lt-surge' : gym.leader.toLowerCase();
   const leader = trainerHeading(gym.leader,portraitId,`Tipo ${gym.type}`);
-  const badge = document.createElement('p'); badge.className = 'gym-reference'; badge.textContent = `Insígnia: ${gym.badge} · Primeira batalha em ${letsgoMode?'Let’s Go':'Red / Blue'}. Retrato: Let’s Go.`;
-  const team = pokemonTeam(letsgoMode ? letsgoGyms[location.id] : gym.team);
+  const badge = document.createElement('p'); badge.className = 'gym-reference'; badge.textContent = `Insígnia: ${gym.badge} · Primeira batalha em Let’s Go.`;
+  const team = pokemonTeam(gym.team);
   container.append(gymTitle,leader,badge,team);
 }
 function openLocation(location, trigger) {

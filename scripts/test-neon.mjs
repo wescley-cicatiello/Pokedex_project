@@ -1,0 +1,14 @@
+const root='http://127.0.0.1:8002';
+const health=await fetch(root+'/health.php');
+if(!health.ok||(await health.json()).status!=='ok')throw Error('PostgreSQL indisponível');
+const catalog=await(await fetch(root+'/api.php')).json();
+if(catalog.length!==151||catalog[24].id!==25||catalog[24].reference!=='letsgo')throw Error('Catálogo inválido');
+const legacy=await(await fetch(root+'/api.php?reference=legacy')).json();
+if(!legacy[24].abilities.length)throw Error('Dados anteriores indisponíveis');
+if(catalog.some(p=>p.abilities.length))throw Error('Habilidades de outros jogos');
+const world=await(await fetch(root+'/world.php')).json();
+if(world.reference!=='letsgo'||world.locations.length!==45||world.cities.cerulean.gym.team[0][0]!==54||!world.cities.fuchsia.points.includes('Complexo GO Park')||world.league.length!==5)throw Error('Mundo inconsistente');
+const oddish=world.encounters['route-1'].find(p=>p.id===43);
+if(!oddish.versions.includes('lets-go-pikachu')||oddish.versions.includes('lets-go-eevee'))throw Error('Exclusivos inconsistentes');
+for(const page of ['/','/pokedex.php','/mapa.php','/tipos.php'])if(!(await fetch(root+page)).ok)throw Error(page);
+console.log('E2E OK: Neon; 151 perfis Let’s Go e originais preservados; 45 locais; ginásios, Liga, GO Park e exclusivos validados; 4 páginas HTTP 200.');

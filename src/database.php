@@ -1,7 +1,8 @@
 <?php
 declare(strict_types=1);
-function database(): PDO {
-    $url = getenv('DATABASE_URL');
+require_once __DIR__ . '/environment.php';
+function database(bool $migration = false): PDO {
+    $url = ($migration ? getenv('DATABASE_URL_UNPOOLED') : false) ?: getenv('DATABASE_URL');
     if ($url) {
         $parts = parse_url($url);
         if (!$parts || !in_array($parts['scheme'] ?? '', ['postgres','postgresql'], true) || empty($parts['host']) || empty($parts['path'])) {

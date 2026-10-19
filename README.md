@@ -1,5 +1,28 @@
 # Pokédex · Kanto
 
+## Alinhamento exclusivo com Let’s Go
+
+O site usa exclusivamente Pokémon Let’s Go nas telas. O seletor global alterna Pikachu/Eevee e desconsidera antigas preferências de jogos clássicos. A Pokédex e a página de tipos consultam `pokemon_profiles`; o mapa consulta `/world.php`, com cidades, encontros, equipes de ginásio e Liga armazenados em `game_datasets` no PostgreSQL. O catálogo permanece limitado às 151 formas comuns originais, com estatísticas dos parceiros Pikachu/Eevee adicionais; não é uma listagem de todas as formas e espécies extras disponíveis nos jogos.
+
+`pokemon` e os arquivos clássicos foram preservados; `/api.php?reference=legacy` mantém compatibilidade para consulta histórica e não é utilizado pelas telas. `scripts/prepare-letsgo.mjs` prepara os dados de importação, e `scripts/seed.php` atualiza as novas tabelas transacionalmente sem excluir os registros anteriores. Os encontros ainda não cobrem todos os presentes/trocas e mantêm indicação de aparições especiais.
+
+As seções abaixo registram a evolução do projeto; esta seção descreve o comportamento atual.
+
+## Neon conectado
+
+`neon.ts` declara apenas PostgreSQL no projeto `wispy-wave-94405045`, branch `production`. O CLI grava `.env.local` (ou `.env` existente), ignorado pelo Git e pelo Docker. O PHP preserva PDO/pdo_pgsql: `DATABASE_URL` para consultas com pool; `DATABASE_URL_UNPOOLED` para o esquema e importação. Não copie credenciais para código ou mensagens.
+
+```sh
+neon deploy
+npm run build
+npm start
+npm run test:neon
+```
+
+`npm start` abre o site em `http://localhost:8002` usando o banco Neon. Requer Node.js, npm e Docker Desktop. `npm run build` valida JavaScript, constrói PHP/Apache e verifica sintaxe PHP. `npm run test:neon` testa a saúde do banco, os 151 registros, a API padrão e anterior e as quatro páginas. O site local anterior continua em `localhost:8000`. Para encerrar o servidor Neon local: `docker stop pokedex-neon`.
+
+As skills Neon ficam em `.agents/skills`; o `neon init` instalou a integração/plugin Neon para Codex e configurou MCP com OAuth para os agentes detectados. Pode ser necessário reconectar o agente para usar as novas ferramentas MCP. O Neon não publica este frontend PHP; mantenha Render como hospedagem do aplicativo e preencha as mesmas variáveis na plataforma.
+
 Para publicar gratuitamente com PHP e PostgreSQL, siga [o guia de Render + Neon](deploy/README.md). A configuração está em `render.yaml` e `Dockerfile.production`; o ambiente local continua usando `compose.yaml`.
 
 ## Referência padrão: Pokémon Let’s Go

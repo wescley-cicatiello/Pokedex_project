@@ -8,3 +8,13 @@ CREATE TABLE IF NOT EXISTS pokemon (
     stats JSONB NOT NULL,
     image TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS pokemon_profiles (
+    pokemon_id SMALLINT NOT NULL REFERENCES pokemon(id),
+    reference VARCHAR(20) NOT NULL CHECK (reference = 'letsgo'),
+    data JSONB NOT NULL,
+    PRIMARY KEY (pokemon_id, reference)
+);
+CREATE TABLE IF NOT EXISTS game_datasets (
+    reference VARCHAR(20) PRIMARY KEY CHECK (reference = 'letsgo'),
+    data JSONB NOT NULL
+);

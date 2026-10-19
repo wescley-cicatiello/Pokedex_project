@@ -27,9 +27,6 @@ function openDetails(p) {
   $('details').setAttribute('aria-labelledby','detail-title');
   if (p.reference === 'letsgo') {
     document.querySelector('#detail-content .abilities').textContent = 'Let’s Go não utiliza habilidades. Estatísticas abaixo: forma comum, sem bônus de doces ou amizade.';
-    const old = document.createElement('details'); old.className='legacy-details';
-    const summary=document.createElement('summary');summary.textContent='Ver habilidades dos dados anteriores';
-    const text=document.createElement('p');text.textContent=p.legacy.abilities.join(' · ');old.append(summary,text);document.querySelector('#detail-content .detail-body').append(old);
     if (p.partner_stats) {
       const partner=document.createElement('details');partner.className='legacy-details';
       const title=document.createElement('summary');title.textContent='Ver estatísticas do parceiro inicial de Let’s Go';partner.append(title);
@@ -44,7 +41,7 @@ async function load() {
   $('error').hidden=true; $('grid').setAttribute('aria-busy','true');
   $('count').textContent='Carregando Pokémon…';
   try {
-    const response=await fetch(`/api.php?reference=${window.pokedexMode === 'legacy' ? 'legacy' : 'letsgo'}`);
+    const response=await fetch('/api.php');
     const data=await response.json();
     if (!response.ok) throw new Error(data.error || 'Falha ao carregar os dados.');
     if (!Array.isArray(data) || data.length!==151) throw new Error('Catálogo incompleto. Execute a importação dos 151 Pokémon.');
